@@ -1,0 +1,363 @@
+{
+  "template": "painter18-lavender-estate",
+  "createdAt": "2026-09-09T22:10:28.302899+00:00",
+  "artDirection": "Photoreal editorial architectural photography of lived-in English country-house interiors and gardens. Georgian sash windows, honest painted timber, plaster cornices, antique brass, botanical textiles, old oak, linen and chalky paint. Restrained lavender, buttercream, dusty rose, sage and oxblood; soft natural daylight, credible materials and domestic scale. Beautiful but not palatial, not a hotel or a showroom. Straight architectural verticals, natural texture and physically plausible light. No illustration, vector drawing, CGI, 3D rendering, miniature, collage, text, labels, logos, watermarks, brand names, people or faces.",
+  "provenance": "Five generated design studies plus licensed location photography and footage. No client-work claims.",
+  "visualReview": "Pending: this session cannot inspect image attachments. Browser validation is separate.",
+  "assets": {
+    "hero.jpg": {
+      "status": "completed",
+      "provider": "Higgsfield",
+      "model": "seedream_v4_5",
+      "jobId": "d7f41130-240c-4932-940b-c6021a08ba55",
+      "prompt": "Photoreal editorial architectural photography of lived-in English country-house interiors and gardens. Georgian sash windows, honest painted timber, plaster cornices, antique brass, botanical textiles, old oak, linen and chalky paint. Restrained lavender, buttercream, dusty rose, sage and oxblood; soft natural daylight, credible materials and domestic scale. Beautiful but not palatial, not a hotel or a showroom. Straight architectural verticals, natural texture and physically plausible light. No illustration, vector drawing, CGI, 3D rendering, miniature, collage, text, labels, logos, watermarks, brand names, people or faces. Wide cinematic garden-level photograph of a modest, beautiful English Georgian country house. Warm honey limestone, sage-painted sash windows, a muted oxblood front door, delicate wisteria around the entrance and a lavender-lined gravel garden path. The house is framed in the central and right two thirds; a softly shaded garden and dark natural foliage occupy the lower left third, providing a calm area for a website headline. Early summer daylight, gentle depth, no blown white sky. Show believable painted joinery at residential scale, not a castle or a fantasy estate. 35mm architectural photography, level camera. This is a photographic scene, not an illustration of a house.",
+      "reference": null,
+      "width": 2400,
+      "height": 1350,
+      "variants": [
+        {
+          "file": "hero-800.jpg",
+          "width": 800,
+          "height": 450,
+          "bytes": 91479,
+          "sha256": "ed8518cb7638eb396daa0a095d9c250bb6c4d3dae8bb7e7cd07ff2eb7e9bbead"
+        },
+        {
+          "file": "hero-1200.jpg",
+          "width": 1200,
+          "height": 675,
+          "bytes": 181869,
+          "sha256": "fe424f1d5c3ffe8cdb3e49fbf3b5faed28b5e77ae95af29f92209d2d6c10b653"
+        }
+      ],
+      "bytes": 598017,
+      "sha256": "3881189231dd98a13df393e7dbcf141a745a4dd851fc13b90dd95d9c822d5e92"
+    },
+    "drawing-room.jpg": {
+      "status": "completed",
+      "provider": "Higgsfield",
+      "model": "seedream_v4_5",
+      "jobId": "cf8d2b98-de20-4bae-9ad5-b69716ea6bbc",
+      "prompt": "Photoreal editorial architectural photography of lived-in English country-house interiors and gardens. Georgian sash windows, honest painted timber, plaster cornices, antique brass, botanical textiles, old oak, linen and chalky paint. Restrained lavender, buttercream, dusty rose, sage and oxblood; soft natural daylight, credible materials and domestic scale. Beautiful but not palatial, not a hotel or a showroom. Straight architectural verticals, natural texture and physically plausible light. No illustration, vector drawing, CGI, 3D rendering, miniature, collage, text, labels, logos, watermarks, brand names, people or faces. Portrait architectural photograph of an intimate English country-house drawing room. Soft grey-lavender plaster walls, delicate buttercream cornices and skirting, a tall sash window, old oak floor, a linen sofa and a small antique timber table with a few garden stems. The painted wall and trim remain clearly visible across most of the composition. An inviting room with collected furniture, not an empty showroom. The window is to the side, avoiding a blown-out centre. Natural overcast daylight, eye-level 35mm lens.",
+      "reference": null,
+      "width": 1800,
+      "height": 2400,
+      "variants": [
+        {
+          "file": "drawing-room-800.jpg",
+          "width": 800,
+          "height": 1067,
+          "bytes": 114797,
+          "sha256": "4f8b21b14302ea84931bc837ed5637e7850658238e88c790ef273917116389a3"
+        },
+        {
+          "file": "drawing-room-1200.jpg",
+          "width": 1200,
+          "height": 1600,
+          "bytes": 223893,
+          "sha256": "ce25757b07c48e14d21e5b2ca6733ced765e535ef654b4ec6218dabc99d336bb"
+        }
+      ],
+      "bytes": 543665,
+      "sha256": "57667fcbe28afc235c6ac9e503a653b5379cef9bbdd855ffc0db03bb51a21386"
+    },
+    "kitchen.jpg": {
+      "status": "completed",
+      "provider": "Higgsfield",
+      "model": "seedream_v4_5",
+      "jobId": "fb1f232b-7867-4761-af60-f03b1695515b",
+      "prompt": "Photoreal editorial architectural photography of lived-in English country-house interiors and gardens. Georgian sash windows, honest painted timber, plaster cornices, antique brass, botanical textiles, old oak, linen and chalky paint. Restrained lavender, buttercream, dusty rose, sage and oxblood; soft natural daylight, credible materials and domestic scale. Beautiful but not palatial, not a hotel or a showroom. Straight architectural verticals, natural texture and physically plausible light. No illustration, vector drawing, CGI, 3D rendering, miniature, collage, text, labels, logos, watermarks, brand names, people or faces. Portrait interior photograph of a small English country-house kitchen with muted sage painted timber cabinetry, precisely fitted inset panel doors, aged brass cup handles, a pale limestone worktop, a ceramic sink and a soft buttercream wall. Warm old oak touches and one folded linen cloth. Domestic, intimate and believable. Frame enough joinery to understand the doors and their profiles, not a macro and not a generic luxury white kitchen. Soft window light reveals a restrained eggshell finish.",
+      "reference": null,
+      "width": 1800,
+      "height": 2400,
+      "variants": [
+        {
+          "file": "kitchen-800.jpg",
+          "width": 800,
+          "height": 1067,
+          "bytes": 111591,
+          "sha256": "4e2b472bebb6bce884e21ba94d9eb309047584e77c6467274c59bf7f9535bea1"
+        },
+        {
+          "file": "kitchen-1200.jpg",
+          "width": 1200,
+          "height": 1600,
+          "bytes": 210217,
+          "sha256": "e275c85fe16812c6d0cec5787268582559f6dfd383e578d86e824ea03340eaeb"
+        }
+      ],
+      "bytes": 456547,
+      "sha256": "86d3c152bda7c4ab4506e52186485cb9bec555328058f67174f2788130891476"
+    },
+    "dining-room.jpg": {
+      "status": "completed",
+      "provider": "Higgsfield",
+      "model": "seedream_v4_5",
+      "jobId": "9e88a260-fb8a-48f6-b660-6a9bbde86c92",
+      "prompt": "Photoreal editorial architectural photography of lived-in English country-house interiors and gardens. Georgian sash windows, honest painted timber, plaster cornices, antique brass, botanical textiles, old oak, linen and chalky paint. Restrained lavender, buttercream, dusty rose, sage and oxblood; soft natural daylight, credible materials and domestic scale. Beautiful but not palatial, not a hotel or a showroom. Straight architectural verticals, natural texture and physically plausible light. No illustration, vector drawing, CGI, 3D rendering, miniature, collage, text, labels, logos, watermarks, brand names, people or faces. Portrait editorial photograph of a lived-in English country-house dining room with full-height dusty rose timber panelling, fine buttercream cornice, a dark oak dining table, four simple antique chairs and one small vase of garden flowers. Refined deep pink paint is the subject; straight panel edges, believable room proportions and warm natural window light. No grand chandelier, palace ornament or hotel staging. Show the relationship of painted panelling, old timber and natural linen.",
+      "reference": null,
+      "width": 1800,
+      "height": 2400,
+      "variants": [
+        {
+          "file": "dining-room-800.jpg",
+          "width": 800,
+          "height": 1067,
+          "bytes": 140860,
+          "sha256": "f93beb50a63b4ffdf8216c6970ead075f0796de0607408059ec8137435bce805"
+        },
+        {
+          "file": "dining-room-1200.jpg",
+          "width": 1200,
+          "height": 1600,
+          "bytes": 263641,
+          "sha256": "454c88453c2a6f3be04cabc4282cc7cc2336163eaf5849fa3fea3276477f08ca"
+        }
+      ],
+      "bytes": 549031,
+      "sha256": "5a37e0ebdfa0687ab0b712e57aa7bf90ab633fbdfe36abdb94e326de4490a8f8"
+    },
+    "joinery.jpg": {
+      "status": "completed",
+      "provider": "Higgsfield",
+      "model": "seedream_v4_5",
+      "jobId": "3079c938-c821-4987-b9d8-bd29d32d3aa0",
+      "prompt": "Photoreal editorial architectural photography of lived-in English country-house interiors and gardens. Georgian sash windows, honest painted timber, plaster cornices, antique brass, botanical textiles, old oak, linen and chalky paint. Restrained lavender, buttercream, dusty rose, sage and oxblood; soft natural daylight, credible materials and domestic scale. Beautiful but not palatial, not a hotel or a showroom. Straight architectural verticals, natural texture and physically plausible light. No illustration, vector drawing, CGI, 3D rendering, miniature, collage, text, labels, logos, watermarks, brand names, people or faces. Portrait close architectural photograph of one beautiful oxblood painted four-panel timber door within a buttercream architrave in an English period home. A real aged brass latch, crisp moulding profiles, muted sage plaster beyond, old oak floor and restrained raking window light. Show the upper and middle parts of the door and the paint junctions clearly. Tactile, real enamel with a modest sheen, not plastic or lacquer gloss. No people, tools, typography or ornate fantasy carving.",
+      "reference": null,
+      "width": 1800,
+      "height": 2400,
+      "variants": [
+        {
+          "file": "joinery-800.jpg",
+          "width": 800,
+          "height": 1067,
+          "bytes": 103204,
+          "sha256": "2cee9c891efe1c973289ba9b8b2a1fbe59df3eaca9e6e612984aeb1192ece489"
+        },
+        {
+          "file": "joinery-1200.jpg",
+          "width": 1200,
+          "height": 1600,
+          "bytes": 202673,
+          "sha256": "c80b8df5da912426890aa9e3d32903b65dd2f57814a695899d9b7d4f766664e2"
+        }
+      ],
+      "bytes": 490813,
+      "sha256": "c0486f646ab4e5fb574fe89e34333fdb74ac75cf8384127f9b74f38b21a1f367"
+    },
+    "hero-motion.mp4": {
+      "status": "completed",
+      "source": "https://videos.pexels.com/video-files/27501537/12154814_2560_1440_30fps.mp4",
+      "sourcePage": "https://www.pexels.com/video/english-country-house-27501537/",
+      "creator": "David Pickup",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "edits": "Six-second continuous excerpt from 2s; resized to 1920x1080, silent H.264 fast-start MP4.",
+      "width": 1920,
+      "height": 1080,
+      "durationSeconds": 6.0,
+      "audioStreams": 0,
+      "variants": [],
+      "bytes": 3751524,
+      "sha256": "4f2b32c8ce2f7484b9396fc43e6500af3ab9aa5be8d0cd5b7ca8f705c768a5c5"
+    },
+    "arrival.jpg": {
+      "status": "completed",
+      "sourceFrame": "hero-motion.mp4",
+      "source": "https://videos.pexels.com/video-files/27501537/12154814_2560_1440_30fps.mp4",
+      "sourcePage": "https://www.pexels.com/video/english-country-house-27501537/",
+      "creator": "David Pickup",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "edits": "Poster extracted from the same source shot and starting timestamp as hero-motion.mp4.",
+      "width": 2400,
+      "height": 1350,
+      "variants": [
+        {
+          "file": "arrival-800.jpg",
+          "width": 800,
+          "height": 450,
+          "bytes": 110151,
+          "sha256": "509b34139b97e2e0ceba9abd610b5af8d7d849221fd88214320b2942894243ad"
+        },
+        {
+          "file": "arrival-1200.jpg",
+          "width": 1200,
+          "height": 675,
+          "bytes": 241192,
+          "sha256": "fc37095427dd260ecd28bd251136e6b19d2932573dfd15358df389926eb999f8"
+        }
+      ],
+      "bytes": 952306,
+      "sha256": "4cbb36c6b27b79c2ff14234c8d679f4503fd94e5e28a39481ab53c815a863c8b"
+    },
+    "wallpaper.jpg": {
+      "status": "completed",
+      "source": "https://images.pexels.com/photos/15220016/pexels-photo-15220016.jpeg?auto=compress&fm=jpg&w=2400",
+      "sourcePage": "https://www.pexels.com/photo/floral-pattern-wallpapers-on-walls-15220016/",
+      "creator": "Lorenzo Cinque",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "edits": "Cropped, resized and compressed for the website.",
+      "width": 1200,
+      "height": 1600,
+      "variants": [
+        {
+          "file": "wallpaper-800.jpg",
+          "width": 800,
+          "height": 1067,
+          "bytes": 206783,
+          "sha256": "3ba89bf47920a2c68c7a112f6f447c9e1df2713404523126eff848bba6f34c70"
+        }
+      ],
+      "bytes": 478875,
+      "sha256": "0f1e4e4deeec9d6be9a69c5a1da6acc3c98e0840718dfa587b33ea7a17ef9a70"
+    },
+    "preparation.jpg": {
+      "status": "completed",
+      "source": "https://images.pexels.com/photos/7218525/pexels-photo-7218525.jpeg?auto=compress&fm=jpg&w=3600",
+      "sourcePage": "https://www.pexels.com/photo/brown-wooden-ladder-beside-painting-materials-7218525/",
+      "creator": "Blue Bird",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "edits": "Cropped, resized and compressed for the website.",
+      "width": 2400,
+      "height": 1350,
+      "variants": [
+        {
+          "file": "preparation-800.jpg",
+          "width": 800,
+          "height": 450,
+          "bytes": 39935,
+          "sha256": "247c224ea27b36fd3c466d15ef8324457eb5d28447501ab9230818953a0beae9"
+        },
+        {
+          "file": "preparation-1200.jpg",
+          "width": 1200,
+          "height": 675,
+          "bytes": 77110,
+          "sha256": "89a141be1ccf9ded8c1ac837702e8d5ee1d74f14fb902d35ea3df38d2015af27"
+        }
+      ],
+      "bytes": 292422,
+      "sha256": "d15187ae3fcea6b925cb97aa9129bc2992b89f700d0e960bc3e4477c1c3d3a64"
+    },
+    "standen-room.jpg": {
+      "status": "completed",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/7/71/Standen_Drawing_Room_2024-10-08.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Standen_Drawing_Room_2024-10-08.jpg",
+      "creator": "Andy Li",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "edits": "Cropped, resized and compressed for the website.",
+      "width": 2400,
+      "height": 1350,
+      "variants": [
+        {
+          "file": "standen-room-800.jpg",
+          "width": 800,
+          "height": 450,
+          "bytes": 90932,
+          "sha256": "4fd3ceea267630908ff73fbee3273b4050830056f1692df05d125aa4465394cb"
+        },
+        {
+          "file": "standen-room-1200.jpg",
+          "width": 1200,
+          "height": 675,
+          "bytes": 187434,
+          "sha256": "68dd2e85c860b8abff8fedb2ceaef6901fbc90bbcef977de6721e972c40f11e9"
+        }
+      ],
+      "bytes": 718348,
+      "sha256": "d7a2f12c83275fce1d9763efb3c55bd76ce9307693abf851e529effa55ca4568"
+    },
+    "colour-notes.jpg": {
+      "status": "completed",
+      "source": "https://images.pexels.com/photos/6569080/pexels-photo-6569080.jpeg?auto=compress&fm=jpg&w=3000",
+      "sourcePage": "https://www.pexels.com/photo/beige-and-green-sample-cards-against-a-raw-textile-6569080/",
+      "creator": "Eva Bronzini",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "edits": "Cropped, resized and compressed for the website.",
+      "width": 1800,
+      "height": 2400,
+      "variants": [
+        {
+          "file": "colour-notes-800.jpg",
+          "width": 800,
+          "height": 1067,
+          "bytes": 169932,
+          "sha256": "5be13a724fad798fcbb9338f2dfb539e04f4b0aa2db53d38dadb6ce9d208e213"
+        },
+        {
+          "file": "colour-notes-1200.jpg",
+          "width": 1200,
+          "height": 1600,
+          "bytes": 388110,
+          "sha256": "22f2a90f87301e624f0e7d9ec7f09fec660c6d494425d35d13957dbdd2f5a5a1"
+        }
+      ],
+      "bytes": 931322,
+      "sha256": "bfa2b5f3ffeac7e01773b7811ef4d241341407116080c7a44968fda502f3aa6b"
+    },
+    "prep-notes.jpg": {
+      "status": "completed",
+      "source": "https://images.pexels.com/photos/4792532/pexels-photo-4792532.jpeg?auto=compress&fm=jpg&w=3600",
+      "sourcePage": "https://www.pexels.com/photo/faceless-man-unwrapping-scotch-tape-during-renovation-process-at-home-4792532/",
+      "creator": "Anete Lusina",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "edits": "Cropped, resized and compressed for the website.",
+      "width": 1800,
+      "height": 2400,
+      "variants": [
+        {
+          "file": "prep-notes-800.jpg",
+          "width": 800,
+          "height": 1067,
+          "bytes": 94234,
+          "sha256": "73b55516e6903d3249f18c694423a7c57911c1baa5f2e0aaf424c63d553481d5"
+        },
+        {
+          "file": "prep-notes-1200.jpg",
+          "width": 1200,
+          "height": 1600,
+          "bytes": 199726,
+          "sha256": "040cb1250cb83ddb89d31f7d2c1827f3f519009a93d93580cd2fbfa4dff98547"
+        }
+      ],
+      "bytes": 549653,
+      "sha256": "1309738eba0355dd9d550c4c4258a9e04b2e5011305df8450d7824c099402b60"
+    },
+    "planning.jpg": {
+      "status": "completed",
+      "source": "https://images.pexels.com/photos/6569283/pexels-photo-6569283.jpeg?auto=compress&fm=jpg&w=3600",
+      "sourcePage": "https://www.pexels.com/photo/top-view-of-envelopes-on-fabric-6569283/",
+      "creator": "Eva Bronzini",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "edits": "Cropped, resized and compressed for the website.",
+      "width": 2400,
+      "height": 1350,
+      "variants": [
+        {
+          "file": "planning-800.jpg",
+          "width": 800,
+          "height": 450,
+          "bytes": 80582,
+          "sha256": "f2613d0abe373df46d7ba548dbc05fc156a63ad9b9a20a6469ffdb79cce2602d"
+        },
+        {
+          "file": "planning-1200.jpg",
+          "width": 1200,
+          "height": 675,
+          "bytes": 165872,
+          "sha256": "a3c14079133e2f6c2097aaff6a9deea3c299d0e0560e48e09b903e01b8f7627b"
+        }
+      ],
+      "bytes": 563072,
+      "sha256": "e633aba7eb8c38b4a239b31d7a9d3e1323e4841400e29b8bf460fda9aa6dc1d4"
+    }
+  },
+  "generationLimit": "Higgsfield returned grace_daily_limit_reached after five images. No further generation or billing changes performed."
+}

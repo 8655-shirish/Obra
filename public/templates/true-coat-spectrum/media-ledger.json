@@ -1,0 +1,105 @@
+{
+  "brand": "True Coat",
+  "variant": "Chromatic Frame",
+  "purpose": "Exclusive local media for the canonical /painter3 imagery-led color-atelier fictional template preview.",
+  "rightsStatus": "verification-required-before-publication",
+  "rightsNote": "Generated through the authenticated Higgsfield account for this project; provider usage terms were not independently verified in this PR. Keep this route noindex and verify rights before any production or customer publication.",
+  "assets": {
+    "hero-splash.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "5ea89f37-5ad0-42c2-b3ce-90320b738f1b",
+      "prompt": "High-speed studio photograph of one monumental vertical sculpture of thick glossy house paint erupting upward, isolated completely against seamless warm-white background. The liquid rises in one elegant narrow twisting column with irregular droplets and folds; hue travels organically from ultramarine and cyan at top through chartreuse and marigold to vermilion and magenta at base. Entire paint form visible with generous clean white negative space on all sides, hard flash, realistic viscous texture, premium art-book campaign, no container, no person, no surface stripes, no text or logos.",
+      "bytes": 189697,
+      "sha256": "c1d5eb9400e859172a1f9fc4715361fac50b7b8c3a179cab943e83641d99ac96"
+    },
+    "hero-room.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "7e2cdb5b-780a-4942-959d-0fb7d3af352a",
+      "prompt": "Premium vertical editorial photograph of a completed contemporary residential entry and living space in crisp northern daylight. Calm warm-white plaster architecture, white oak floor, one deep ultramarine wall plane, one lacquer-red door glimpsed through a squared opening, a sculptural marigold chair and tiny magenta flowers. Full-height corners, trim, doorway and finish evidence visible; quiet sophisticated color atelier, realistic lived-in furnishings, generous composition. No readable text, letters, numbers, logos, labels, signage, watermark, people, tools, ladders, wet paint, splashes, rainbow, stripes, mural, fantasy architecture, distorted furniture.",
+      "bytes": 438679,
+      "sha256": "50e74ec19a63c559641c16304383c2e917cabb332e294d1be70c9ba1b1f2a7fe"
+    },
+    "proof-before.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "4c1bb89d-50e5-4469-872b-430b8347e5cb",
+      "prompt": "Premium residential painting photography for fictional True Coat, crisp natural daylight, realistic contemporary American home, refined editorial campaign, physically plausible surfaces, clean craftsmanship. BEFORE image: fixed straight-on wide camera at eye level in one distinctive lived-in living room; three tall windows on left, centered rectangular fireplace, built-in cabinet on right, plain tired beige walls with small scuffs and repaired patches, slightly yellowed warm-white trim, oak floor, one cream sofa centered, quiet neutral daylight. Keep all geometry readable. No readable text, no logos, no labels, no watermark, no people, no wet paint splash, no rainbow, no mural, no renovation, no changed architecture, no fantasy, no distorted furniture.",
+      "bytes": 370232,
+      "sha256": "dd5ea696f2b0141675a129be8bc8edda9906b045b3dd0eed3540c06d04df8158"
+    },
+    "proof-after.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "be24a0e5-f814-45f6-a2a0-2991056aa620",
+      "prompt": "AFTER image of exactly the same living room and exact same fixed camera view as the reference. Preserve every window, centered fireplace, built-in cabinet, oak floor, cream sofa, furniture position, perspective, crop, architecture, daylight and object. Make a paint-only professional transformation: smooth warm-white walls, one deep cobalt fireplace wall, freshly crisp warm-white trim. Repair only existing scuffs. No remodel, no added or removed objects, no wet paint, no splash, no rainbow, no text, no logos, no people.",
+      "bytes": 305517,
+      "sha256": "83b72c78d0fa2b756bd5422bfae60aa13b84e0310395ea7d173813d64fda24c4"
+    },
+    "planning-color.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "d8d5d73b-27dd-4ff7-a92d-8ac4c8ca2303",
+      "prompt": "Premium overhead studio still-life of six unlabeled wet house-paint pools and clean brush strokes in ultramarine, electric cyan, chartreuse, marigold, vermilion and magenta on pristine bone-white paper, flowing into one central sculptural splash inspired by high-speed liquid photography; include one clean sash brush and blank physical color fan without writing, crisp hard flash, tactile viscosity, elegant editorial composition. No readable text, letters, numbers, logos, labels, watermark, hands, people, faces, containers or clutter.",
+      "bytes": 488691,
+      "sha256": "2892d4e670999ab33c8f1516f9a1d3c1e4b865b71f5789589a58e7c394883ad8"
+    },
+    "planning-sheen.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "216360ab-4151-4fc2-8993-18085ab615e2",
+      "prompt": "Premium residential painting campaign photography for fictional True Coat, imagery-led color-splash art direction inspired by high-speed liquid paint sculpture: clean bone-white studio/daylight residential setting, glossy physically realistic paint in a restrained spectral progression of ultramarine, electric cyan, chartreuse, marigold, vermilion and magenta, crisp hard flash plus soft daylight, editorial Swiss art direction, tactile paint craft, realistic contemporary American home surfaces, energetic but sophisticated. Editorial close-up of three identical curved painted plaster planes in saturated ultramarine showing matte, eggshell and satin through different hard-light reflections, crossed by one thin marigold paint ribbon, white studio background, physically plausible. No readable text, no letters, no numbers, no logos, no labels, no signage, no watermark, no rainbow stripe, no children, no clown aesthetic, no galaxy, no outer space, no impossible architecture, no distorted hands, no duplicated tools, no unsafe work setup, no paint covering a person's face or body, no excessive messy room damage.",
+      "bytes": 389912,
+      "sha256": "eba213874ef4666a15546be88463bdd5b89eab546efb0cc12d5b59ff150ecaf1"
+    },
+    "service-interior.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "9d2a282e-4dc1-43e2-b511-c00b83e79fb1",
+      "prompt": "Premium editorial residential painting photography for fictional True Coat, broad clear daylight, crisp contemporary American home, warm bone-white balanced with one or two saturated accent colors, precise professional finish, realistic materials and scale, sophisticated Swiss campaign art direction. Finished refined living room, warm-white ceiling and trim, one professionally painted deep cobalt feature wall, subtle cyan chair and marigold cushion, full corners, cut lines, doors and windows visible, natural lived-in furniture, no people. No readable text, letters, numbers, logos, brand marks, labels or watermark; no rainbow, no wet paint splash, no dripping paint, no floor paint, no mural, no fantasy, no duplicated tools, no distorted hands, no unsafe setup, no children.",
+      "bytes": 555423,
+      "sha256": "bbe6995e38edacd9cdbee01219e34ec8ba2d2ae82f3da9fa062695391b82b449"
+    },
+    "service-exterior.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "d4813ab9-34ff-4f08-a9a8-f133b997c50b",
+      "prompt": "Premium realistic editorial photograph of a fully finished two-story contemporary American suburban home exterior in broad clear daylight. Warm-white clapboard siding, deep ultramarine porch structure and fascia, one lacquer-red front door, precise straight trim edges, mature restrained landscaping, clean concrete walk and street, no workers, no ladders, no cans, no tools, no wet paint, no splashes, no rainbow, no mural, no text, no letters, no numbers, no logos, no watermark. Sophisticated residential painting portfolio, physically credible materials and scale, entire facade visible in a clean 4:3 composition.",
+      "bytes": 732637,
+      "sha256": "81f07128ef20cc472dc1b05ab13a72a797f8523d35840c3a8bd51e7060402685"
+    },
+    "service-cabinetry.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "8b7d89d2-6942-4368-9776-a994b89c563c",
+      "prompt": "Premium editorial residential painting photography for fictional True Coat, broad clear daylight, crisp contemporary American home, warm bone-white balanced with one or two saturated accent colors, precise professional finish, realistic materials and scale, sophisticated Swiss campaign art direction. Finished sunlit kitchen with professionally refinished deep cobalt shaker lower cabinets, warm-white uppers and walls, brass pulls, one marigold stool and small magenta flowers, clear door edges and satin sheen, no people. No readable text, letters, numbers, logos, brand marks, labels or watermark; no rainbow, no wet paint splash, no dripping paint, no floor paint, no mural, no fantasy, no duplicated tools, no distorted hands, no unsafe setup, no children.",
+      "bytes": 413890,
+      "sha256": "fb7d57e53f606d4d054d43fc0861e5c525134fe1760c6ee814e61929f6fa9443"
+    },
+    "craft-cut.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "b0bec8f3-e7e7-43e8-9ebe-2120e8515785",
+      "prompt": "Premium editorial residential painting photography for fictional True Coat, broad clear daylight, crisp contemporary American home, warm bone-white balanced with one or two saturated accent colors, precise professional finish, realistic materials and scale, sophisticated Swiss campaign art direction. Tight macro craft evidence: one plain unbranded white-gloved hand holds a small clean angled sash brush and creates one perfectly straight cobalt cut line where a warm-white wall meets a detailed white door casing; bristles, wet edge, corner, and subtle wall texture sharply visible. No readable text, letters, numbers, logos, brand marks, labels or watermark; no rainbow, no wet paint splash, no dripping paint, no floor paint, no mural, no fantasy, no duplicated tools, no distorted hands, no unsafe setup, no children.",
+      "bytes": 445894,
+      "sha256": "56cf739bdd007e9c78217ce5e326489b0b4bf7183ea97b5b3b8dacadac64593d"
+    },
+    "process-repair.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "16b7310c-c296-492a-93d2-dd7b76ca5014",
+      "prompt": "Premium editorial residential painting photography for fictional True Coat, broad clear daylight, crisp contemporary American home, warm bone-white balanced with one or two saturated accent colors, precise professional finish, realistic materials and scale, sophisticated Swiss campaign art direction. Extreme close documentary craft image: one plain unbranded white-gloved hand feathers a small plaster repair on a warm-white wall using one clean putty knife; raking daylight reveals patch edge and surface texture, tool and hand fully plausible. No readable text, letters, numbers, logos, brand marks, labels or watermark; no rainbow, no wet paint splash, no dripping paint, no floor paint, no mural, no fantasy, no duplicated tools, no distorted hands, no unsafe setup, no children.",
+      "bytes": 490615,
+      "sha256": "d2476cbe5d4265f860de78c4709b52c0d55e81c56af801e8f7e84212e7cf0bc5"
+    },
+    "lacquer-spine.mp4": {
+      "provider": "Higgsfield",
+      "model": "Seedance 2.0 Mini",
+      "jobId": "6244a1f9-8a88-4fb5-8f36-a108ab4740d3",
+      "prompt": "Locked-off high-speed studio macro of the exact vertical glossy multicolor paint column in the reference. The column moves continuously and visibly: thick blue and green pigment descends from the top, the orange-red middle twists and folds slowly, the magenta pool ripples outward by a few centimeters, and specular highlights travel along the wet viscous surface. Keep the warm-white seamless background, exact framing and color order. No camera movement, no cut, no added objects, no person, no audio, no text, no logo, no explosive splatter. End with a composition close enough to the opening for a calm loop.",
+      "bytes": 3300639,
+      "sha256": "4bfa69f8f92c79f7c8fb6958c8afabcc116f8917a517bb0c669b0cd6d600103c"
+    }
+  }
+}

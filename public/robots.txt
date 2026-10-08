@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /lp/
+Disallow: /admin
+Disallow: /user/
+Disallow: /login
+Disallow: /verify-otp
+Allow: /

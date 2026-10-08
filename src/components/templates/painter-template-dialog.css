@@ -1,0 +1,139 @@
+.pt-dialog {
+  --pt-viewport-width: 100vw;
+  --pt-viewport-height: 100dvh;
+  --pt-viewport-left: 0px;
+  --pt-viewport-top: 0px;
+  left: calc(var(--pt-viewport-left) + var(--pt-viewport-width) / 2);
+  top: calc(var(--pt-viewport-top) + var(--pt-viewport-height) / 2);
+  width: calc(var(--pt-viewport-width) - 24px);
+  max-width: 720px;
+  max-height: calc(var(--pt-viewport-height) - 24px);
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  gap: 0;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.pt-dialog-scroll {
+  min-width: 0;
+  min-height: 0;
+  width: 100%;
+  overflow: auto;
+  overscroll-behavior: contain;
+  padding: 64px 28px 28px;
+  overflow-wrap: anywhere;
+  -webkit-overflow-scrolling: touch;
+}
+
+.pt-dialog-scroll > * {
+  min-width: 0;
+}
+
+.pt-dialog > button:last-child {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  top: 8px;
+  right: 8px;
+  z-index: 3;
+  width: 44px;
+  height: 44px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  opacity: 1;
+  color: inherit;
+  background: inherit;
+}
+
+.pt-dialog > button:last-child:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+.pt-planner {
+  display: grid;
+  gap: 18px;
+  margin-top: 24px;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.pt-planner fieldset {
+  min-width: 0;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.pt-planner legend {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.pt-planner fieldset label {
+  display: flex;
+  gap: 12px;
+  min-height: 44px;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.pt-planner input {
+  flex: 0 0 auto;
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+  accent-color: currentColor;
+}
+
+.pt-planner-notes {
+  display: grid;
+  gap: 8px;
+}
+
+.pt-planner textarea {
+  width: 100%;
+  min-width: 0;
+  border: 1px solid currentColor;
+  border-radius: 2px;
+  padding: 12px;
+  font: inherit;
+  background: transparent;
+  color: inherit;
+  resize: vertical;
+}
+
+.pt-planner button {
+  min-height: 48px;
+  padding: 10px 20px;
+  border: 1px solid currentColor;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+.pt-planner button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pt-planner [role="status"] {
+  min-height: 24px;
+}
+
+@media (max-width: 600px) {
+  .pt-dialog-scroll {
+    padding: 64px 20px 24px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pt-dialog {
+    animation: none !important;
+    transition: none !important;
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "directory": "/templates/ink-wash/generated",
+  "artDirection": "Quiet Japanese-inspired residential spaces: rice-white plaster, natural oak and cedar, washi, indigo, celadon and dusty plum. Photographic material studies, not documented client projects.",
+  "film": {
+    "file": "hero-motion.mp4",
+    "jobId": "847cacec-6502-4b4a-a7d3-78ef38ac903f",
+    "poster": "hero"
+  },
+  "photos": {
+    "hero": {
+      "file": "hero.jpg",
+      "jobId": "4aa43f08-0050-44be-99fd-f6bbcd436902",
+      "width": 1600,
+      "height": 900,
+      "alt": "Rice-white plaster and an indigo wall beside natural timber, linen seating and a washi lamp."
+    },
+    "interior": {
+      "file": "service-interior.jpg",
+      "jobId": "dbb96295-1866-45c0-9bbc-4cc1c738d9bd",
+      "width": 1600,
+      "height": 900,
+      "alt": "A painter working on a quiet interior with natural timber and carefully protected surfaces."
+    },
+    "exterior": {
+      "file": "service-exterior.jpg",
+      "jobId": "44430734-a4b7-43af-8eed-5e5254fe1c60",
+      "width": 1600,
+      "height": 900,
+      "alt": "A restrained residential exterior with painted walls, timber details and garden light."
+    },
+    "cabinetry": {
+      "file": "service-cabinetry.jpg",
+      "jobId": "d804f955-ade0-40ff-8f68-a3b33df37ba3",
+      "width": 1600,
+      "height": 900,
+      "alt": "A painter refinishing cabinet frames beside natural timber and protected worktops."
+    },
+    "woodwork": {
+      "file": "service-woodwork.jpg",
+      "jobId": "30b3c17a-be3c-4982-ac0e-7b94e7e007ad",
+      "width": 1600,
+      "height": 900,
+      "alt": "Careful brushwork at a painted timber edge in soft natural light."
+    },
+    "stroke": {
+      "file": "one-stroke.jpg",
+      "jobId": "78ed4526-db7a-4d5a-8263-7e6c6a35cbec",
+      "width": 1600,
+      "height": 900,
+      "alt": "A hand drawing a dusty-plum brushstroke across a prepared plaster surface."
+    },
+    "preparation": {
+      "file": "preparation.jpg",
+      "jobId": "2e63a86d-1f33-412e-a79c-97a5c58bf1c4",
+      "width": 1600,
+      "height": 900,
+      "alt": "Painters preparing plaster and protecting a timber floor before colour is applied."
+    },
+    "colour": {
+      "file": "colour-samples.jpg",
+      "jobId": "52d70638-2c51-4233-b58e-01e901539b6f",
+      "width": 1600,
+      "height": 900,
+      "alt": "Indigo, celadon, rice-white and dusty-plum paint samples beside natural timber."
+    },
+    "sheen": {
+      "file": "sheen.jpg",
+      "jobId": "bfcc8c13-96f7-4695-afdd-3c0a71a7e56b",
+      "width": 1600,
+      "height": 900,
+      "alt": "Painted indigo finish samples catching different reflections beside washi and cedar."
+    },
+    "planning": {
+      "file": "planning.jpg",
+      "jobId": "be365033-93e3-4bc9-bf4c-fa3acda81b89",
+      "width": 1600,
+      "height": 900,
+      "alt": "A calm paint-planning scene with material samples and natural timber."
+    }
+  }
+}

@@ -1,0 +1,475 @@
+{
+  "template": "vaporwave-paint-supply",
+  "route": "/templates/painter11",
+  "brand": "True Coat",
+  "variant": "Vaporwave Paint Supply",
+  "purpose": "Exclusive illustrative media for the Painter11 template preview.",
+  "rightsStatus": "verification-required-before-publication",
+  "truthNote": "Generated illustrative template media, not completed client projects.",
+  "assets": {
+    "hero.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "44496dca-a221-4b89-9bdf-8922987430df",
+      "prompt": "Surreal but photoreal 1990s computer-rendered product photograph: one unbranded chrome paint bucket floating slowly above a glossy tiled floor in an endless empty mall paint showroom, airbrushed violet-to-aqua horizon, midnight navy distance, two small chrome spheres, direct camera flash, soft CRT bloom, centered bucket with generous quiet space, wide landscape composition. No people, text, words, letters, numbers, logos, labels, watermarks, brand marks, Windows interface, or readable signage.",
+      "aspectRatio": "16:9",
+      "bytes": 198288,
+      "sha256": "6f734566676ec744efab5dea104de9bc3c42b9b06231d785c3fcf4ffc34a6b45",
+      "variants": {
+        "960": {
+          "file": "hero-960.jpg",
+          "bytes": 61633,
+          "sha256": "ee37633026243913591f5e489d011861ab3fcd191ca757232678ca02651c0f16"
+        },
+        "1440": {
+          "file": "hero-1440.jpg",
+          "bytes": 111309,
+          "sha256": "2941dc1b638812138e223987120247485a4c8f41f8b3bbce28250fab6b591ef8"
+        }
+      }
+    },
+    "surface-macro.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "995312cb-0810-41f9-a5ce-07b8a88503f9",
+      "prompt": "Believable contemporary US suburban residence, professional residential painting, 1990s disposable-camera direct-flash editorial photography, muted cream and powder-blue painted surfaces with an occasional dusty-mauve accent, natural oak details, crisp workmanship, slightly surreal old digital-catalog color grade, practical rather than luxurious. No people, hands, faces, text, words, logos, signs, labels, watermarks, letters, numbers, branded products, neon room lighting, candy colors, black lacquer, futuristic architecture, or impossible tools. Extreme close-up of a powder-blue satin wall meeting cream semi-gloss door trim, razor-clean painted edge, small repaired patch disappearing into the surface, hard direct flash and subtle pixel-like sensor grain.",
+      "aspectRatio": "4:3",
+      "bytes": 281840,
+      "sha256": "402486c2e05374d2d3e48169efa35289225f3699ae46e5202d3d412aa3a8a0b4",
+      "variants": {
+        "960": {
+          "file": "surface-macro-960.jpg",
+          "bytes": 56859,
+          "sha256": "75b3dee79b2d7865e0c160291f2ee274ed0d57062002a87f7e56802eb6dc56ae"
+        },
+        "1440": {
+          "file": "surface-macro-1440.jpg",
+          "bytes": 130368,
+          "sha256": "2e16d307b3b35e9f6c6f62632e416d9494da5b941bd417f06000909b69aabc37"
+        }
+      }
+    },
+    "interior.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "9ed45eb7-7c6c-4fde-88a1-af4727b5fea2",
+      "prompt": "Believable contemporary US suburban residence, professional residential painting, 1990s disposable-camera direct-flash editorial photography, muted cream and powder-blue painted surfaces with an occasional dusty-mauve accent, natural oak details, crisp workmanship, slightly surreal old digital-catalog color grade, practical rather than luxurious. No people, hands, faces, text, words, logos, signs, labels, watermarks, letters, numbers, branded products, neon room lighting, candy colors, black lacquer, futuristic architecture, or impossible tools. Finished living room with powder-blue walls, cream ceiling and trim, natural oak floor, one dusty-mauve chair at the edge, frontal direct-flash photograph, wide composition with the room as evidence.",
+      "aspectRatio": "4:3",
+      "bytes": 294170,
+      "sha256": "1b587e90c01f2e0ed339f2f39fef3420b5bd3adbd4eb5b0b817b3922ddb46723",
+      "variants": {
+        "960": {
+          "file": "interior-960.jpg",
+          "bytes": 76143,
+          "sha256": "254f887d277227cc5f5a57a75672277442a1a9f6ce3cdc8f720ae94fc3b573ef"
+        },
+        "1440": {
+          "file": "interior-1440.jpg",
+          "bytes": 154160,
+          "sha256": "6a3f331f2e889a944ce7a185de737fa743ae4d88d3a6686d23df2585c46e65b5"
+        }
+      }
+    },
+    "exterior.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "abef508d-dd45-4d37-8005-7795d165ed65",
+      "prompt": "Believable contemporary US suburban residence, professional residential painting, 1990s disposable-camera direct-flash editorial photography, muted cream and powder-blue painted surfaces with an occasional dusty-mauve accent, natural oak details, crisp workmanship, slightly surreal old digital-catalog color grade, practical rather than luxurious. No people, hands, faces, text, words, logos, signs, labels, watermarks, letters, numbers, branded products, neon room lighting, candy colors, black lacquer, futuristic architecture, or impossible tools. Finished two-story suburban house exterior with muted blue-gray siding, cream trim and a restrained dusty-mauve front door, blue-hour sky hit by direct flash, credible landscaping and clean coating edges.",
+      "aspectRatio": "4:3",
+      "bytes": 469806,
+      "sha256": "9e66016a8cbd1cb4ae22129f1d9bf7206e7e2c82a9c60300797e3b9a907eed5b",
+      "variants": {
+        "960": {
+          "file": "exterior-960.jpg",
+          "bytes": 130121,
+          "sha256": "74fe71b3e678ec1733236e6ef8e657cc0466c51961f1d228eddeddc7efd80396"
+        },
+        "1440": {
+          "file": "exterior-1440.jpg",
+          "bytes": 253000,
+          "sha256": "37a6e7526d23669642c643132a536b6733357c9f3ad3ad0ec5c5f6483ed6bc06"
+        }
+      }
+    },
+    "cabinetry.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "9d96d5c6-2730-47df-aaca-5902ea54919d",
+      "prompt": "Believable contemporary US suburban residence, professional residential painting, 1990s disposable-camera direct-flash editorial photography, muted cream and powder-blue painted surfaces with an occasional dusty-mauve accent, natural oak details, crisp workmanship, slightly surreal old digital-catalog color grade, practical rather than luxurious. No people, hands, faces, text, words, logos, signs, labels, watermarks, letters, numbers, branded products, neon room lighting, candy colors, black lacquer, futuristic architecture, or impossible tools. Finished practical kitchen with soft aqua-gray refinished shaker cabinet doors, cream walls, natural wood counter details, crisp flash-heavy straight-on photograph, clear door and frame finish evidence.",
+      "aspectRatio": "4:3",
+      "bytes": 297346,
+      "sha256": "73529419cf59586318a78a692cfee9f58f7204ee8ae786485253d13fb99f5b67",
+      "variants": {
+        "960": {
+          "file": "cabinetry-960.jpg",
+          "bytes": 82430,
+          "sha256": "1d72173060292c270e1ce386e7804c21a6b79a68d0f6a9bc30a2cb0080d1e6ca"
+        },
+        "1440": {
+          "file": "cabinetry-1440.jpg",
+          "bytes": 158032,
+          "sha256": "bb6bbdaf6782afb25cae33f80ef41774db821918c38f077607e45b23ace1f4fb"
+        }
+      }
+    },
+    "trim.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "4e11f82a-ab87-42c0-8756-f627ae8a85a3",
+      "prompt": "Believable contemporary US suburban residence, professional residential painting, 1990s disposable-camera direct-flash editorial photography, muted cream and powder-blue painted surfaces with an occasional dusty-mauve accent, natural oak details, crisp workmanship, slightly surreal old digital-catalog color grade, practical rather than luxurious. No people, hands, faces, text, words, logos, signs, labels, watermarks, letters, numbers, branded products, neon room lighting, candy colors, black lacquer, futuristic architecture, or impossible tools. Vertical close-up of cream semi-gloss paneled door and trim against a dusty-mauve wall, precise caulk and masking edge, bright disposable-camera flash, tactile surface detail.",
+      "aspectRatio": "3:4",
+      "bytes": 518083,
+      "sha256": "6e0fefbc7f443f4e823e77e326a4a6ab44f92688772816579ff9fc7f5ea6a2bd",
+      "variants": {
+        "960": {
+          "file": "trim-960.jpg",
+          "bytes": 126840,
+          "sha256": "47056af3c746ad6927c86171a2d51b48906a85f8e89e7fe6f8bde82ed060a23b"
+        },
+        "1440": {
+          "file": "trim-1440.jpg",
+          "bytes": 264079,
+          "sha256": "b18685331cde4f81392edd173d11fcc421af6c06583d4c732b5e35e3c3cf460a"
+        }
+      }
+    },
+    "inspect.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "4f1a8bad-bc12-4f9a-aab1-0557662deecc",
+      "prompt": "Believable contemporary US suburban residence, professional residential painting, 1990s disposable-camera direct-flash editorial photography, muted cream and powder-blue painted surfaces with an occasional dusty-mauve accent, natural oak details, crisp workmanship, slightly surreal old digital-catalog color grade, practical rather than luxurious. No people, hands, faces, text, words, logos, signs, labels, watermarks, letters, numbers, branded products, neon room lighting, candy colors, black lacquer, futuristic architecture, or impossible tools. Empty room under direct inspection flash, powder-blue wall revealing a subtle surface ripple and old patch, clean measuring light and practical diagnostic view.",
+      "aspectRatio": "4:3",
+      "bytes": 248778,
+      "sha256": "23fb49fe1d9c4aaf6c10b13109009c190947f7f068da7d16d3b85ec8fab2f638",
+      "variants": {
+        "960": {
+          "file": "inspect-960.jpg",
+          "bytes": 58780,
+          "sha256": "22b5810f6068a54a9bd0efc4212ebd78b033ad299fb77adb0e79634c0ebf18a9"
+        },
+        "1440": {
+          "file": "inspect-1440.jpg",
+          "bytes": 120772,
+          "sha256": "fb926736837f0f822a6f9b42ed44c65a127810e142540c4f6b9fac01241ffdc0"
+        }
+      }
+    },
+    "protect.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "69117e9a-7284-4323-80fe-336744737cb7",
+      "prompt": "Believable contemporary US suburban residence, professional residential painting, 1990s disposable-camera direct-flash editorial photography, muted cream and powder-blue painted surfaces with an occasional dusty-mauve accent, natural oak details, crisp workmanship, slightly surreal old digital-catalog color grade, practical rather than luxurious. No people, hands, faces, text, words, logos, signs, labels, watermarks, letters, numbers, branded products, neon room lighting, candy colors, black lacquer, futuristic architecture, or impossible tools. Residential room fully protected for painting, furniture under clean drop cloths, floor masked at edges, outlets covered, flash-heavy documentation photograph.",
+      "aspectRatio": "4:3",
+      "bytes": 270956,
+      "sha256": "e1ed0ba5f2fdfc3439d0aa27ebee60a07a8182d9135e2f99c22b6cb7f5aea415",
+      "variants": {
+        "960": {
+          "file": "protect-960.jpg",
+          "bytes": 74562,
+          "sha256": "b0b4ca6e571ac56e2500ff0101198f555d508ca069471b6b6beaca49377e92e2"
+        },
+        "1440": {
+          "file": "protect-1440.jpg",
+          "bytes": 140317,
+          "sha256": "41c4517f129129c3f268316ffd8876090bfe835fb33898e348f0dfaae2b62ddb"
+        }
+      }
+    },
+    "repair.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "29ace237-b069-4bd2-a974-615feb2b913f",
+      "prompt": "Believable contemporary US suburban residence, professional residential painting, 1990s disposable-camera direct-flash editorial photography, muted cream and powder-blue painted surfaces with an occasional dusty-mauve accent, natural oak details, crisp workmanship, slightly surreal old digital-catalog color grade, practical rather than luxurious. No people, hands, faces, text, words, logos, signs, labels, watermarks, letters, numbers, branded products, neon room lighting, candy colors, black lacquer, futuristic architecture, or impossible tools. Controlled drywall patch and caulk repair on a cream wall, clean tools resting below without brands, frontal direct flash, repair stage clearly visible.",
+      "aspectRatio": "4:3",
+      "bytes": 282554,
+      "sha256": "6c676e6a15582dff923a3c4b0896797b185ae153c1791c2d8afe6c1c4bfc7d8d",
+      "variants": {
+        "960": {
+          "file": "repair-960.jpg",
+          "bytes": 67065,
+          "sha256": "c9b86b5cff7f5bc61e062d6316b002c392567f2a66fe7264f5f0dd1c86678da7"
+        },
+        "1440": {
+          "file": "repair-1440.jpg",
+          "bytes": 137208,
+          "sha256": "a5c67f546781fe0b5983bef516f8e29d05b5866455e1a14f5a90b8a3622e5824"
+        }
+      }
+    },
+    "prepare.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "6f6f7f51-83e3-42d2-9720-357b8405d684",
+      "prompt": "Believable contemporary US suburban residence, professional residential painting, 1990s disposable-camera direct-flash editorial photography, muted cream and powder-blue painted surfaces with an occasional dusty-mauve accent, natural oak details, crisp workmanship, slightly surreal old digital-catalog color grade, practical rather than luxurious. No people, hands, faces, text, words, logos, signs, labels, watermarks, letters, numbers, branded products, neon room lighting, candy colors, black lacquer, futuristic architecture, or impossible tools. Powder-blue wall being professionally prepared, exact masking line at cream trim, sanded and primed zone visible, flash-heavy process photograph, no person.",
+      "aspectRatio": "4:3",
+      "bytes": 273287,
+      "sha256": "8d7268ec263c32d0ed8d56766674a7c83c98514df978ea1dd3add1b1fc914214",
+      "variants": {
+        "960": {
+          "file": "prepare-960.jpg",
+          "bytes": 67487,
+          "sha256": "12e5bfa1d636c5c165ab56a3f62f08e91369bcdd15ecde7d8c44401e678932e8"
+        },
+        "1440": {
+          "file": "prepare-1440.jpg",
+          "bytes": 135432,
+          "sha256": "54722b12fbd9f72f150f2638ca1da8bf01a19aa63dcd3b21b73a0c53d09ecc64"
+        }
+      }
+    },
+    "finish.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "376ce2ce-0ad7-4dd3-8651-a6ea40c978c2",
+      "prompt": "Believable contemporary US suburban residence, professional residential painting, 1990s disposable-camera direct-flash editorial photography, muted cream and powder-blue painted surfaces with an occasional dusty-mauve accent, natural oak details, crisp workmanship, slightly surreal old digital-catalog color grade, practical rather than luxurious. No people, hands, faces, text, words, logos, signs, labels, watermarks, letters, numbers, branded products, neon room lighting, candy colors, black lacquer, futuristic architecture, or impossible tools. Fresh powder-blue satin wall with an even wet edge and clean cream trim, roller and tray resting safely below with no brands, direct flash showing finish consistency.",
+      "aspectRatio": "4:3",
+      "bytes": 306661,
+      "sha256": "94ed7290cd79743593070de0d75474a04b3badf3b361cef51a2b4a6180a79fcf",
+      "variants": {
+        "960": {
+          "file": "finish-960.jpg",
+          "bytes": 72377,
+          "sha256": "f008e2162ec460b4af99c84cb9d165b61c03dcd4b51a9b49b0ab9ca667d89691"
+        },
+        "1440": {
+          "file": "finish-1440.jpg",
+          "bytes": 152755,
+          "sha256": "284c31f8bf35a2edc75c59e9109d74910e774c4d8f257b7fe0e490e284b03895"
+        }
+      }
+    },
+    "proof-before.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "9950edc8-6b89-4bd6-be60-71349276c3d7",
+      "prompt": "Believable contemporary US suburban residence, professional residential painting, 1990s disposable-camera direct-flash editorial photography, muted cream and powder-blue painted surfaces with an occasional dusty-mauve accent, natural oak details, crisp workmanship, slightly surreal old digital-catalog color grade, practical rather than luxurious. No people, hands, faces, text, words, logos, signs, labels, watermarks, letters, numbers, branded products, neon room lighting, candy colors, black lacquer, futuristic architecture, or impossible tools. Matched-scene source photograph: ordinary empty living room, tired beige walls, scuffed off-white trim, centered picture window, natural oak floor, one low cream sofa at right, straight-on locked camera at eye level, direct flash, wide 16:9 composition.",
+      "aspectRatio": "16:9",
+      "bytes": 183158,
+      "sha256": "8f8786aa358c1b66d876398ec508af909a2147d2b0b0f89d1727d812722d4527",
+      "variants": {
+        "960": {
+          "file": "proof-before-960.jpg",
+          "bytes": 47464,
+          "sha256": "d012a57015a703820247c6c7bb653db0b8e6ddb314cdb961273d3314b546246c"
+        },
+        "1440": {
+          "file": "proof-before-1440.jpg",
+          "bytes": 93804,
+          "sha256": "b4af02040d032554d013f6763819d60a85de5bb33f985a7d383f1dd1b054a99e"
+        }
+      }
+    },
+    "reviews.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "c2b31450-fbdd-48fd-806d-5416f2bb62dc",
+      "prompt": "Believable contemporary US suburban residence, professional residential painting, 1990s disposable-camera direct-flash editorial photography, muted cream and powder-blue painted surfaces with an occasional dusty-mauve accent, natural oak details, crisp workmanship, slightly surreal old digital-catalog color grade, practical rather than luxurious. No people, hands, faces, text, words, logos, signs, labels, watermarks, letters, numbers, branded products, neon room lighting, candy colors, black lacquer, futuristic architecture, or impossible tools. Completed living room with clean powder-blue walls and cream trim, natural oak floor, frontal flash-heavy photograph with ample calm space, intended as an illustrative finished-project background rather than customer proof.",
+      "aspectRatio": "16:9",
+      "bytes": 276670,
+      "sha256": "90d514585cf706447bcf1f3f3eb7fc1f382194c0e02102a54b55924f36763ce6",
+      "variants": {
+        "960": {
+          "file": "reviews-960.jpg",
+          "bytes": 73645,
+          "sha256": "a8c8fbfd5d402856e3862ff0c8b6bfa2a6414413762d6b86a658e5b9e641eca7"
+        },
+        "1440": {
+          "file": "reviews-1440.jpg",
+          "bytes": 143609,
+          "sha256": "39676c44494b7e603abe5bdfb866235039e268403925f38c30243fcb81bc9943"
+        }
+      }
+    },
+    "planning.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "39722101-4990-4698-b416-f87f2f9b1211",
+      "prompt": "Believable contemporary US suburban residence, professional residential painting, 1990s disposable-camera direct-flash editorial photography, muted cream and powder-blue painted surfaces with an occasional dusty-mauve accent, natural oak details, crisp workmanship, slightly surreal old digital-catalog color grade, practical rather than luxurious. No people, hands, faces, text, words, logos, signs, labels, watermarks, letters, numbers, branded products, neon room lighting, candy colors, black lacquer, futuristic architecture, or impossible tools. Organized paint planning table with unmarked cream, powder-blue, dusty-mauve and muted aqua sample boards, clean tape, roller and brush, overhead direct-flash photograph.",
+      "aspectRatio": "4:3",
+      "bytes": 255167,
+      "sha256": "d41c69cf14df060993623aaca77e925c6fc832cc231a0fc23a9da05d7cebad03",
+      "variants": {
+        "960": {
+          "file": "planning-960.jpg",
+          "bytes": 76506,
+          "sha256": "56c6a14fbf0b90a3d5d8dda5e7318160050f76166f42ddccf7bd1d9fa80bec3e"
+        },
+        "1440": {
+          "file": "planning-1440.jpg",
+          "bytes": 137211,
+          "sha256": "14eca36fed70c4ec9adc1efa38b39ca65cb5cf0a82c78c0e4138f1376480cf22"
+        }
+      }
+    },
+    "help-color.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "6af5cb68-fa37-4634-85ae-24e329295d5a",
+      "prompt": "Believable contemporary US suburban residence, professional residential painting, 1990s disposable-camera direct-flash editorial photography, muted cream and powder-blue painted surfaces with an occasional dusty-mauve accent, natural oak details, crisp workmanship, slightly surreal old digital-catalog color grade, practical rather than luxurious. No people, hands, faces, text, words, logos, signs, labels, watermarks, letters, numbers, branded products, neon room lighting, candy colors, black lacquer, futuristic architecture, or impossible tools. Three unmarked paint sample boards beside oak flooring and cream trim, morning window light plus direct flash, practical color-comparison photograph.",
+      "aspectRatio": "16:9",
+      "bytes": 181001,
+      "sha256": "b1b8119d944ab45d518139670a80066df6a7542931079d9230f83a9bb3877ea2",
+      "variants": {
+        "960": {
+          "file": "help-color-960.jpg",
+          "bytes": 46669,
+          "sha256": "84bbc066843b28583beea67124dd9a20df3e088be3f870afdc5169466b07adb0"
+        },
+        "1440": {
+          "file": "help-color-1440.jpg",
+          "bytes": 90043,
+          "sha256": "ffa175a4677454319a1b78a94c7d7cea2f0544d05b8b88262224bc6033479a80"
+        }
+      }
+    },
+    "help-prep.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "0bd3ea05-b8b1-4510-8de7-0a1df5269029",
+      "prompt": "Believable contemporary US suburban residence, professional residential painting, 1990s disposable-camera direct-flash editorial photography, muted cream and powder-blue painted surfaces with an occasional dusty-mauve accent, natural oak details, crisp workmanship, slightly surreal old digital-catalog color grade, practical rather than luxurious. No people, hands, faces, text, words, logos, signs, labels, watermarks, letters, numbers, branded products, neon room lighting, candy colors, black lacquer, futuristic architecture, or impossible tools. Close landscape photograph of a prepared wall edge, clean masking, smooth patching and protected floor, direct flash, contractor field-guide composition.",
+      "aspectRatio": "16:9",
+      "bytes": 195552,
+      "sha256": "e992e98868a3e48034933c6baeeef20b02d3016962c52112e47706fe3f9998cf",
+      "variants": {
+        "960": {
+          "file": "help-prep-960.jpg",
+          "bytes": 54404,
+          "sha256": "817be0dd369592abf660d4e5d4e47cf60bb7c17b13c70d4c951206fde7fc858f"
+        },
+        "1440": {
+          "file": "help-prep-1440.jpg",
+          "bytes": 101627,
+          "sha256": "7d9c3a1d85f2340de5d70a27af58d7b142558dadaa221f31f06658d966d5f3d4"
+        }
+      }
+    },
+    "help-sheen.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "0ed884a5-2533-476c-b740-97066fccf824",
+      "prompt": "Believable contemporary US suburban residence, professional residential painting, 1990s disposable-camera direct-flash editorial photography, muted cream and powder-blue painted surfaces with an occasional dusty-mauve accent, natural oak details, crisp workmanship, slightly surreal old digital-catalog color grade, practical rather than luxurious. No people, hands, faces, text, words, logos, signs, labels, watermarks, letters, numbers, branded products, neon room lighting, candy colors, black lacquer, futuristic architecture, or impossible tools. Four unmarked powder-blue paint panels showing matte, eggshell, satin and semi-gloss reflection under one direct flash, landscape finish-comparison photograph.",
+      "aspectRatio": "16:9",
+      "bytes": 195626,
+      "sha256": "1b1aa8ae090ce6c23de1e0431e3aa24b63257ef7a24918e5188cfe2ec957fcfe",
+      "variants": {
+        "960": {
+          "file": "help-sheen-960.jpg",
+          "bytes": 47903,
+          "sha256": "d71d044f3060fc2d6b359f43ae70ce29a9a727fb7d6c97466c13acb836070738"
+        },
+        "1440": {
+          "file": "help-sheen-1440.jpg",
+          "bytes": 94445,
+          "sha256": "9915ec2119542dce3c00c18fa32d56e387fc65efdff40aaf0b8855b61de24179"
+        }
+      }
+    },
+    "estimate.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "ffc086c7-2c01-4dfd-a1da-26443c58a8ee",
+      "prompt": "Believable contemporary US suburban residence, professional residential painting, 1990s disposable-camera direct-flash editorial photography, muted cream and powder-blue painted surfaces with an occasional dusty-mauve accent, natural oak details, crisp workmanship, slightly surreal old digital-catalog color grade, practical rather than luxurious. No people, hands, faces, text, words, logos, signs, labels, watermarks, letters, numbers, branded products, neon room lighting, candy colors, black lacquer, futuristic architecture, or impossible tools. Wide organized contractor staging table inside a finished powder-blue room, unbranded rollers, clean masking supplies and four sample boards, direct flash, clear negative space on the right for an HTML save dialog.",
+      "aspectRatio": "16:9",
+      "bytes": 231379,
+      "sha256": "6eee0f4d780e476d3d8b623319f5d3cc56d5dc8fc02052952359d2e250c988ec",
+      "variants": {
+        "960": {
+          "file": "estimate-960.jpg",
+          "bytes": 67909,
+          "sha256": "9d45816775bd9e1ccffdcceee5dc97eaab5bce59d7b7ab8b4218802ddf05b292"
+        },
+        "1440": {
+          "file": "estimate-1440.jpg",
+          "bytes": 127688,
+          "sha256": "b5f8a759d75d721694eee6bcbf7f8dde530ed8b9d5ad26b237045608fb73158c"
+        }
+      }
+    },
+    "proof-after.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "f51a0b95-ef6e-43a1-9611-3e556479b2ec",
+      "prompt": "Use the supplied living-room image as the exact scene. Lock camera, lens, perspective, picture-window geometry, ceiling, floor, sofa, shadows, and every object. Change paint only: walls become clean powder blue and all trim becomes warm cream with a professional satin edge. No remodel, moved objects, new furniture, people, text, logos, labels, or signs. Preserve the same direct-flash 1990s documentary photograph.",
+      "reference": "proof-before.jpg",
+      "aspectRatio": "16:9",
+      "bytes": 158904,
+      "sha256": "2a186eb40e77989211ebfac755a17287a34c5c5d7eb3ef68f21477662cac489e",
+      "variants": {
+        "960": {
+          "file": "proof-after-960.jpg",
+          "bytes": 46152,
+          "sha256": "60db9e7d3b06af1797be832fa90ebdb69caa0e3e28cb8ca0e6833fa2fe8accb8"
+        },
+        "1440": {
+          "file": "proof-after-1440.jpg",
+          "bytes": 88670,
+          "sha256": "8f72d0d83b10163f39bf74aff3c217c8e2220925c71f95ea24735f3e955a83c7"
+        }
+      }
+    },
+    "hero-motion.mp4": {
+      "provider": "Higgsfield",
+      "model": "Seedance 2.0 Mini",
+      "jobId": "8904a264-2f44-4a85-ac48-a792df5b1766",
+      "prompt": "Use the supplied floating chrome paint-bucket hero as the exact scene. Lock the camera, tiled showroom, airbrushed horizon, chrome spheres, and all geometry. Create one seamless six-second shot: the bucket rotates extremely slowly by a few degrees, reflected aqua and violet light drifts across the chrome, and the distant gradient breathes almost imperceptibly. No camera move, cut, zoom, new object, liquid spill, people, text, logo, sign, label, watermark, or audio.",
+      "reference": "hero.jpg",
+      "durationSeconds": 6,
+      "bytes": 715678,
+      "sha256": "0f1499c626cc07ec4756a11ade30556c5a11610259b88f6f2c1cb218a4e0fc62"
+    },
+    "project-motion.mp4": {
+      "provider": "Higgsfield",
+      "model": "Seedance 2.0 Mini",
+      "jobId": "2e84a9ba-39be-4caf-a065-80b993279741",
+      "prompt": "Use the supplied completed living-room photograph as the exact scene. Lock the camera, lens, wall color, cream trim, picture window, floor, sofa, all furniture, and room perspective. Create one seamless six-second, entirely subtle shot: a soft afternoon light shift moves across the powder-blue satin walls and one small natural reflection changes on the paint. No camera movement, cut, zoom, person, hand, tool, new object, text, logo, sign, label, watermark, or audio.",
+      "reference": "proof-after.jpg",
+      "durationSeconds": 6,
+      "bytes": 952074,
+      "sha256": "0aae6cefb0c672a39716e3bfa562361835ac92cffa509306b96141c23bc79555"
+    },
+    "study-lagoon.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "244153f0-c60b-4890-bf35-2ec08a7fb762",
+      "prompt": "Use the supplied living-room image as the exact scene. Lock camera, lens, perspective, picture-window geometry, ceiling, floor, sofa, shadows, and every object. Change paint only: the main walls become a calm muted lagoon blue-green; retain warm white trim and all nonpainted materials. No remodel, moved objects, new furniture, people, text, logos, labels, or signs. Preserve the same direct-flash 1990s documentary photograph.",
+      "reference": "proof-before.jpg",
+      "aspectRatio": "16:9",
+      "bytes": 174579,
+      "sha256": "5e0b6dc7843b42a88d3caf89c36bd523f3a67e04751e8ae1809dbbc07d95b1ee",
+      "variants": {
+        "960": {
+          "file": "study-lagoon-960.jpg",
+          "bytes": 45308,
+          "sha256": "b9521958cd22e0a7a7aabbd5c629be8353a2c2740251f54c25f72edad26ef894"
+        },
+        "1440": {
+          "file": "study-lagoon-1440.jpg",
+          "bytes": 88261,
+          "sha256": "0f016a6c2e91a7b97431d90a7c318dce9e7d4aee4e3428b46b711658073a8970"
+        }
+      }
+    },
+    "study-orchid.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "53eb368d-6740-4490-87dd-7b6a7b388e5d",
+      "prompt": "Use the supplied living-room image as the exact scene. Lock camera, lens, perspective, picture-window geometry, ceiling, floor, sofa, shadows, and every object. Change paint only: the main walls become a quiet dusty orchid mauve; retain warm white trim and all nonpainted materials. No remodel, moved objects, new furniture, people, text, logos, labels, or signs. Preserve the same direct-flash 1990s documentary photograph.",
+      "reference": "proof-before.jpg",
+      "aspectRatio": "16:9",
+      "bytes": 245444,
+      "sha256": "82cbed2f12e588e4d79090ae72c39ce92236e0f91d49bb36f0c8a2785f2d4dcb",
+      "variants": {
+        "960": {
+          "file": "study-orchid-960.jpg",
+          "bytes": 58862,
+          "sha256": "a8ea4c3f24573b9f6762e08063938ab4ad4524e1f3dfe2c60dcee8b7f389c8f8"
+        },
+        "1440": {
+          "file": "study-orchid-1440.jpg",
+          "bytes": 118484,
+          "sha256": "6e69ab51de60866b5e024198212a1e6d64a5c8dcb0517b1589757e39575a1633"
+        }
+      }
+    }
+  }
+}

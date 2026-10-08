@@ -1,0 +1,4 @@
+-- This Lovable schema-copy duplicated 20260826170000_agent_job_trace_linkage.sql.
+-- The canonical migration now includes the required function-return transition, so
+-- replaying the one-time enqueue-function rename here would break fresh databases.
+-- Intentionally no-op.

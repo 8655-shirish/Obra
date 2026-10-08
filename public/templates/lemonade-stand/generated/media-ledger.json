@@ -1,0 +1,645 @@
+{
+  "template": "painter12-lemonade-stand",
+  "route": "/templates/painter12",
+  "brand": "True Coat",
+  "variant": "Lemonade Stand",
+  "mediaKind": "photorealistic-generated-photography",
+  "generatedAt": "2026-09-06T21:40:41.496178+00:00",
+  "artDirection": "Sunny, believable neighborhood painting photography with modest homes, practical crews, warm summer light, and saturated but plausible Lemonade Stand paint accents.",
+  "rightsStatus": "verification-required-before-publication",
+  "truthNote": "Photorealistic media generated through the authenticated Higgsfield account for this fictional template; not documented client projects or verified customer proof.",
+  "assets": {
+    "hero.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "0d1940e0-f077-4e16-b803-0b37f0d77779",
+      "prompt": "Photorealistic editorial residential painting photography in one coherent friendly US neighborhood, modest 1920s-to-1960s bungalows and practical family interiors, warm late-afternoon summer sunlight, natural 35mm color, believable materials and scale, professional but approachable local painting crew, saturated yet plausible lemon yellow, warm watermelon coral, clear pool blue, leaf green, paper white, and occasional deep cherry paint accents. Authentic lived-in details, clean professional preparation, never luxury-showroom styling. Real photograph, not illustration, not cartoon, not CGI, not 3D render, not miniature, not dollhouse, not collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Wide hero photograph of a cheerful lemon-yellow Craftsman bungalow with paper-white trim, a deep-cherry front door, a subtle coral-and-cream canvas porch awning, mature leafy tree, and two friendly residential painters in clean practical work clothes standing naturally near the porch with unbranded rollers and a paint bucket. Compose the house and crew mainly in the right two-thirds; preserve calmer wall, lawn, and sky in the left third for an HTML message board. Eye-level street view, inviting but credible, faces small in frame, no readable signage.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 362015,
+      "sha256": "e4f466f321702ea4cf8d53be881d85559701e3a7917cddcd7ef1cf71c114434a",
+      "variants": {
+        "800": {
+          "file": "hero-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 93672,
+          "sha256": "94aad799ef87a5375eb9560a5d2b276e63943c88b399c1885de9354025f467f5"
+        },
+        "1200": {
+          "file": "hero-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 183991,
+          "sha256": "86bdec5c845e16b518d52d9df7abbd05088645fc94a8dd822e9372ec15419afd"
+        }
+      }
+    },
+    "street.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "8f9aaa0c-633f-4798-8f00-ecd4f1f57334",
+      "prompt": "Photorealistic editorial residential painting photography in one coherent friendly US neighborhood, modest 1920s-to-1960s bungalows and practical family interiors, warm late-afternoon summer sunlight, natural 35mm color, believable materials and scale, professional but approachable local painting crew, saturated yet plausible lemon yellow, warm watermelon coral, clear pool blue, leaf green, paper white, and occasional deep cherry paint accents. Authentic lived-in details, clean professional preparation, never luxury-showroom styling. Real photograph, not illustration, not cartoon, not CGI, not 3D render, not miniature, not dollhouse, not collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Wide eye-level view down one leafy neighborhood block with four distinct modest homes painted in coordinated pool blue, lemon yellow, soft watermelon coral, and warm paper white, clean trim, porches, sidewalks, mature trees, parked bicycle, natural summer shadows. No people prominent, no cars blocking houses, no readable house numbers, generous continuous street composition.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 420149,
+      "sha256": "04731507fac0386f0933c72c542918942291f6ea087044c3714ee19b957a140e",
+      "variants": {
+        "800": {
+          "file": "street-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 107062,
+          "sha256": "39d3a58a1e5be17779bbd4da2b0e7807e493b33aff05f36b922af4231a5523fd"
+        },
+        "1200": {
+          "file": "street-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 217361,
+          "sha256": "e151da62c17208aae26c246d73caebfb9c3ad0add595bfc885812988fa67ac32"
+        }
+      }
+    },
+    "service-interior.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "627ae724-e89c-411d-b5ed-3ccf0e0f5734",
+      "prompt": "Photorealistic editorial residential painting photography in one coherent friendly US neighborhood, modest 1920s-to-1960s bungalows and practical family interiors, warm late-afternoon summer sunlight, natural 35mm color, believable materials and scale, professional but approachable local painting crew, saturated yet plausible lemon yellow, warm watermelon coral, clear pool blue, leaf green, paper white, and occasional deep cherry paint accents. Authentic lived-in details, clean professional preparation, never luxury-showroom styling. Real photograph, not illustration, not cartoon, not CGI, not 3D render, not miniature, not dollhouse, not collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Wide interior photograph of a real painter rolling a calm pool-blue wall in a modest sunny living room, nearby furniture fully covered with clean drop cloths, floors protected, crisp paper-white trim, one restrained coral door visible at the edge. Painter seen in profile at mid-distance, correct roller and extension pole, credible work posture, airy window light.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 180915,
+      "sha256": "9a2117a548e0768676b6351fe893a99664cfae44d5b8d0ead6cebf1a279c13ba",
+      "variants": {
+        "800": {
+          "file": "service-interior-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 51112,
+          "sha256": "b3cbdddf3ab4fe29a0236834935f16380d7583e7af06eff67e09848325fd64ff"
+        },
+        "1200": {
+          "file": "service-interior-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 93835,
+          "sha256": "d8d032eb2e7e19e4e0f799d2d70d30bfefaf19b5eb0ac4f60eb95d67702d7c80"
+        }
+      }
+    },
+    "service-cabinets.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "917b599b-86eb-49b3-9079-3cc4df911cc4",
+      "prompt": "Photorealistic editorial residential painting photography in one coherent friendly US neighborhood, modest 1920s-to-1960s bungalows and practical family interiors, warm late-afternoon summer sunlight, natural 35mm color, believable materials and scale, professional but approachable local painting crew, saturated yet plausible lemon yellow, warm watermelon coral, clear pool blue, leaf green, paper white, and occasional deep cherry paint accents. Authentic lived-in details, clean professional preparation, never luxury-showroom styling. Real photograph, not illustration, not cartoon, not CGI, not 3D render, not miniature, not dollhouse, not collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Camera is unquestionably indoors in a practical enclosed family kitchen, medium-wide documentary photograph facing a full wall of leaf-green shaker cabinets beneath a visible white ceiling, with countertop, backsplash, sink, and protected wood floor all clearly in frame. One painter carefully applies an even finish to a cabinet frame; removed doors rest on an indoor rack, hardware is organized, and counters are protected. No exterior, sky, lawn, porch, garage, vehicles, or outdoor work.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 212221,
+      "sha256": "fd0894b2640270957632aa30517ed540bc6262e47aed758331a714bed8f3d9e7",
+      "variants": {
+        "800": {
+          "file": "service-cabinets-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 59811,
+          "sha256": "9a7b7d11208c18a6b816353b7b7ae1fb2e8b9dbcd62d876b5227e161529040cf"
+        },
+        "1200": {
+          "file": "service-cabinets-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 112058,
+          "sha256": "5d692e6908ca4d7afdd99dec2a714703b973bb01f8b67f983663d34050fcb218"
+        }
+      }
+    },
+    "service-trim.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "cc6835b0-e9e8-41a1-a260-f8c7226fd78e",
+      "prompt": "Photorealistic editorial residential painting photography in one coherent friendly US neighborhood, modest 1920s-to-1960s bungalows and practical family interiors, warm late-afternoon summer sunlight, natural 35mm color, believable materials and scale, professional but approachable local painting crew, saturated yet plausible lemon yellow, warm watermelon coral, clear pool blue, leaf green, paper white, and occasional deep cherry paint accents. Authentic lived-in details, clean professional preparation, never luxury-showroom styling. Real photograph, not illustration, not cartoon, not CGI, not 3D render, not miniature, not dollhouse, not collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Wide close residential photograph of a painter finishing the paper-white trim around a rich watermelon-coral front door on a leaf-green bungalow porch, precise brushwork, protected threshold, deep-cherry hardware, warm sunlight, hand and brush anatomically correct, face outside frame.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 288561,
+      "sha256": "f546fa837ebe844a548a7e93de2093db9bfd6f03b4a0ecadc939cbc6216bdf34",
+      "variants": {
+        "800": {
+          "file": "service-trim-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 77366,
+          "sha256": "9817d129094f43c6ddedbd9334f6d663b1afeb60c401e3291e45d7359b1a1024"
+        },
+        "1200": {
+          "file": "service-trim-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 148130,
+          "sha256": "6a4c4a3a899b61ecbbb307b301fc259bb0d3a2ab8b55303dc92a364c5ad776d5"
+        }
+      }
+    },
+    "process.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "9fba9507-2fb9-4fd2-aae5-9534f44fe3b5",
+      "prompt": "Photorealistic editorial residential painting photography in one coherent friendly US neighborhood, modest 1920s-to-1960s bungalows and practical family interiors, warm late-afternoon summer sunlight, natural 35mm color, believable materials and scale, professional but approachable local painting crew, saturated yet plausible lemon yellow, warm watermelon coral, clear pool blue, leaf green, paper white, and occasional deep cherry paint accents. Authentic lived-in details, clean professional preparation, never luxury-showroom styling. Real photograph, not illustration, not cartoon, not CGI, not 3D render, not miniature, not dollhouse, not collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Very wide documentary process photograph inside a sunlit bungalow room: two professional painters preparing one wall before coating, one inspecting and patching a small imperfection while the other masks paper-white trim and protects the floor, organized unbranded supplies, pale lemon sample patches, credible safety and body proportions. Leave broad visual detail across the entire horizontal frame.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 223496,
+      "sha256": "035ce5f9820116131561e208ceede0f2e5504231a4f46702dbffb07285c76d98",
+      "variants": {
+        "800": {
+          "file": "process-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 62586,
+          "sha256": "16bd8a3de848703664523b1a87d779f4f6fb154fff21da909b33d7cc824b266c"
+        },
+        "1200": {
+          "file": "process-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 116142,
+          "sha256": "c8f2b0de08270475defcb6449b3e9b69a022fefdd87a80e1d605f9d21100c484"
+        }
+      }
+    },
+    "planning.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "928299c5-774d-4421-a83f-ac7663120d3f",
+      "prompt": "Photorealistic editorial residential painting photography in one coherent friendly US neighborhood, modest 1920s-to-1960s bungalows and practical family interiors, warm late-afternoon summer sunlight, natural 35mm color, believable materials and scale, professional but approachable local painting crew, saturated yet plausible lemon yellow, warm watermelon coral, clear pool blue, leaf green, paper white, and occasional deep cherry paint accents. Authentic lived-in details, clean professional preparation, never luxury-showroom styling. Real photograph, not illustration, not cartoon, not CGI, not 3D render, not miniature, not dollhouse, not collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Overhead editorial photograph of a real wood porch table used for paint planning: unbranded sample boards in lemon, coral, pool blue, leaf green, paper white and deep cherry, clean brushes, roller, masking tape, pencil, blank kraft-paper notes with no writing, afternoon leaf shadows. Rich tactile realism.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 263661,
+      "sha256": "f6fdc72da9b55e627c5e50f59bf67587164ac1b32723b2049a2908171286a87f",
+      "variants": {
+        "800": {
+          "file": "planning-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 76393,
+          "sha256": "621ad9d3e75b49fea4dc9588549d6556ebae22020c07bf3d0456cdeba28bf4e3"
+        },
+        "1200": {
+          "file": "planning-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 140455,
+          "sha256": "a6362ed1143fda27ac30a03395f8fa2b78169cb18ca10ab1226c7ebd08572b97"
+        }
+      }
+    },
+    "reviews.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "07cdd467-faca-457a-9eb7-a81e78431c77",
+      "prompt": "Photorealistic editorial residential painting photography in one coherent friendly US neighborhood, modest 1920s-to-1960s bungalows and practical family interiors, warm late-afternoon summer sunlight, natural 35mm color, believable materials and scale, professional but approachable local painting crew, saturated yet plausible lemon yellow, warm watermelon coral, clear pool blue, leaf green, paper white, and occasional deep cherry paint accents. Authentic lived-in details, clean professional preparation, never luxury-showroom styling. Real photograph, not illustration, not cartoon, not CGI, not 3D render, not miniature, not dollhouse, not collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Wide candid photograph of a painter and two adult homeowners having a friendly final walkthrough on a freshly painted lemon-yellow bungalow porch with a pool-blue door and paper-white trim, everyone standing naturally and looking at the finish rather than posing for camera, faces believable and mid-distance, warm community feeling, no testimonial sign or text.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 302240,
+      "sha256": "fb59f54903b005cd2e1be3d02d4039cdc95e9a415662fba01dd48021ea976eb0",
+      "variants": {
+        "800": {
+          "file": "reviews-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 83979,
+          "sha256": "677db27ead2c2ea048b5582071aa7f78728ec1ab30920cd7cd883cae6330fada"
+        },
+        "1200": {
+          "file": "reviews-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 157684,
+          "sha256": "8c3d305cff4c08bdeab0f91d677078b7339c4f415c6e31beec84f0768492dcb7"
+        }
+      }
+    },
+    "faq.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "917555f0-5fd3-48c8-9dca-4c17e9cf7426",
+      "prompt": "Photorealistic editorial residential painting photography in one coherent friendly US neighborhood, modest 1920s-to-1960s bungalows and practical family interiors, warm late-afternoon summer sunlight, natural 35mm color, believable materials and scale, professional but approachable local painting crew, saturated yet plausible lemon yellow, warm watermelon coral, clear pool blue, leaf green, paper white, and occasional deep cherry paint accents. Authentic lived-in details, clean professional preparation, never luxury-showroom styling. Real photograph, not illustration, not cartoon, not CGI, not 3D render, not miniature, not dollhouse, not collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Camera is unquestionably indoors in a modest enclosed living room, with visible ceiling, wood floor, sofa, baseboard, and interior wall filling the frame. Wide candid consultation photograph of one local painter and one adult homeowner comparing unbranded pool-blue and soft-lemon sample boards directly against the wall. Natural body language, accurate hands, faces small and believable. No exterior, lawn, porch, sky, vehicles, outdoor work, or paperwork text.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 223811,
+      "sha256": "cc4f92f499edf535e13b0efac34aeab2f680c5719ba649d85eb98bf3110dff6a",
+      "variants": {
+        "800": {
+          "file": "faq-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 59147,
+          "sha256": "217f808055f064b77a28260ebce4c1d1fd6e074cf57d8585eff54ed8781cba15"
+        },
+        "1200": {
+          "file": "faq-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 112739,
+          "sha256": "4c1f4779b46ca47f74c5d739291ed28298f890c601d1cbdcb781275596e40f56"
+        }
+      }
+    },
+    "estimate.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "61539a7b-e114-4f29-84cf-c89f3c170ec8",
+      "prompt": "Photorealistic editorial residential painting photography in one coherent friendly US neighborhood, modest 1920s-to-1960s bungalows and practical family interiors, warm late-afternoon summer sunlight, natural 35mm color, believable materials and scale, professional but approachable local painting crew, saturated yet plausible lemon yellow, warm watermelon coral, clear pool blue, leaf green, paper white, and occasional deep cherry paint accents. Authentic lived-in details, clean professional preparation, never luxury-showroom styling. Real photograph, not illustration, not cartoon, not CGI, not 3D render, not miniature, not dollhouse, not collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Wide exterior consultation photograph: a friendly painter and homeowner walking toward the porch of a colorful modest bungalow while discussing the siding and front door, clean sample boards and clipboard with blank paper, lemon flowers and pool-blue porch details, ample quiet space on the left for an HTML estimate board, natural late-afternoon light, no readable text.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 297432,
+      "sha256": "855be8dc09c0ea27b5530248493a5ba5f7a28fd51b634fda3483210f8aaf2366",
+      "variants": {
+        "800": {
+          "file": "estimate-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 84647,
+          "sha256": "153a8881b67bdb4c923785618465bf4b20fb3333a4665036efff206fa63460d4"
+        },
+        "1200": {
+          "file": "estimate-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 160482,
+          "sha256": "d42eb50929ce4a4bb6cf9285e4f8efccf22571969d260ccd8dbe320201d1cf48"
+        }
+      }
+    },
+    "guide-color.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "91c17088-81ca-4f35-8e6b-41b615c5ec42",
+      "prompt": "Photorealistic editorial residential painting photography in one coherent friendly US neighborhood, modest 1920s-to-1960s bungalows and practical family interiors, warm late-afternoon summer sunlight, natural 35mm color, believable materials and scale, professional but approachable local painting crew, saturated yet plausible lemon yellow, warm watermelon coral, clear pool blue, leaf green, paper white, and occasional deep cherry paint accents. Authentic lived-in details, clean professional preparation, never luxury-showroom styling. Real photograph, not illustration, not cartoon, not CGI, not 3D render, not miniature, not dollhouse, not collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Wide close editorial photograph of six unbranded painted sample boards in lemon, coral, pool blue, leaf green, paper white, and deep cherry leaning against existing trim on a porch, shifting afternoon sunlight revealing undertones, no hands or text.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 192078,
+      "sha256": "c92e47316379e6e569c7ed930033ad91b5e394bbc80c32b4ff9d667e36d08f3a",
+      "variants": {
+        "800": {
+          "file": "guide-color-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 55679,
+          "sha256": "a59a960dced61c7625253c31d08196f7ca133e487c36a8795ff912dff45a1219"
+        },
+        "1200": {
+          "file": "guide-color-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 98130,
+          "sha256": "209da802704d48aa83141c9b8efea21a774940e83a47672b088304ec945385c1"
+        }
+      }
+    },
+    "guide-prep.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "720d2e83-af7a-4966-82d5-738eff81e0f8",
+      "prompt": "Photorealistic editorial residential painting photography in one coherent friendly US neighborhood, modest 1920s-to-1960s bungalows and practical family interiors, warm late-afternoon summer sunlight, natural 35mm color, believable materials and scale, professional but approachable local painting crew, saturated yet plausible lemon yellow, warm watermelon coral, clear pool blue, leaf green, paper white, and occasional deep cherry paint accents. Authentic lived-in details, clean professional preparation, never luxury-showroom styling. Real photograph, not illustration, not cartoon, not CGI, not 3D render, not miniature, not dollhouse, not collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Wide close documentary photograph of excellent residential paint preparation: a smooth repaired wall patch, crisp masking at paper-white trim, protected wood floor, sanding block and unbranded primer nearby, one gloved hand at edge of frame, no face, realistic dust control.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 197313,
+      "sha256": "ed49e46ef85e17abb354931d44bbeed9ad6dafdc3bffc90149c1538996804da8",
+      "variants": {
+        "800": {
+          "file": "guide-prep-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 51265,
+          "sha256": "d77d3be219d315c3dddc773bce1f777a2c6bd79477b7817726bc320386ac90ed"
+        },
+        "1200": {
+          "file": "guide-prep-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 95238,
+          "sha256": "359b24bddb6419ad10a391ef7955061e3421180d18930dc31089c7c14eb3ef25"
+        }
+      }
+    },
+    "guide-sheen.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "5733fb50-4d50-44b4-b714-dfd4ba00e32e",
+      "prompt": "Photorealistic editorial residential painting photography in one coherent friendly US neighborhood, modest 1920s-to-1960s bungalows and practical family interiors, warm late-afternoon summer sunlight, natural 35mm color, believable materials and scale, professional but approachable local painting crew, saturated yet plausible lemon yellow, warm watermelon coral, clear pool blue, leaf green, paper white, and occasional deep cherry paint accents. Authentic lived-in details, clean professional preparation, never luxury-showroom styling. Real photograph, not illustration, not cartoon, not CGI, not 3D render, not miniature, not dollhouse, not collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Wide photographic finish comparison of four large unbranded pool-blue painted boards showing matte, eggshell, satin, and semi-gloss response under the same warm window light, arranged on a real wood porch table, subtle believable reflection differences, no text or labels.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 223694,
+      "sha256": "dd003497e3ac605cec85f5cad4ddf14b953a046bc228251a295b519576dbed39",
+      "variants": {
+        "800": {
+          "file": "guide-sheen-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 66054,
+          "sha256": "ba3d365026e64baf9f48506b6c48dda9c31bba2c15bc4005567b30a4aa910842"
+        },
+        "1200": {
+          "file": "guide-sheen-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 117686,
+          "sha256": "97df1b3ca2a6a477199d2ce1d4a313b93b77559b0b89d6cfbcc1e2f03e73c61f"
+        }
+      }
+    },
+    "project-porch-before.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "490b578d-1129-4b4b-ad8a-c02c00e9b564",
+      "prompt": "Photorealistic editorial residential painting photography in one coherent friendly US neighborhood, modest 1920s-to-1960s bungalows and practical family interiors, warm late-afternoon summer sunlight, natural 35mm color, believable materials and scale, professional but approachable local painting crew, saturated yet plausible lemon yellow, warm watermelon coral, clear pool blue, leaf green, paper white, and occasional deep cherry paint accents. Authentic lived-in details, clean professional preparation, never luxury-showroom styling. Real photograph, not illustration, not cartoon, not CGI, not 3D render, not miniature, not dollhouse, not collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Camera-locked source photograph for a paint transformation: straight-on eye-level wide view of one modest Craftsman bungalow and full front porch, tired faded beige siding, scuffed off-white trim, weathered brown door, intact roof and mature landscaping, clear warm afternoon, no people, no renovation damage. Centered facade with all architectural lines fully visible.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 418346,
+      "sha256": "c8d37903d58f7e0afd02d31a6ef386249cf110115b4a2226c4870e1e0ee6fd20",
+      "variants": {
+        "800": {
+          "file": "project-porch-before-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 108222,
+          "sha256": "094d2a04ed03334c7ff8262a3180cd58969d2ea8d76253d9af5d64ab73e5161f"
+        },
+        "1200": {
+          "file": "project-porch-before-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 211913,
+          "sha256": "0e490f3d52df98a763123cff9f0e6bae82a963ca51972ac9266cb3a5e2db6969"
+        }
+      }
+    },
+    "project-sunroom-before.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "b6000ee0-bb60-48dd-bfd8-3e1ef9a8ca8a",
+      "prompt": "Photorealistic editorial residential painting photography in one coherent friendly US neighborhood, modest 1920s-to-1960s bungalows and practical family interiors, warm late-afternoon summer sunlight, natural 35mm color, believable materials and scale, professional but approachable local painting crew, saturated yet plausible lemon yellow, warm watermelon coral, clear pool blue, leaf green, paper white, and occasional deep cherry paint accents. Authentic lived-in details, clean professional preparation, never luxury-showroom styling. Real photograph, not illustration, not cartoon, not CGI, not 3D render, not miniature, not dollhouse, not collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Camera-locked source photograph for a paint transformation: straight-on wide view of a modest cottage with an enclosed front sunroom, faded cream siding, dull tan trim, muted gray-blue door, intact windows and roof, small garden, warm afternoon, no people. Preserve clear unique sunroom geometry and complete facade.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 381177,
+      "sha256": "5caae4f20059e5cbc1ab90b10a8d83b43d5480da5c0073a617b0bb6c2ef69c41",
+      "variants": {
+        "800": {
+          "file": "project-sunroom-before-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 99330,
+          "sha256": "e3e0773b7891adc9dc1a5d9295778d5de8fcfb680d8d5498e3d83ecdff67334e"
+        },
+        "1200": {
+          "file": "project-sunroom-before-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 193822,
+          "sha256": "2e662c3a1413ac7567550357a6859a5a2bfd7a8454c94f3513016a0e002497eb"
+        }
+      }
+    },
+    "project-bungalow-before.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "69e51d95-08a0-43c0-9448-07509f96029c",
+      "prompt": "Photorealistic editorial residential painting photography in one coherent friendly US neighborhood, modest 1920s-to-1960s bungalows and practical family interiors, warm late-afternoon summer sunlight, natural 35mm color, believable materials and scale, professional but approachable local painting crew, saturated yet plausible lemon yellow, warm watermelon coral, clear pool blue, leaf green, paper white, and occasional deep cherry paint accents. Authentic lived-in details, clean professional preparation, never luxury-showroom styling. Real photograph, not illustration, not cartoon, not CGI, not 3D render, not miniature, not dollhouse, not collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Camera-locked source photograph for a paint transformation: straight-on eye-level wide view of a small 1950s bungalow, faded pale gray clapboard, worn cream trim, dark brown front door, low roof, two front windows, simple steps and established shrubs, warm afternoon, no people, complete structure visible.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 363882,
+      "sha256": "86e85ea47c388340032c208e1629b87cb07bac249927d7db082703e214bb2415",
+      "variants": {
+        "800": {
+          "file": "project-bungalow-before-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 98430,
+          "sha256": "13b956c77ae8df6ed91a4cd10626af7575fafec92827c85a89bae72821fc6afa"
+        },
+        "1200": {
+          "file": "project-bungalow-before-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 192225,
+          "sha256": "b8d65c4d70bce722d4b7f072f9c6635c794e74a9355f42c07dbdee0498f3bfae"
+        }
+      }
+    },
+    "project-door-before.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "cf8b7213-ea84-4f07-aef8-00335626e055",
+      "prompt": "Photorealistic editorial residential painting photography in one coherent friendly US neighborhood, modest 1920s-to-1960s bungalows and practical family interiors, warm late-afternoon summer sunlight, natural 35mm color, believable materials and scale, professional but approachable local painting crew, saturated yet plausible lemon yellow, warm watermelon coral, clear pool blue, leaf green, paper white, and occasional deep cherry paint accents. Authentic lived-in details, clean professional preparation, never luxury-showroom styling. Real photograph, not illustration, not cartoon, not CGI, not 3D render, not miniature, not dollhouse, not collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Camera-locked source photograph for a paint transformation: wide close frontal view of a modest bungalow entry, dull beige paneled front door, worn off-white casing, muted sage siding, original porch light and brass hardware, intact threshold, afternoon light, no person, all door and trim geometry clearly visible.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 286012,
+      "sha256": "80fe6429e6f710f6771d3926a45a1073d2be9ce25d4e159c5e6eba06b2cefab3",
+      "variants": {
+        "800": {
+          "file": "project-door-before-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 75670,
+          "sha256": "1bf9e9223dfa3ac2e78b28c8921bc5c7b90604b4cf9dcad7bb045e41412a1bbc"
+        },
+        "1200": {
+          "file": "project-door-before-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 143719,
+          "sha256": "421370c0167b86e25883a7fe0f20684b12fe1bf757727a0f15a7968d433d5740"
+        }
+      }
+    },
+    "project-porch-after.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "6c84582b-ea5c-4a23-a7ff-b950f00c88bf",
+      "prompt": "Use the supplied bungalow photograph as the exact immutable scene. Lock camera, lens, crop, perspective, roof, porch, windows, door geometry, steps, landscaping, sky, sunlight, shadows, and every nonpainted object. Change paint only: siding becomes believable pool blue, trim becomes warm paper white, and the front door becomes deep cherry red with a clean professional finish. Remove only visible paint wear. No remodel, repair, new object, moved plant, changed weather, person, text, logo, sign, or altered architecture. Return a photoreal photograph.",
+      "reference": "project-porch-before.jpg",
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 357719,
+      "sha256": "3d2b9fdcecabab0ca6505f13a32ce8adc6fbf46f8df0c8e65ffbfad9acd568ee",
+      "variants": {
+        "800": {
+          "file": "project-porch-after-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 95936,
+          "sha256": "c95d4d8e60a9ded225260444d8abfde6f8b259b4b2ca1154410077ae0efe9b83"
+        },
+        "1200": {
+          "file": "project-porch-after-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 183856,
+          "sha256": "0528c89a489a37a2c14714c45925ac6d6c1e8b51c056bb68385d88209acf158c"
+        }
+      }
+    },
+    "project-sunroom-after.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "f77d6f65-a657-4b0b-8397-08f7a1de7dcc",
+      "prompt": "Use the supplied cottage sunroom photograph as the exact immutable scene. Lock camera, lens, crop, perspective, roof, enclosed-sunroom geometry, windows, door, garden, sky, sunlight, shadows, and every nonpainted object. Change paint only: siding becomes a soft believable lemon yellow, sunroom and window trim become deep cherry, and the front door becomes pool blue with a professional finish. Remove only visible paint wear. No remodel, new object, changed weather, people, text, signage, or altered architecture. Return a photoreal photograph.",
+      "reference": "project-sunroom-before.jpg",
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 316870,
+      "sha256": "3cf57f2e49ea1fe84d14201f4d1b441dafde0197f58b85a5fb364ac7c73e2052",
+      "variants": {
+        "800": {
+          "file": "project-sunroom-after-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 83233,
+          "sha256": "a1656c7063f1317fc43d37936a45bfedfd595c8fadc3c32100da1381d26cf3d6"
+        },
+        "1200": {
+          "file": "project-sunroom-after-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 159313,
+          "sha256": "f1ba0c48fada265fb25e0a1fcfb891373216248c225ca47b0e69f8969310145e"
+        }
+      }
+    },
+    "project-bungalow-after.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "84d45e04-07ea-4cd1-805c-1b273bee8046",
+      "prompt": "Use the supplied 1950s bungalow photograph as the exact immutable scene. Lock camera, lens, crop, perspective, roof, windows, steps, shrubs, sky, sunlight, shadows, and every nonpainted object. Change paint only: clapboard becomes a warm restrained watermelon coral, trim becomes paper white, and the front door becomes leaf green with a professional finish. Remove only visible paint wear. No remodel, landscaping change, new object, person, text, sign, or altered architecture. Return a photoreal photograph.",
+      "reference": "project-bungalow-before.jpg",
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 358939,
+      "sha256": "6db5395f1a415ae9bd3bb3058058960923881c91c3ff1a4068bfdfe65c8b8d4b",
+      "variants": {
+        "800": {
+          "file": "project-bungalow-after-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 92624,
+          "sha256": "2685a3aaf059216b7b472025b90d3e50940adc8856b399e49ae008e69180fad5"
+        },
+        "1200": {
+          "file": "project-bungalow-after-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 180742,
+          "sha256": "38c6f2ed5e2217a6f1c510370ca504055fdc5b89a89662d0d7b0f6ebb1b98100"
+        }
+      }
+    },
+    "project-door-after.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "c82595c5-2829-4d0c-a7f3-a2f6b1068883",
+      "prompt": "Use the supplied bungalow-entry photograph as the exact immutable scene. Lock camera, lens, crop, door panels, casing, siding, porch light, hardware, threshold, sunlight, shadows, and every nonpainted object. Change paint only: front door becomes rich watermelon coral, casing becomes crisp paper white, and existing siding becomes a fresh restrained leaf green. Preserve hardware exactly and remove only visible paint wear. No remodel, new decoration, person, text, sign, or changed geometry. Return a photoreal photograph.",
+      "reference": "project-door-before.jpg",
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 245309,
+      "sha256": "fefc52fb15b47b608a9f1cf18ddfcd575767f1d72ece7564c0f9292cc272c0eb",
+      "variants": {
+        "800": {
+          "file": "project-door-after-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 64362,
+          "sha256": "1a5c532736d74e4b1d35404a650ef7263d0c649eaef4d13a55b79413b255676b"
+        },
+        "1200": {
+          "file": "project-door-after-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 122510,
+          "sha256": "465ee3d6b190c4769e6e3222ed4c6957ba9f861a3c82f01bf3f297284bd6adf6"
+        }
+      }
+    },
+    "hero-motion.mp4": {
+      "provider": "Higgsfield",
+      "model": "Seedance 2.0 Mini",
+      "jobId": "d2fb9b37-68ca-4353-b987-e7d211796964",
+      "prompt": "Use the supplied photoreal neighborhood-painter hero photograph as the exact scene. Lock camera, lens, crop, house geometry, paint colors, porch, crew identity, clothing, tools, tree, lawn, and every object. Create one seamless six-second natural summer moment: a very gentle breeze moves a few leaves and the edge of the canvas awning, soft sunlight shifts subtly across the painted siding, and the crew makes only tiny natural posture movements. No camera move, zoom, cut, morphing, walking, talking, new object, changed face, changed hands, text, logo, sign, watermark, or audio. Maintain photographic realism throughout.",
+      "reference": "hero.jpg",
+      "durationSeconds": 6,
+      "bytes": 1117341,
+      "sha256": "af39f05552d1a125f46460aa12634aa477e1bd57743eeffef8a58d912b7e82b9"
+    }
+  },
+  "pairs": [
+    {
+      "id": "porch",
+      "before": "project-porch-before.jpg",
+      "after": "project-porch-after.jpg",
+      "sameProperty": true,
+      "sameCameraRequired": true,
+      "afterGeneratedFromBeforeReference": true
+    },
+    {
+      "id": "sunroom",
+      "before": "project-sunroom-before.jpg",
+      "after": "project-sunroom-after.jpg",
+      "sameProperty": true,
+      "sameCameraRequired": true,
+      "afterGeneratedFromBeforeReference": true
+    },
+    {
+      "id": "bungalow",
+      "before": "project-bungalow-before.jpg",
+      "after": "project-bungalow-after.jpg",
+      "sameProperty": true,
+      "sameCameraRequired": true,
+      "afterGeneratedFromBeforeReference": true
+    },
+    {
+      "id": "door",
+      "before": "project-door-before.jpg",
+      "after": "project-door-after.jpg",
+      "sameProperty": true,
+      "sameCameraRequired": true,
+      "afterGeneratedFromBeforeReference": true
+    }
+  ]
+}

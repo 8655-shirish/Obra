@@ -1,0 +1,2 @@
+-- Historical duplicate of 20260822100000_fenced_site_generation_media_slots.sql.
+-- Intentionally empty so fresh ordered migration replay does not repeat named DDL.

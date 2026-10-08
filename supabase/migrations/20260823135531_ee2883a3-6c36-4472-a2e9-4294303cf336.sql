@@ -1,0 +1,2 @@
+-- Historical duplicate of 20260823210000_add_video_observability.sql.
+-- Intentionally empty so fresh ordered migration replay does not repeat named DDL.

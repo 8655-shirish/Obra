@@ -1,0 +1,78 @@
+import type { TemplateManifest } from "./overlay";
+
+export const PLUMBER_MANIFEST: TemplateManifest = {
+  slug: "plumber",
+  textBudgets: {
+    heroTitle: 40,
+    heroAccent: 40,
+    heroSub: 220,
+    processTitle: 60,
+    processBody: 300,
+    servicesTitle: 70,
+    servicesBody: 240,
+    resultsTitle: 60,
+    resultsBody: 240,
+    reviewsTitle: 50,
+    reviewsBody: 220,
+    journalTitle: 40,
+    faqTitle: 50,
+    faqBody: 200,
+    ctaTitle: 60,
+    ctaBody: 220,
+    footerBlurb: 200,
+  },
+  mediaSlots: [
+    "logo",
+    "heroPoster",
+    "ethosFlow",
+    "ethosCraft",
+    "ethosRepair",
+    "serviceImage0",
+    "serviceImage1",
+    "serviceImage2",
+    "reviewImage0",
+    "reviewImage1",
+    "reviewImage2",
+    "journalImage0",
+    "journalImage1",
+    "journalImage2",
+  ],
+  defaultOverlay: {
+    kind: "template",
+    templateSlug: "plumber",
+    identity: {
+      businessName: null,
+      licenseNumber: null,
+      city: null,
+      phone: null,
+      email: null,
+    },
+    text: {},
+    media: {},
+    reviews: [],
+    blogs: [],
+    contact: { phone: null, email: null, area: null, hours: null },
+  },
+  defaultBlogs: [
+    {
+      category: "Water pressure",
+      title: "What your pressure gauge is trying to tell you",
+      excerpt:
+        "A practical guide to the quiet signals behind noisy pipes, weak flow, and stressed fixtures.",
+      image: null,
+    },
+    {
+      category: "Leak guide",
+      title: "Five early signs of a hidden water leak",
+      excerpt:
+        "A practical overview of clues that may point to a concealed leak—even before you see visible water.",
+      image: null,
+    },
+    {
+      category: "Backflow basics",
+      title: "Why backflow protection matters at home",
+      excerpt: "A plain-English look at the device that helps protect your drinking-water supply.",
+      image: null,
+    },
+  ],
+};

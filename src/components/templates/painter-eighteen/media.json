@@ -1,0 +1,125 @@
+{
+  "directory": "/templates/lavender-estate/photography",
+  "artDirection": "Photoreal editorial architectural photography of lived-in English country-house interiors and gardens. Georgian sash windows, honest painted timber, plaster cornices, antique brass, botanical textiles, old oak, linen and chalky paint. Restrained lavender, buttercream, dusty rose, sage and oxblood; soft natural daylight, credible materials and domestic scale. Beautiful but not palatial, not a hotel or a showroom. Straight architectural verticals, natural texture and physically plausible light. No illustration, vector drawing, CGI, 3D rendering, miniature, collage, text, labels, logos, watermarks, brand names, people or faces.",
+  "film": {
+    "file": "hero-motion.mp4",
+    "poster": "arrival",
+    "source": "https://videos.pexels.com/video-files/27501537/12154814_2560_1440_30fps.mp4",
+    "sourcePage": "https://www.pexels.com/video/english-country-house-27501537/",
+    "creator": "David Pickup",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "startSeconds": 2,
+    "durationSeconds": 6
+  },
+  "photos": {
+    "arrival": {
+      "aspectRatio": "16:9",
+      "width": 2400,
+      "height": 1350,
+      "alt": "An English country mansion surrounded by mature trees and green parkland.",
+      "sourceFrame": "hero-motion.mp4"
+    },
+    "hero": {
+      "aspectRatio": "16:9",
+      "width": 2400,
+      "height": 1350,
+      "alt": "A honey-stone country house with sage-painted windows, climbing wisteria and a lavender-lined garden path.",
+      "prompt": "Wide cinematic garden-level photograph of a modest, beautiful English Georgian country house. Warm honey limestone, sage-painted sash windows, a muted oxblood front door, delicate wisteria around the entrance and a lavender-lined gravel garden path. The house is framed in the central and right two thirds; a softly shaded garden and dark natural foliage occupy the lower left third, providing a calm area for a website headline. Early summer daylight, gentle depth, no blown white sky. Show believable painted joinery at residential scale, not a castle or a fantasy estate. 35mm architectural photography, level camera. This is a photographic scene, not an illustration of a house."
+    },
+    "drawing-room": {
+      "aspectRatio": "3:4",
+      "width": 1800,
+      "height": 2400,
+      "alt": "Soft lavender walls, buttercream cornicing and a linen sofa beside a tall sash window.",
+      "prompt": "Portrait architectural photograph of an intimate English country-house drawing room. Soft grey-lavender plaster walls, delicate buttercream cornices and skirting, a tall sash window, old oak floor, a linen sofa and a small antique timber table with a few garden stems. The painted wall and trim remain clearly visible across most of the composition. An inviting room with collected furniture, not an empty showroom. The window is to the side, avoiding a blown-out centre. Natural overcast daylight, eye-level 35mm lens."
+    },
+    "kitchen": {
+      "aspectRatio": "3:4",
+      "width": 1800,
+      "height": 2400,
+      "alt": "Sage-painted cabinetry with inset panel doors, aged brass handles and a pale stone worktop.",
+      "prompt": "Portrait interior photograph of a small English country-house kitchen with muted sage painted timber cabinetry, precisely fitted inset panel doors, aged brass cup handles, a pale limestone worktop, a ceramic sink and a soft buttercream wall. Warm old oak touches and one folded linen cloth. Domestic, intimate and believable. Frame enough joinery to understand the doors and their profiles, not a macro and not a generic luxury white kitchen. Soft window light reveals a restrained eggshell finish."
+    },
+    "dining-room": {
+      "aspectRatio": "3:4",
+      "width": 1800,
+      "height": 2400,
+      "alt": "Dusty rose painted panelling around an oak dining table with simple upholstered chairs.",
+      "prompt": "Portrait editorial photograph of a lived-in English country-house dining room with full-height dusty rose timber panelling, fine buttercream cornice, a dark oak dining table, four simple antique chairs and one small vase of garden flowers. Refined deep pink paint is the subject; straight panel edges, believable room proportions and warm natural window light. No grand chandelier, palace ornament or hotel staging. Show the relationship of painted panelling, old timber and natural linen."
+    },
+    "joinery": {
+      "aspectRatio": "3:4",
+      "width": 1800,
+      "height": 2400,
+      "alt": "An oxblood painted panel door, brass latch and softly lit buttercream architrave.",
+      "prompt": "Portrait close architectural photograph of one beautiful oxblood painted four-panel timber door within a buttercream architrave in an English period home. A real aged brass latch, crisp moulding profiles, muted sage plaster beyond, old oak floor and restrained raking window light. Show the upper and middle parts of the door and the paint junctions clearly. Tactile, real enamel with a modest sheen, not plastic or lacquer gloss. No people, tools, typography or ornate fantasy carving."
+    },
+    "standen-room": {
+      "aspectRatio": "16:9",
+      "width": 2400,
+      "height": 1350,
+      "alt": "The drawing room at Standen House, an Arts and Crafts interior photographed by Andy Li.",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/7/71/Standen_Drawing_Room_2024-10-08.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Standen_Drawing_Room_2024-10-08.jpg",
+      "creator": "Andy Li",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "wallpaper": {
+      "aspectRatio": "3:4",
+      "width": 1200,
+      "height": 1600,
+      "alt": "Intricate Victorian-style floral wallpaper with interwoven leaves and flowers.",
+      "source": "https://images.pexels.com/photos/15220016/pexels-photo-15220016.jpeg?auto=compress&fm=jpg&w=2400",
+      "sourcePage": "https://www.pexels.com/photo/floral-pattern-wallpapers-on-walls-15220016/",
+      "creator": "Lorenzo Cinque",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "preparation": {
+      "aspectRatio": "16:9",
+      "width": 2400,
+      "height": 1350,
+      "alt": "A room prepared for painting with a wooden ladder, painting materials and a protective floor covering.",
+      "source": "https://images.pexels.com/photos/7218525/pexels-photo-7218525.jpeg?auto=compress&fm=jpg&w=3600",
+      "sourcePage": "https://www.pexels.com/photo/brown-wooden-ladder-beside-painting-materials-7218525/",
+      "creator": "Blue Bird",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "colour-notes": {
+      "aspectRatio": "3:4",
+      "width": 1800,
+      "height": 2400,
+      "alt": "Beige and green colour cards arranged against a textured natural fabric.",
+      "source": "https://images.pexels.com/photos/6569080/pexels-photo-6569080.jpeg?auto=compress&fm=jpg&w=3000",
+      "sourcePage": "https://www.pexels.com/photo/beige-and-green-sample-cards-against-a-raw-textile-6569080/",
+      "creator": "Eva Bronzini",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "prep-notes": {
+      "aspectRatio": "3:4",
+      "width": 1800,
+      "height": 2400,
+      "alt": "Hands unrolling protective tape beside paintbrushes on a parquet floor.",
+      "source": "https://images.pexels.com/photos/4792532/pexels-photo-4792532.jpeg?auto=compress&fm=jpg&w=3600",
+      "sourcePage": "https://www.pexels.com/photo/faceless-man-unwrapping-scotch-tape-during-renovation-process-at-home-4792532/",
+      "creator": "Anete Lusina",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "planning": {
+      "aspectRatio": "16:9",
+      "width": 2400,
+      "height": 1350,
+      "alt": "Green, cream and beige colour cards on natural woven fabric.",
+      "source": "https://images.pexels.com/photos/6569283/pexels-photo-6569283.jpeg?auto=compress&fm=jpg&w=3600",
+      "sourcePage": "https://www.pexels.com/photo/top-view-of-envelopes-on-fabric-6569283/",
+      "creator": "Eva Bronzini",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  }
+}

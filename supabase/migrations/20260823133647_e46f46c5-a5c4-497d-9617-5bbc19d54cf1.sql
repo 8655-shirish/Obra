@@ -1,0 +1,2 @@
+-- Historical duplicate of 20260823120000_add_video_database_foundation.sql.
+-- Intentionally empty so fresh ordered migration replay does not repeat named DDL.

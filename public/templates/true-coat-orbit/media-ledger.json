@@ -1,0 +1,126 @@
+{
+  "brand": "True Coat",
+  "variant": "Surface Orbit",
+  "purpose": "Exclusive local media for the canonical /painter2 dark outer-space-inspired fictional template preview.",
+  "rightsStatus": "verification-required-before-publication",
+  "rightsNote": "Generated through the authenticated Higgsfield account for this project; provider usage terms were not independently verified in this PR. Keep this route noindex and verify rights before any production or customer publication.",
+  "assets": {
+    "after.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "77ad0311-004d-4ca1-8846-01ef237577fb",
+      "prompt": "Create the AFTER frame of this exact room after a professional residential painting project. Preserve the identical camera position, lens, crop, architecture, circular window, centered curved doorway, right-side windows, floor, covered sofa position, trim profiles, openings, proportions, light direction, and every structural detail. This is paint-only, not a remodel: repair the damaged beige plaster and finish those center wall planes in smooth deep midnight indigo; refinish all trim and arch edges in clean warm lunar ivory; remove the astronaut, planets, stars and any decorative space mural from all surfaces so every wall is a sophisticated solid paint finish; keep the blue-hour ambience with restrained ultraviolet reflected light and warm doorway lamp. No added furniture, no removed furniture, no people, no tools, no text, no logo, no wallpaper, no mural, no structural changes.",
+      "bytes": 388318,
+      "sha256": "f7268154f0ddee4c927fdd960337e6cd7a845aa8afe4fcae5b4d8ee2e501397c",
+      "observedOutput": "Generated room with dark indigo walls, circular window and doorway, ivory trim, covered sofa, warm lamp, and violet/blue ambient lighting; no space mural remains."
+    },
+    "before.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "e109fd26-829d-4020-bd6c-d4c7bfbb4251",
+      "prompt": "Premium residential painting editorial in the coherent True Coat Orbit world: real contemporary American home at blue hour, deep midnight indigo and mineral-black painted surfaces, warm lunar-ivory trim, restrained ultraviolet reflected light and one soft amber practical glow, circular architectural or lighting motif, cinematic low-key photography with visible shadow detail, physically credible professional painting craft, sophisticated dark outer-space mood without fantasy. BEFORE photograph for a truthful same-room transformation pair: fixed straight-on wide camera at eye level in a distinctive contemporary living room with a large circular interior window on the left, centered curved doorway, two narrow windows on the right, patchy beige walls with visible repairs, scuffed warm-white trim, bare oak floor, one covered sofa in fixed position, neutral midday light. Preserve exact geometry, camera, furniture, openings, crop and lighting for a later paint-only after edit. No readable text, no letters, no numbers, no logos, no labels, no signage, no watermark, no stars painted on walls, no galaxy mural, no spaceship, no astronaut, no surreal architecture, no distorted anatomy, no duplicated tools, no unsafe work setup.",
+      "bytes": 423828,
+      "sha256": "781a483c50c23291459fa4febaf92a42c174a630029d5ad6480c788889a177c9",
+      "observedOutput": "Generated version of the room with damaged beige plaster, star/planet murals, a large astronaut figure, circular window and doorway, covered sofa, and violet/blue ambient lighting."
+    },
+    "gallery-poster.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "ce056d59-dd57-4290-ad35-b80713079c0f",
+      "prompt": "Premium residential painting editorial in the coherent True Coat Orbit world: real contemporary American home at blue hour, deep midnight indigo and mineral-black painted surfaces, warm lunar-ivory trim, restrained ultraviolet reflected light and one soft amber practical glow, circular architectural or lighting motif, cinematic low-key photography with visible shadow detail, physically credible professional painting craft, sophisticated dark outer-space mood without fantasy. Bold gallery-poster composition: close three-quarter view through a circular doorway into a finished midnight-indigo room, a professional painter at the far edge pulling a clean arc of violet low-tack tape from warm ivory trim; crisp line and tactile finish are the visual subject; quiet lower-left shadow for overlaid type. No readable text, no letters, no numbers, no logos, no labels, no signage, no watermark, no stars painted on walls, no galaxy mural, no spaceship, no astronaut, no surreal architecture, no distorted anatomy, no duplicated tools, no unsafe work setup.",
+      "bytes": 713373,
+      "sha256": "b8abecbf6508d9a31519b81fe6f04563075c60854e2d463c3094e799a590143a",
+      "observedOutput": "Generated dark indigo interior framed by a large ivory circular opening, with a painter applying an arc of purple tape near a window and a warm wall lantern."
+    },
+    "hero-loop.mp4": {
+      "provider": "Higgsfield",
+      "model": "Seedance 2.0 Mini",
+      "jobId": "2509616d-19c3-423e-bcc8-eaa587dd72f6",
+      "prompt": "Locked-camera cinematic editorial footage of this exact residential room during professional painting. The painter on the far right makes one slow controlled upward roller pass, the wet blue paint edge advances smoothly, cloth and body motion are subtle and physically realistic, a soft ultraviolet raking reflection drifts across the freshly coated wall, the circular moon-like wall light and distant warm practical lamp remain steady. Preserve all architecture, trim, colors, composition and camera. No camera movement, no zoom, no morphing, no extra people, no new objects, no text, no audio.",
+      "bytes": 2750717,
+      "sha256": "415da3c9ab5714910e35f85a7e26e2ba715eb762cd2cc01a74e3e7dd8e3f3142",
+      "observedOutput": "Generated looping craft film based on the wide blue-room hero scene, showing a painter making a roller pass; video has no audio."
+    },
+    "hero.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "81397854-21ea-411d-b9cf-c31da33d09e5",
+      "prompt": "Ultra-wide editorial architectural photograph for a premium residential painting studio website, not literal outer space and no fantasy. A dramatic double-height modern living room at blue hour, walls finished in deep midnight indigo and one curved ceiling plane in mineral black, razor-clean warm ivory trim, a subtle circular skylight glowing like an eclipse, low sculptural furniture, one professional painter in clean dark workwear on the far right making a precise roller pass, realistic safe floor-level setup, atmospheric shafts of cool violet-blue light and a single distant amber practical lamp, exact straight architectural perspective, tactile paint finish, 28mm lens. Reserve the left forty percent as dark quiet wall and shadow for large white website copy. Cinematic yet credible residential interior photography, deep blacks with visible detail. No stars painted on walls, no galaxy mural, no spaceship, no astronaut, no text, no letters, no logos, no signage, no watermark, no distorted hands, no extra limbs, no unsafe ladder.",
+      "bytes": 498356,
+      "sha256": "8351bf02af51cd7b15cdec5ea7c5a7c6d1cc48d88055865af577604e74825233",
+      "observedOutput": "Generated wide interior with dark and blue walls, curved ivory trim, moon-like round wall light, doorway, floor lantern, and a painter rolling a lighter blue area."
+    },
+    "journal-color.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "01ecb3c1-9a99-4bbe-97ef-f8e1ba41d316",
+      "prompt": "Premium residential painting editorial in the coherent True Coat Orbit world: real contemporary American home at blue hour, deep midnight indigo and mineral-black painted surfaces, warm lunar-ivory trim, restrained ultraviolet reflected light and one soft amber practical glow, circular architectural or lighting motif, cinematic low-key photography with visible shadow detail, physically credible professional painting craft, sophisticated dark outer-space mood without fantasy. Editorial material study of large unlabeled paint sample planes in midnight, blue-violet, charcoal and warm ivory observed under three real light conditions; sculptural circular cutouts and shadows, tactile paper and painted plaster, no cards with writing. No readable text, no letters, no numbers, no logos, no labels, no signage, no watermark, no stars painted on walls, no galaxy mural, no spaceship, no astronaut, no surreal architecture, no distorted anatomy, no duplicated tools, no unsafe work setup.",
+      "bytes": 498216,
+      "sha256": "f9d91ff573c447c588e40f9c3cc8a74ed2772d3728bb9d51d2cfbaef570e8f91",
+      "observedOutput": "Generated dark exterior/interior architectural scene with several circular openings, violet/amber light, and painted color-block flooring rather than the requested physical sample study."
+    },
+    "journal-prep.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "f698f200-cb1d-46c2-8f53-fab83c6caca3",
+      "prompt": "Premium residential painting editorial in the coherent True Coat Orbit world: real contemporary American home at blue hour, deep midnight indigo and mineral-black painted surfaces, warm lunar-ivory trim, restrained ultraviolet reflected light and one soft amber practical glow, circular architectural or lighting motif, cinematic low-key photography with visible shadow detail, physically credible professional painting craft, sophisticated dark outer-space mood without fantasy. Overhead editorial still life of professional painting preparation tools arranged in one radial orbit on a charcoal canvas drop cloth: sanding block, clean scraper, tape, brush and folded protection, plausible scale, no labels. No readable text, no letters, no numbers, no logos, no labels, no signage, no watermark, no stars painted on walls, no galaxy mural, no spaceship, no astronaut, no surreal architecture, no distorted anatomy, no duplicated tools, no unsafe work setup.",
+      "bytes": 537455,
+      "sha256": "a0e75bbf012d4bd73c388a2da45828f60fe3bb5b4b6ca5dbc8e8be38d5031d6c",
+      "observedOutput": "Generated overhead view of rollers, brushes, scrapers, sanding sponge, tape, and folded protection on a dark drop cloth in a moonlit room."
+    },
+    "journal-sheen.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "048c1405-a9c8-4326-8c1b-948bf9f3fb3b",
+      "prompt": "Premium residential painting editorial in the coherent True Coat Orbit world: real contemporary American home at blue hour, deep midnight indigo and mineral-black painted surfaces, warm lunar-ivory trim, restrained ultraviolet reflected light and one soft amber practical glow, circular architectural or lighting motif, cinematic low-key photography with visible shadow detail, physically credible professional painting craft, sophisticated dark outer-space mood without fantasy. Close editorial study of three curved painted plaster surfaces in the same midnight-indigo color showing matte, eggshell and satin reflection through grazing ring light alone, sophisticated and physically plausible. No readable text, no letters, no numbers, no logos, no labels, no signage, no watermark, no stars painted on walls, no galaxy mural, no spaceship, no astronaut, no surreal architecture, no distorted anatomy, no duplicated tools, no unsafe work setup.",
+      "bytes": 458455,
+      "sha256": "1abc921319a5090243c9c3be4bef1c3c7ebfd1cb240b852e023433e4bc56b642",
+      "observedOutput": "Generated close architectural view of glossy indigo surfaces, curved ivory trim, circular openings, and strong warm/violet reflections rather than three controlled sample planes."
+    },
+    "point-detail.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "d9c54ad6-9076-44ed-8585-ce98fc8a83f4",
+      "prompt": "Premium residential painting editorial in the coherent True Coat Orbit world: real contemporary American home at blue hour, deep midnight indigo and mineral-black painted surfaces, warm lunar-ivory trim, restrained ultraviolet reflected light and one soft amber practical glow, circular architectural or lighting motif, cinematic low-key photography with visible shadow detail, physically credible professional painting craft, sophisticated dark outer-space mood without fantasy. Macro editorial detail of a gloved hand using a fine sash brush to cut warm lunar-ivory paint against a midnight-indigo curved molding edge; one ultraviolet reflection arcs through the wet paint, extreme tactile realism, raking side light. No readable text, no letters, no numbers, no logos, no labels, no signage, no watermark, no stars painted on walls, no galaxy mural, no spaceship, no astronaut, no surreal architecture, no distorted anatomy, no duplicated tools, no unsafe work setup.",
+      "bytes": 500535,
+      "sha256": "82d14daead3deaa21df3742384032ff411452a0ff163b0c63aefcf5a02a70d4f",
+      "observedOutput": "Generated gloved hand brushing ivory paint onto curved trim beside a wet star-speckled dark-blue wall with visible drips."
+    },
+    "proof-interior.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "0a55b2f6-cc30-42ee-ac35-1b6879e971e0",
+      "prompt": "Premium residential painting editorial in the coherent True Coat Orbit world: real contemporary American home at blue hour, deep midnight indigo and mineral-black painted surfaces, warm lunar-ivory trim, restrained ultraviolet reflected light and one soft amber practical glow, circular architectural or lighting motif, cinematic low-key photography with visible shadow detail, physically credible professional painting craft, sophisticated dark outer-space mood without fantasy. Completed intimate living room in the same world, midnight walls, warm trim, deep neutral upholstery and an eclipse-like wall sconce; honest residential scale, wide enough to show impeccable lines, no people. No readable text, no letters, no numbers, no logos, no labels, no signage, no watermark, no stars painted on walls, no galaxy mural, no spaceship, no astronaut, no surreal architecture, no distorted anatomy, no duplicated tools, no unsafe work setup.",
+      "bytes": 705961,
+      "sha256": "4ff99dc224634c1af0c4a05b56a15fe5b0befb247cb0bde18e125588b6a703a4",
+      "observedOutput": "Generated furnished living room with dark indigo walls, ivory paneling, a large circular window, eclipse-like wall light, and violet/amber accent illumination."
+    },
+    "service-cabinetry.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "8c191de6-9dd9-4a8c-988c-bfe0a1845807",
+      "prompt": "Premium residential painting editorial in the coherent True Coat Orbit world: real contemporary American home at blue hour, deep midnight indigo and mineral-black painted surfaces, warm lunar-ivory trim, restrained ultraviolet reflected light and one soft amber practical glow, circular architectural or lighting motif, cinematic low-key photography with visible shadow detail, physically credible professional painting craft, sophisticated dark outer-space mood without fantasy. Finished modern kitchen at blue hour, deep midnight painted cabinetry, warm ivory plaster island, brushed dark metal, a thin ring pendant like an orbit, crisp doors and refined satin finish; no people, wide room view. No readable text, no letters, no numbers, no logos, no labels, no signage, no watermark, no stars painted on walls, no galaxy mural, no spaceship, no astronaut, no surreal architecture, no distorted anatomy, no duplicated tools, no unsafe work setup.",
+      "bytes": 367829,
+      "sha256": "aac52f857c29bb65613d9ccfc6675f7ca23bbdef28b660ff867769bbf651ab38",
+      "observedOutput": "Generated dark-cabinet kitchen containing star/planet wall imagery, orbital pendant light, visible tools, and an unfinished-looking light backsplash area."
+    },
+    "service-exterior.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "3b00a901-c31d-4df9-8263-bbff240c78eb",
+      "prompt": "Premium residential painting editorial in the coherent True Coat Orbit world: real contemporary American home at blue hour, deep midnight indigo and mineral-black painted surfaces, warm lunar-ivory trim, restrained ultraviolet reflected light and one soft amber practical glow, circular architectural or lighting motif, cinematic low-key photography with visible shadow detail, physically credible professional painting craft, sophisticated dark outer-space mood without fantasy. Finished restrained 1970s contemporary suburban home exterior at astronomical twilight, deep blue-black siding, precise warm ivory fascia and one ultraviolet-blue front door, wet path catching faint light, credible residential architecture, no people. No readable text, no letters, no numbers, no logos, no labels, no signage, no watermark, no stars painted on walls, no galaxy mural, no spaceship, no astronaut, no surreal architecture, no distorted anatomy, no duplicated tools, no unsafe work setup.",
+      "bytes": 468822,
+      "sha256": "be16b960defdadc2dc517637de642c16eb6e5afaf23ae9df17465a541530809c",
+      "observedOutput": "Generated blue-black house exterior under a surreal galaxy sky, with ivory trim, violet door, moon-like circular window, and tools near the porch."
+    },
+    "service-interior.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "7038b579-c9fd-4210-8c6d-86276e399d05",
+      "prompt": "Premium residential painting editorial in the coherent True Coat Orbit world: real contemporary American home at blue hour, deep midnight indigo and mineral-black painted surfaces, warm lunar-ivory trim, restrained ultraviolet reflected light and one soft amber practical glow, circular architectural or lighting motif, cinematic low-key photography with visible shadow detail, physically credible professional painting craft, sophisticated dark outer-space mood without fantasy. Finished double-height living room with sculptural curved ceiling, midnight-indigo walls, warm ivory trim, dark oak and low neutral furniture; an eclipse-like round ceiling light glows softly; no people, broad architectural view that survives an overlay crop. No readable text, no letters, no numbers, no logos, no labels, no signage, no watermark, no stars painted on walls, no galaxy mural, no spaceship, no astronaut, no surreal architecture, no distorted anatomy, no duplicated tools, no unsafe work setup.",
+      "bytes": 431297,
+      "sha256": "5998364ad9018bd830f3d13ec81683a50c24cfbcc24fa79cd8a48b3ca0d32da4",
+      "observedOutput": "Generated large indigo living room with starry ceiling and wall murals, eclipse motif, an astronaut figure visible through a doorway, and violet/amber light."
+    }
+  }
+}

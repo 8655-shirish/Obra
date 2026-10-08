@@ -1,0 +1,2 @@
+-- Historical duplicate of 20260823220000_cross_website_layout_fingerprints.sql.
+-- Intentionally empty so fresh ordered migration replay does not repeat named DDL.

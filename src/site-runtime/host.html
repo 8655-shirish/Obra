@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; script-src 'nonce-obra-site-runtime' 'unsafe-eval'; style-src 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src https: http: data: blob:; media-src https: http: blob:; connect-src https://fonts.googleapis.com https://fonts.gstatic.com; frame-src 'none'; object-src 'none';"
+    />
+    <title>Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta name="theme-color" content="#ffffff" />
+    <style>
+      @layer theme, base, components, utilities;
+      html { margin: 0; touch-action: manipulation; height: 100%; overflow: auto; }
+      body { margin: 0; touch-action: manipulation; min-height: 100%; overflow: visible; }
+      #root { min-height: 100%; }
+      html {
+        --site-h1: 2.25rem;
+        --site-h2: 1.75rem;
+        --site-h3: 1.25rem;
+        --site-font-display: Georgia, serif;
+        --site-bg: #ffffff;
+        --site-ink: #0f172a;
+        --site-muted: #475569;
+        --site-muted-ramp: #475569;
+        --site-hairline: #e2e8f0;
+        --site-canvas-soft: #f8fafc;
+        color-scheme: light;
+      }
+      h1 {
+        font-family: var(--site-font-h1, var(--site-font-display));
+        text-wrap: balance;
+      }
+      h2 {
+        font-family: var(--site-font-h2, var(--site-font-display));
+        text-wrap: balance;
+      }
+      h3 {
+        font-family: var(--site-font-h3, var(--site-font-display));
+      }
+      @layer base {
+        html h1 {
+          font-size: var(--site-h1);
+          font-weight: var(--site-weight-h1);
+          letter-spacing: var(--site-tracking-h1);
+          line-height: var(--site-leading-h1);
+        }
+        html h2 {
+          font-size: var(--site-h2);
+          font-weight: var(--site-weight-h2);
+          letter-spacing: var(--site-tracking-h2);
+          line-height: var(--site-leading-h2);
+        }
+        html h3 {
+          font-size: var(--site-h3);
+          font-weight: var(--site-weight-h3);
+          letter-spacing: var(--site-tracking-h3);
+          line-height: var(--site-leading-h3);
+        }
+        [data-site-section] {
+          padding: var(--site-section-pad-y) var(--site-section-pad-x);
+          max-width: var(--site-section-max);
+          margin-inline: var(--site-section-margin);
+        }
+        [data-site-media] {
+          aspect-ratio: var(--site-media-ratio);
+          object-fit: cover;
+        }
+        [data-site-grid] {
+          gap: var(--site-grid-gap);
+        }
+        [data-site-card] {
+          padding: var(--site-card-pad);
+        }
+      }
+      [data-site-section] { scroll-margin-top: 5rem; }
+      [data-site-section="trustmarkers"],
+      [data-site-section="footer"] { font-variant-numeric: tabular-nums; }
+      @media (prefers-reduced-motion: reduce) {
+        *, *::before, *::after {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
+    </style>
+    <!--SITE_RUNTIME_TAILWIND-->
+  </head>
+  <body>
+    <div id="root"></div>
+    <!--SITE_RUNTIME_BOOTSTRAP-->
+  </body>
+</html>

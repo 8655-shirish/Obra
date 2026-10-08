@@ -1,0 +1,722 @@
+---
+name: Obra Product PRD
+overview: 'Admin kickoff (DB-only) → contractor post-checkout OTP → /user/<profiles.id>. Firecrawl job chains, dual variants, inline preview, /lp deploy. Checkout UI deferred; post-checkout flow + payment stub for v1 testing. OTP at /login.'
+todos:
+  - id: phase-0-foundation
+    content: 'Phase 0: DB migrations (nullable auth_user_id, websites.research_status, background_jobs chain schema, journals bucket), Lovable email-OTP, Firecrawl + GPT-5.5, ui-components manifest + cloud storage bucket, job runner spike on Cloudflare'
+    status: pending
+  - id: phase-1-admin-auth
+    content: 'Phase 1: /admin kickoff (DB-only), adminImpersonateUser, post-checkout flow (completePostCheckout + verifyOtpAndLinkProfile + payment stub), /login OTP, /user/<id> shell, background_jobs runner + Realtime progress'
+    status: pending
+  - id: phase-2-agent-chat
+    content: 'Phase 2: Agent chat UI (streaming, markdown, widgets, mobile, real-time tool-status), onboarding + trade field, journal-<license>.md every 10 msgs to Supabase Storage'
+    status: pending
+  - id: phase-3-enrich-generate
+    content: 'Phase 3: Sequential Firecrawl job chains (CA-only), research_status mirror on websites, 2 distinct variants, inline preview, approve → /lp/:id, previous designs'
+    status: pending
+  - id: phase-4-edit-admin
+    content: 'Phase 4: Agent-widget edit categories, pencil inline editors (G1/G10 formats), /lp lead capture, admin leads screen + full records'
+    status: pending
+isProject: false
+---
+# Obra Product — PRD & Implementation Plan
+
+## Executive summary
+
+Obra’s product is an end-to-end contractor website factory inside one TanStack Start app (Lovable Cloud + Supabase). **v1 build path:** admin kickoff creates a **DB-only profile** (no auth user yet) keyed by `license_number`; admin runs the agent at `/user/<user-id>` on the contractor’s behalf and pitches the result. Contractor later **subscribes on the website** (checkout UI deferred; **post-checkout flow** is specified below). After payment: auth user created via OTP, linked to the existing license row by `license_number` + `email` pair; contractor then accesses `/user/<user-id>` to continue. Sites publish at `https://obra-tech.lovable.app/lp/<websiteId>`. LP enquiry flow stays unchanged.
+
+**Current baseline:** single landing page at [`src/routes/index.tsx`](src/routes/index.tsx), lead-capture dialog, one Supabase table (`plan_inquiries`), no auth routes, no chat, no payments, no site renderer.
+
+**Recommended delivery:** 4 phases (not one monolith). Each phase ships a complete user-visible slice. Assumptions called out where your prompt leaves forks open.
+
+---
+
+## Assumptions & open decisions
+
+| Topic | Plan assumption | Why |
+|---|---|---|
+| Site hosting | All contractor sites render inside this app at `/lp/$websiteId` | You specified `obra-tech.lovable.app/lp/<id>` |
+| Site substrate | JSON config + React template renderer (not separate Vercel deploys per contractor) | Matches single Lovable project; differs from BUSINESS-CASE’s per-painter Vercel model |
+| Auth | **OTP-only** via Lovable email-OTP backed by Supabase Auth. Login at `/login` with license **or** email → OTP → session. **Admin kickoff creates DB row only** (`auth_user_id` null). **Post-checkout:** auth user created + linked to existing profile by `license_number`; unique **`(license_number, email)`** pair per auth user | G3 |
+| Transactional email | Lovable email-OTP for auth + `@lovable.dev/email-js` for notifications | Lovable native |
+| Payments / checkout | **Checkout UI deferred** — LP enquiry unchanged. **Post-checkout flow specified** (email, license, name, city captured at checkout → OTP → auth link) | G4 — implement post-checkout first |
+| Identity | `profiles.license_number` UNIQUE (one business profile per license). `profiles.auth_user_id` FK nullable until post-checkout. `profiles.email` set at checkout activation. Composite UNIQUE on `(license_number, email)` when `auth_user_id` is set. **One license → one profile → one auth user.** Second activation with same license but different email → reject (“License already activated”). URL `/user/<user-id>` = `profiles.id` (not `auth.users.id`) | G3 |
+| Plan tiers | **Starter only in v1** — current product is the Starter offering; Pro flow implemented later | Per your spec |
+| Enrichment | **Firecrawl API** — sequential background jobs via `firecrawl_scrape` tool; **California-only** v1; deep search from user details; `research_status=no_results_found` when nothing discovered | You specified Firecrawl + CA-only |
+| AI runtime | **Lovable AI with GPT-5.5** — configured by Lovable (same pattern as Firecrawl API key) | Server-side only; tool-use via deterministic registry |
+| Admin auth v1 | Hardcoded credentials as specified (`obra@shr.com` / `Batman@123`), server-only session cookie | You asked explicitly; **must be replaced** before public launch |
+
+---
+
+## End-user journeys
+
+### Journey A — Admin builds on contractor’s behalf (v1 primary path)
+
+```mermaid
+flowchart TD
+  AdminKickoff["/admin kickoff: business name + license + trade"] --> DbOnly[DB profile row only no auth user]
+  DbOnly --> AdminChat["Admin runs agent at /user/<user-id>"]
+  AdminChat --> Collect[Onboarding via chat widgets]
+  Collect --> Enrich[Sequential Firecrawl jobs + progress %]
+  Enrich --> Gen[Generate 2 distinct variants]
+  Gen --> Pick[Inline preview + select variant]
+  Pick --> Decision{Approve or Edit?}
+  Decision -->|Approve| Deploy["Publish /lp/<websiteId>"]
+  Decision -->|Edit| EditWidget[Agent widget: edit categories]
+  EditWidget --> InlineEdit[Pencil + inline editor]
+  InlineEdit --> PreviewReturn[Return to inline preview]
+  PreviewReturn --> Decision
+  Deploy --> Pitch[Admin pitches site to contractor]
+```
+
+### Journey B — Contractor post-checkout access (specified; checkout UI deferred)
+
+```mermaid
+flowchart TD
+  Pitch[Admin pitched live preview] --> Checkout[Contractor subscribes on website]
+  Checkout --> Capture[Checkout captures email license name city etc]
+  Capture --> Pay[Payment completes]
+  Pay --> Otp[OTP sent to email]
+  Otp --> Link[Auth user created + linked to license row]
+  Link --> UserChat[Contractor accesses /user/<user-id> agent chat]
+```
+
+- Checkout form fields become **account context**: email, license number, name, city, etc.
+- If `license_number` matches admin-created row → link auth user to existing profile + website.
+- If no match → new profile row created for auth user with submitted license + email.
+- Each activated auth user has a unique **`(license_number, email)`** pair stored on the profile.
+- **License collision at checkout:** if `license_number` already has `auth_user_id` set → reject (“License already activated — log in instead”). If `auth_user_id` is null (admin kickoff row) → link incoming checkout email to that profile.
+
+### Journey C — Returning contractor (OTP)
+
+- `/login` → license **or** email → OTP → `/user/<user-id>`.
+- Session expiry → `/login` → OTP again. No passwords.
+
+### Journey D — Admin operator
+
+- `/admin` → view users, websites, conversations, edits, **leads** → kickoff → admin drives `/user/<user-id>` until pitch handoff.
+
+---
+
+## Functional requirements
+
+### 1. Subscription / checkout
+
+**Checkout UI:** deferred — LP enquiry flow unchanged; no checkout routes in v1 implementation.
+
+**Post-checkout flow (specified — build this):**
+
+Split across two server functions with clear boundaries:
+
+| Step | Function | When | Does |
+|---|---|---|---|
+| 1 | `completePostCheckout` | Payment webhook / stub fires | Persist checkout context (email, license, name, city) to `checkout_sessions`; create `subscriptions` row (`status=pending_activation`); **send Lovable OTP** to checkout email; redirect to OTP page. Does **not** create auth user. |
+| 2 | `verifyOtpAndLinkProfile` | User submits OTP | Verify OTP → **create Supabase auth user** → link `auth_user_id` to profile by `license_number` (or create new profile if no match) → set `subscriptions.status=active` → redirect to `/user/<profiles.id>`. |
+
+Numbered user-visible flow:
+1. Contractor completes subscription on website (checkout UI wired later).
+2. Checkout captures **email, license number, name, city**, and related context.
+3. Payment completes → `completePostCheckout` runs (step 1 above).
+4. OTP verified → `verifyOtpAndLinkProfile` runs (step 2 above).
+5. Contractor lands on `/user/<profiles.id>` agent chat.
+
+**v1 testing without checkout UI:** Admin dashboard **“Simulate subscription”** action (or dev-only `simulatePostCheckout` server fn) accepts license + email + name + city, skips payment, and runs `completePostCheckout` → OTP flow. This is how Phase 1 exit criteria (“contractor can OTP-login”) is tested before checkout routes exist.
+
+### 2. Account creation & auth (OTP-only)
+
+**Admin kickoff (pre-auth):**
+- Creates `profiles` + `websites` stub only — **`auth_user_id` = null**.
+- Admin session accesses `/user/<user-id>` via admin impersonation (service-role); contractor has no login yet.
+
+**Post-checkout (contractor auth):**
+- Auth user created only inside `verifyOtpAndLinkProfile` (after OTP verify), never in `completePostCheckout`.
+- Link to existing `profiles` row by `license_number` if present (`auth_user_id` null); else create new profile.
+- On link: set `profiles.email` from checkout context; enforce unique **`(license_number, email)`** composite.
+- Lovable email-OTP + Supabase Auth session; no passwords.
+
+**Identity policy (G3):**
+- `license_number` UNIQUE → one business profile per license.
+- One `auth_user_id` per profile (one contractor login per license).
+- Checkout email becomes `profiles.email` at activation.
+- Login with license/email must match the activated `(license_number, email)` pair.
+
+**Admin impersonation (pre-auth kickoff):**
+- `adminImpersonateUser(profileId)` sets httpOnly cookie `obra_impersonate_profile_id` alongside admin session.
+- Server functions validate admin session + impersonation cookie; use service role for reads/writes scoped to that `profiles.id`.
+- Impersonation does **not** create a contractor Supabase session; cookie cleared on admin logout.
+- Contractor cannot access `/user/<id>` until post-checkout OTP completes.
+
+**Edge cases:**
+- License not found at login → “Subscribe to get started.”
+- License found but `auth_user_id` null → “Complete subscription to activate account.”
+- License already activated, checkout with different email → reject at `completePostCheckout`.
+- OTP expired → retry with rate limit.
+- Admin re-kickoff on existing license → resume website flow, don’t duplicate profile.
+
+### 3. Agent onboarding chat (`/user/<user-id>`)
+
+**UX target (GPT-5.5 via Lovable AI):** streaming tokens, **markdown rendering**, **rich text**, **scroll behavior** (auto-scroll to latest; preserve position on history load), **mobile chat layout**, **real-time tool-call status streaming** in chat (e.g. “Searching Yelp…”, “Generating variant 1…”, progress %), stop button, retry. **Inline structured widgets** for onboarding fields.
+
+**Onboarding fields (agent must collect before generation):**
+
+| Field | Input type | Notes |
+|---|---|---|
+| Registered business name | Text (widget or chat) | Pre-filled from admin kickoff when set |
+| License number | Text | Pre-filled from admin kickoff; unique business key |
+| **Trade / CSLB classification** | Select (e.g. C-33, C-36, B) | Required for Firecrawl + BUSINESS-CASE enrichment |
+| Services offered | Multi-select + free text | Trade-specific defaults |
+| Theme | Light / Dark | Inline widget |
+| Primary color | Color picker (hex) | Optional — agent assigns default if skipped |
+| Look & feel | Professional / Funky / Modern | Inline widget |
+| Location | **California city picker** | v1 CA-only |
+
+**Look & feel prompt profiles (agent system context):**
+
+- **Professional:** restrained typography, navy/slate palette, credentials-forward hero, formal copy, minimal motion.
+- **Funky:** bold colors, playful headings, asymmetric layouts, energetic microcopy.
+- **Modern:** clean sans, generous whitespace, card-based sections, subtle gradients, contemporary contractor SaaS aesthetic.
+
+**Memory model:**
+- `conversations` + `messages` tables (full transcript).
+- `onboarding_state` JSON on `websites` for structured fields extracted so far.
+- **Journal artifact:** after every **10 messages (user + assistant combined, per `conversation_id`)**, append a new summary section to `journal-<license-number>.md` in **Supabase Storage** (`journals/` bucket) — first-class artifact loaded with system prompt + tool registry each turn. Counter is cumulative per conversation; license-number change case ignored (G9).
+- Resume: on return, agent reads `onboarding_state` + latest journal + last summary → continues where left off.
+
+**File picker (chat, media edit, gallery — same allowed formats):**
+- **Images:** png, jpg, jpeg, webp, hevc
+- **Video:** mp4, gif
+- Upload to Supabase Storage; pass URLs to agent tools.
+
+**Edge cases:**
+- User skips required field → agent re-asks; block generation until complete.
+- User changes answers mid-flow → update structured state; invalidate prior generated variants.
+- User closes tab → state persisted; resume on next login.
+- Agent timeout / API error → retry UI; message marked failed.
+
+### 4. Enrichment (post-collection, pre-generation)
+
+**Goal:** Populate contractor profile to the **full BUSINESS-CASE enrichment schema** (113 columns per `BUSINESS-CASE.md` §5) using **Firecrawl API**. **v1 geography: California only.**
+
+**Firecrawl operator behavior:**
+- Agent calls deterministic tool `firecrawl_scrape` (not free-form fetch).
+- Runs as **sequential background jobs** (one platform/step per job) with **progress %** shown to user (e.g. “Enriching… 42%”).
+- Tool builds **custom deep-search extraction instructions** from onboarding inputs: registered business name, license number, trade/classification, CA city, services offered.
+- Instructions target all BUSINESS-CASE sections: CSLB deep pull, Google Business, Yelp, BuildZoom, Angi, Thumbtack, Facebook, Instagram, BBB, Houzz, HomeAdvisor, Nextdoor, aggregates.
+- Firecrawl responses parsed into `contractor_profiles.enrichment_json` (113-column schema).
+- `research_status` on `contractor_profiles`: `complete` | `partial` | `failed` | **`no_results_found`**
+- **`websites.research_status`** mirrors `contractor_profiles.research_status` so UI/admin can show enrichment state on the website record without joining (G6). When deep search finds nothing, both rows show `no_results_found` and agent informs user honestly. Both update atomically when an enrichment job chain completes. `site_generation` job failures do **not** change `research_status`.
+
+**G6 explained:** `contractor_profiles.research_status` is the enrichment source of truth. `websites.research_status` mirrors it so admin dashboard and `/user` UI can read enrichment state from the website row without a join.
+- **Review/legal compliance (BUSINESS-CASE):** reviewer last names stripped to first-initial; source badges on review cards; only publicly visible data scraped.
+- Agent may only cite enrichment fields present in `enrichment_json`.
+
+**Pipeline:**
+
+```mermaid
+sequenceDiagram
+  participant Agent
+  participant JobQueue as background_jobs
+  participant FirecrawlTool as firecrawl_scrape
+  participant Firecrawl as Firecrawl API
+  participant DB as Supabase
+
+  Agent->>JobQueue: enqueue sequential platform jobs
+  loop Each platform
+    JobQueue->>FirecrawlTool: deep search step
+    FirecrawlTool->>Firecrawl: scrape + extract
+    Firecrawl-->>FirecrawlTool: partial data
+    FirecrawlTool->>DB: merge into enrichment_json
+    JobQueue-->>Agent: progress % update
+  end
+  FirecrawlTool->>DB: final research_status
+```
+
+**Edge cases:**
+- Ambiguous business name (collision) → agent asks user to confirm correct entity (Yelp URL / city).
+- Scrape blocked (Facebook, rate limits) → store `research_status=partial`, continue with user-provided data.
+- No web presence / deep search empty → `research_status=no_results_found`; generation uses onboarding inputs only with neutral copy.
+- Invalid license → flag in admin; don’t block preview but show “unverified license” internally.
+
+### Background job runner architecture (G7)
+
+**Problem:** Firecrawl enrichment and site generation exceed HTTP timeouts. Jobs run sequentially, report progress %, and stream status to chat in real time (G13).
+
+```mermaid
+flowchart TD
+  AgentTool["Agent calls firecrawl_scrape or generateVariants"] --> Enqueue["Insert job chain into background_jobs"]
+  Enqueue --> Return["Return immediately to agent"]
+  Runner["Job runner on Cloudflare"] --> Claim["Claim next eligible job in chain"]
+  Claim --> Execute["Execute handler server-side"]
+  Execute --> Update["Update progress_pct + status_message"]
+  Update --> Realtime["Supabase Realtime broadcasts to chat UI"]
+  Execute --> Complete{Last in chain?}
+  Complete -->|yes| Mirror["Set research_status on contractor_profiles + websites"]
+  Complete -->|no| Claim
+```
+
+**`background_jobs` extended columns:** `chain_id`, `sequence_index`, `platform`, `status_message`, `payload_json`, `error_message`, `idempotency_key`, `attempts`/`max_attempts`, `locked_at`/`locked_by`, `started_at`/`completed_at` (in addition to existing `id`, `website_id`, `job_type`, `status`, `progress_pct`, `result_json`).
+
+**Enqueue pattern:**
+- `firecrawl_scrape` does **not** call Firecrawl inline. Creates one `chain_id` + N `enrichment_platform` jobs (BUSINESS-CASE platform order: CSLB → Google → Yelp → …).
+- `generateVariants` creates one `site_generation` job chain.
+- Agent receives chain id immediately; tells user enrichment/generation started.
+
+**Runner (Cloudflare Worker or scheduled server function):**
+1. Claim next job where `status=pending` AND (`sequence_index=0` OR all jobs in same `chain_id` with lower `sequence_index` are `completed`).
+2. Optimistic lock: `UPDATE … WHERE status=pending AND locked_at IS NULL`.
+3. Execute: enrichment calls Firecrawl per platform; generation writes 2 `website_versions`.
+4. Update `progress_pct` + `status_message` incrementally during execution.
+5. On step complete: merge into `contractor_profiles.enrichment_json`; advance chain.
+6. On enrichment chain complete: compute final `research_status`; write to **both** `contractor_profiles` and `websites`.
+7. On failure after retries (`max_attempts=3`, exponential backoff): mark job `failed`; set `research_status=partial` or `failed`.
+
+**Real-time progress (G13):**
+- **Primary:** Supabase Realtime subscription on `background_jobs` filtered by `website_id` → chat UI tool-status bubbles.
+- **Fallback:** `getJobProgress` polling on reconnect.
+- **Agent SSE** (`sendAgentMessage`) streams LLM tokens only — does **not** duplicate job status (avoids double bubbles).
+
+**Idempotency:** `idempotency_key = hash(website_id + job_type + chain_version)`. Re-trigger cancels pending jobs in prior chain (`status=cancelled`) and starts new `chain_id`.
+
+### 5. Website generation (2 variants)
+
+**User sees:** “We’re building your sites…” with progress % → two variant cards in inline preview panel → select one → approve or edit.
+
+**Aesthetic & UX requirements (non-negotiable):**
+- Generated sites must follow established UI/UX principles: clear visual hierarchy, readable typography scale, sufficient contrast (WCAG AA), consistent spacing, mobile-first responsive layout, accessible focus states, purposeful whitespace.
+- Agent selects components from the **UI Component Library** (see § UI Component Library) — never ad-hoc unstyled markup.
+- Primary color from onboarding (or agent-assigned default) applied consistently across CTAs, accents, and links.
+- Light/dark theme choice drives background, text, and card surface tokens.
+
+**Anti-hallucination, persona-first design & variant uniqueness:**
+- **Persona-first (system prompt):** agent must recursively understand the contractor’s persona from first principles (trade, service area, enrichment data, look-and-feel) and design a site that **strictly caters to that persona** — not a generic template.
+- Site copy grounded in `enrichment_json` or user inputs only — never invent ratings, reviews, license details, or service claims.
+- If a field is missing, omit or use neutral placeholder copy — never fabricate.
+- **Two variants must be visually distinct** — not two similar layouts. Enforced by deterministic `variant_key` using orthogonal dimensions (hero layout, section order, typography, palette from primary color).
+- **Variant selection:** user previews both inline, explicitly **selects one**; unselected variant saved to history (`status=discarded`, not deleted).
+- **Previous designs:** hamburger menu → “Previous designs” lists all past variants (selected + discarded) for this license/user; user can revisit but not auto-replace live site without re-approve.
+- Edge cases: user previews A, selects B, edits B, then wants A → can switch from Previous designs → re-approve; regenerate one variant only; reject both → adjust look-and-feel and regenerate pair.
+
+**Technical approach:**
+- Agent/tool pipeline outputs `site_config` JSON (sections, copy, colors, theme, reviews, services, contact, media refs, `component_ids[]` from library).
+- Template renderer: [`src/components/site-renderer/`](src/components/site-renderer/) reads config + resolves library components → React page.
+- Generate **two variants** per job: different `variant_profile` (layout mood, palette, typography, hero layout) derived from look-and-feel + primary color + deterministic hash salt.
+- Store as `website_versions` rows: `version_number`, `config_json`, `variant_key`, `status` (`draft` | `selected` | `discarded` | `live`).
+
+**Edge cases:**
+- Generation failure on one variant → show single variant + “regenerate second option”.
+- User rejects both → agent conversation branch to adjust look-and-feel and regenerate.
+- Large images → optimize on upload; max file size enforced.
+
+### 6. Preview, approve, edit
+
+**Preview (inline within `/user/<user-id>`):**
+- Draft variants render in an **inline viewer panel** beside/below the agent chat — not a separate fullscreen route.
+- User selects a variant → enters preview mode within the same `/user/<user-id>` workspace.
+- Mobile: stacked chat + preview with toggle.
+
+**Approve:**
+- Set `websites.active_version_id`, `status=live`.
+- `publishToLp` publishes to `/lp/$websiteId` (public, no auth). Inline preview config becomes live.
+
+**Edit flow:**
+1. User clicks Edit → **agent widget** opens (in chat stream) with 6 categories (multi-select):
+   - Content, Logos, Media, Reviews, Contact information, Service form fields
+2. Selected categories **unlock on the inline preview**: matching elements show **pencil icon**; click opens **inline editor** (contenteditable for text; upload UI for logos/media).
+3. Per category behaviors:
+
+| Category | User capability |
+|---|---|
+| Content | Pencil → inline text edit OR “ask AI” suggestion via same agent |
+| Logos | Pencil → upload replacement / remove |
+| Media | Pencil → upload **png, jpg, jpeg, webp, hevc, mp4, gif**; gallery uses same formats; mobile playback for mp4/gif |
+| Reviews | Add text quote OR keep scraped (with BUSINESS-CASE attribution) |
+| Contact | Edit / hide / custom contact block |
+| Service form | Customize lead form fields from defaults |
+
+4. After edits → user **returns to inline preview mode** to review before approve.
+5. User **can go back** and change which edit categories are unlocked (re-open agent widget).
+6. Each edit creates `website_edit_events` audit row.
+
+**Edge cases:**
+- Edit after approve → new draft version; re-approve to update live `/lp`.
+- Media formats outside allowed set → reject with message.
+- User changes edit categories mid-session → previously unlocked sections lock/unlock accordingly.
+
+### 7. `/login` and `/user/<user-id>`
+
+- **`/user/<user-id>`** — `user-id` = `profiles.id` (not `auth.users.id`).
+- **`/login`:** contractor enters license **or** email → OTP → `/user/<profiles.id>`.
+- **`/user/<profiles.id>`:** agent chat + inline preview + hamburger (Previous designs, live site link, logout).
+- **Admin phase:** admin accesses via `adminImpersonateUser` cookie before contractor subscribes.
+- **Contractor phase:** after post-checkout OTP, contractor accesses same workspace with own Supabase session.
+- Access control: contractors via RLS (`auth.uid() = profiles.auth_user_id`); admin via impersonation cookie + service role in server functions.
+
+### 8. `/admin` — operations dashboard
+
+**Auth:** server session after POST login; credentials from env vars with hardcoded fallback only in dev (never commit production secrets).
+
+**Screens v1:**
+
+| Screen | Data |
+|---|---|
+| Users | profiles + auth link status + starter subscription |
+| Websites | id, license, research_status, active version, public URL |
+| Conversations | full message history |
+| Edit history | `website_edit_events` timeline |
+| **Leads** | form submissions scoped by LP + license + user_id |
+| Kickoff | business name + license + trade → **DB row only** → admin → `/user/<user-id>` |
+
+**Admin kickoff behavior:**
+- Creates **DB-only** `profiles` row (`auth_user_id` null) + `websites` stub keyed by `license_number`.
+- Admin runs agent flow at `/user/<user-id>` (impersonation) until pitch.
+- On publish, website saved against `license_number`.
+- Contractor activates via **post-checkout** OTP link (Journey B).
+
+**Edge cases:**
+- Duplicate license at kickoff → resume existing flow.
+- Pagination on all list screens once >50 rows.
+
+---
+
+## Data model (Supabase)
+
+New migrations under [`supabase/migrations/`](supabase/migrations/) (apply each in Lovable):
+
+```mermaid
+erDiagram
+  profiles ||--o{ subscriptions : has
+  profiles ||--o{ websites : owns
+  profiles ||--o{ conversations : has
+  websites ||--o{ website_versions : has
+  websites ||--o{ website_edit_events : has
+  conversations ||--o{ messages : contains
+  websites ||--o| contractor_profiles : enriches
+
+  profiles {
+    uuid id PK
+    uuid auth_user_id FK_nullable
+    text license_number UK
+    text email
+    text full_name
+    text city
+    text trade
+    timestamptz created_at
+  }
+  subscriptions {
+    uuid id PK
+    uuid user_id FK
+    text plan
+    text status
+  }
+  contractor_profiles {
+    uuid id PK
+    uuid website_id FK
+    text business_name
+    text license_number
+    text city
+    text state
+    jsonb enrichment_json
+    text research_status
+  }
+  websites {
+    uuid id PK
+    uuid user_id FK
+    text status
+    text research_status
+    uuid active_version_id
+    jsonb onboarding_state
+  }
+  website_versions {
+    uuid id PK
+    uuid website_id FK
+    int version_number
+    jsonb config_json
+    text variant_key
+    text status
+  }
+  conversations {
+    uuid id PK
+    uuid user_id FK
+    uuid website_id FK
+    text phase
+    text summary
+  }
+  messages {
+    uuid id PK
+    uuid conversation_id FK
+    text role
+    text content
+    jsonb tool_calls
+    jsonb attachments
+  }
+  website_edit_events {
+    uuid id PK
+    uuid website_id FK
+    uuid version_id FK
+    text category
+    jsonb patch_json
+  }
+  background_jobs {
+    uuid id PK
+    uuid website_id FK
+    uuid chain_id
+    text job_type
+    int sequence_index
+    text platform
+    text status
+    int progress_pct
+    text status_message
+    jsonb payload_json
+    jsonb result_json
+    text error_message
+    text idempotency_key
+    int attempts
+    int max_attempts
+    timestamptz locked_at
+    text locked_by
+    timestamptz created_at
+    timestamptz started_at
+    timestamptz completed_at
+  }
+  leads {
+    uuid id PK
+    uuid website_id FK
+    text license_number
+    uuid user_id FK
+    jsonb form_data
+    timestamptz created_at
+  }
+```
+
+**`/lp` lead capture:** service form submissions on live sites write to `leads` table, scoped by `website_id`, `license_number`, and `profiles.id` (via `user_id` FK).
+
+**Identity constraints:** `profiles.license_number` UNIQUE; `UNIQUE(license_number, email)` WHERE `auth_user_id IS NOT NULL`; `websites.user_id` → `profiles.id`.
+
+**Background jobs:** enrichment and generation run as queued job chains (see § Background job runner architecture). UI receives progress via **Supabase Realtime** on `background_jobs`; `getJobProgress` as reconnect fallback.
+
+**Journal artifacts:** stored **only** in Supabase Storage at `journals/journal-<license-number>.md`; loaded alongside system prompt + tool registry on each agent turn.
+
+**RLS strategy:**
+- `profiles`, `websites`, `conversations`, `messages`: contractor read/write where `auth.uid() = profiles.auth_user_id` (join through `profiles.id`).
+- DB-only kickoff rows (`auth_user_id` null): no contractor RLS access; admin accesses via server functions with service role + impersonation cookie.
+- Public: read `website_versions` where parent `websites.status = live` (for `/lp/:id`).
+- Admin operations: **server functions with service role only** (never expose admin data to anon client).
+- `leads`: public insert on live sites via `submitLead` server fn; contractor read own leads via RLS.
+
+**Storage buckets:**
+- `chat-attachments` (private, user-scoped)
+- `site-media` (public read for live sites, owner write)
+- `journals` (private, service-role write; agent read via server fn)
+
+---
+
+## Architecture
+
+### Route map (new)
+
+| Route | Purpose |
+|---|---|
+| `/` | Marketing LP + enquiry flow (unchanged) |
+| `/login` | License or email → OTP auth |
+| `/user/$userId` | Agent chat + inline preview workspace |
+| `/lp/$websiteId` | Public live site |
+| `/admin` | Admin login + dashboard |
+| `/admin/*` | Admin sub-screens |
+
+*Deferred routes:* `/checkout`, `/onboarding/account`, `/preview/$versionId` (preview is inline in `/user/$userId`).
+
+### Server functions (extend pattern in [`src/lib/plan-inquiry.functions.ts`](src/lib/plan-inquiry.functions.ts))
+
+| Function | Auth | Purpose |
+|---|---|---|
+| `sendOtp` / `verifyOtp` | public | Lovable email-OTP login (license or email) for returning contractors |
+| `completePostCheckout` | payment webhook / stub / admin simulate | Post-payment: persist checkout context, create pending subscription, **send OTP** — does not create auth user |
+| `verifyOtpAndLinkProfile` | public (post-checkout OTP page) | Verify OTP → create auth user → link profile by license → activate subscription → redirect `/user/<profiles.id>` |
+| `simulatePostCheckout` | admin / dev | v1 test path: skip payment UI, run `completePostCheckout` with license + email + name + city |
+| `adminKickoff` | admin | Create license-keyed profile + website stub → `/user/<profiles.id>` |
+| `adminImpersonateUser` | admin | Set impersonation cookie scoped to `profiles.id` for kickoff workspace access |
+| `sendAgentMessage` | user/admin | Stream GPT-5.5 agent tokens via SSE; load journal + prompts |
+| `firecrawl_scrape` | user/admin | Enqueue enrichment job chain (does not call Firecrawl inline) |
+| `getJobProgress` | user/admin | Poll job chain progress % (Realtime reconnect fallback) |
+| `generateSiteVariants` | user/admin | Enqueue `site_generation` job chain → 2 distinct `website_versions` |
+| `publishToLp` | user/admin | Publish approved version to live `/lp/$websiteId` |
+| `approveWebsiteVersion` | user | Set live + publish via `publishToLp` |
+| `applyWebsiteEdits` | user | Patch config + audit |
+| `submitLead` | public | Lead form on `/lp` → `leads` table |
+| `adminLogin` | admin session | Operator auth |
+
+### Agent system prompts & tool registry
+
+**Design principle:** Agent reasoning is LLM-driven; all side effects go through **deterministic, typed tools** registered in a central tool registry. System prompts define role, guardrails, and when to call each tool — never embed scrape/publish logic in prompt text alone.
+
+**System prompt layers:**
+1. **Base agent prompt** — Obra onboarding assistant; tone; step order; required fields before generation.
+2. **Persona-first design prompt** — recursively understand contractor persona from enrichment + onboarding; design site that strictly caters to that persona from first principles.
+3. **Look-and-feel profile prompt** — Professional / Funky / Modern design constraints (injected per user choice).
+4. **Grounding prompt** — “Only use data from `enrichment_json`, `onboarding_state`, and user messages. Never invent reviews, licenses, ratings, or business facts. Never produce two similar website variants.”
+5. **Tool-use prompt** — Enumerates available tools, input schemas, and call ordering (onboarding → scrape → generate → inline preview → publish).
+
+**First-class agent artifacts (loaded every turn):**
+- System prompt (layers above)
+- Tool registry (Zod schemas)
+- `journal-<license-number>.md` (rolling summary; updated every 10 messages)
+
+**Model:** GPT-5.5 via Lovable AI (configured by Lovable, same as `FIRECRAWL_API_KEY`).
+
+**Deterministic tool registry:**
+
+| Tool | Type | Purpose |
+|---|---|---|
+| `saveOnboardingField` | write | Persist structured onboarding field to `onboarding_state` |
+| `firecrawl_scrape` | external | Firecrawl API operator — custom extraction instructions from user details; returns parsed 113-col schema |
+| `getEnrichmentSummary` | read | Return grounded summary from `enrichment_json` only |
+| `searchComponentLibrary` | read | Query `ui-components/manifest.json` by section type, mood, trade (returns block `id`, `storage_key`, mood/trade tags) |
+| `composeSiteConfig` | write | Assemble `site_config` JSON from enrichment + component picks + theme + primary color |
+| `generateVariants` | write | Produce 2 distinct `website_versions`; unselected → `discarded` in history |
+| `publishToLp` | write | Publish approved version to live `/lp/$websiteId` |
+| `suggestCopy` | read | AI copy suggestion for a section — output must cite source field from enrichment |
+| `applyConfigPatch` | write | Apply user edit-category patches; audit to `website_edit_events` |
+
+**Tool contract rules:**
+- Every tool has a Zod input/output schema; agent cannot call tools with free-form payloads.
+- `firecrawl_scrape` and `publishToLp` are server-only; API keys never exposed to client.
+- Tool results are persisted before agent references them in user-facing messages.
+- Failed tool calls surface explicit errors to user — agent must not mask failures with fabricated success.
+
+### UI Component Library
+
+**Source:** Marketing Blocks library (~2,537 HTML blocks) in **Lovable Cloud storage** (private bucket `ui-components`, prefix `marketing-blocks/`). Full block HTML is not stored in git.
+
+**Index in repo:** [`ui-components/manifest.json`](ui-components/manifest.json) — categories, block filenames, archive paths. Bundled at build time for `searchComponentLibrary` on Cloudflare.
+
+**Integration:** Server-only catalog ([`src/lib/agent/catalog.server.ts`](src/lib/agent/catalog.server.ts)) queries manifest by section category, mood tags (inferred from filename), and trade (category priority map). Agent queries via `searchComponentLibrary` — never loads full library into context.
+
+**Render integration (Bucket 4+):** `site-renderer` fetches block HTML from storage by `storage_key`; maps `id` (`category/block_filename`) to rendered section.
+
+### Agent tool-use design (summary)
+
+Agent receives the deterministic tool registry above (not free-form HTML generation or direct HTTP calls). This keeps rendering predictable, enrichment grounded, and deploys auditable — aligns with BUSINESS-CASE “config injection” factory model.
+
+---
+
+## Phase plan
+
+### Phase 0 — Foundation (prerequisite)
+
+- Apply existing `plan_inquiries` migration + all new migrations in Lovable.
+- Enable Lovable email-OTP + Custom Emails + install `@lovable.dev/email-js`.
+- Add env vars: `LOVABLE_API_KEY`, `FIRECRAWL_API_KEY`, `ADMIN_USERNAME`, `ADMIN_PASSWORD`. Lovable configures GPT-5.5 access.
+- Add UI component index: [`ui-components/manifest.json`](ui-components/manifest.json) in repo; block archives in Lovable Cloud storage bucket `ui-components`.
+- Define agent system prompts, tool registry, journal artifact pattern (`journal-<license-number>.md` in `journals/` bucket).
+- Spike: background job runner (chain schema, Cloudflare worker) + Realtime progress; GPT-5.5 streaming via Lovable AI.
+
+### Phase 1 — Admin kickoff + OTP auth + user workspace shell
+
+**Ships:** `/admin` kickoff (DB-only profile), `adminImpersonateUser`, post-checkout flow (`completePostCheckout` + `verifyOtpAndLinkProfile` + `simulatePostCheckout` stub), `/login` OTP auth, `/user/<profiles.id>` shell (chat + preview panels), `background_jobs` runner with Realtime progress.
+
+**Exit criteria:** admin can kickoff by license → impersonate → land on `/user/<profiles.id>`; admin can simulate subscription → contractor completes OTP → OTP-login reaches same workspace.
+
+### Phase 2 — Agent onboarding chat
+
+**Ships:** full chat UI (streaming, markdown, rich text, scroll, mobile layout, inline widgets), onboarding collection, journal every 10 messages, conversation persistence.
+
+**Exit criteria:** all required fields collected; journal artifact written; conversation replayable in admin.
+
+### Phase 3 — Enrichment + dual generation + inline preview/approve
+
+**Ships:** sequential Firecrawl jobs (CA-only, deep search, `no_results_found`), component-library site gen (persona-first), 2 distinct variants, inline preview in `/user/<id>`, variant selection + Previous designs history, approve → `/lp/:id`.
+
+**Exit criteria:** admin kickoff → live public URL; discarded variants in history.
+
+### Phase 4 — Edit categories + leads + admin records
+
+**Ships:** agent-widget edit categories, pencil inline editors, return-to-preview flow, `/lp` lead capture to DB, full admin records (users, sites, conversations, edits, leads).
+
+**Exit criteria:** edit flow complete; leads visible in admin scoped by license/LP.
+
+---
+
+## Implementation sequence (5 buckets, single PR)
+
+All buckets ship in **one PR** on the same branch. Implement in order — each bucket builds on the prior. Buckets are sized for manageable agent load per turn, not separate releases.
+
+| Bucket | Scope | Key deliverables | Maps to |
+|---|---|---|---|
+| **1 — Foundation** | DB schema, storage, env, shared infra | All Supabase migrations (`profiles`, `websites`, `contractor_profiles`, `background_jobs` chain schema, `conversations`, `messages`, `leads`, etc.); storage buckets (`chat-attachments`, `site-media`, `journals`); RLS policies; env vars; `ui-components/manifest.json` index + cloud storage bucket; agent system prompt + tool registry skeleton (Zod schemas, no UI yet) | Phase 0 |
+| **2 — Auth & admin entry** | Operator login, kickoff, impersonation, contractor OTP | `/admin` login + kickoff UI; `adminKickoff`, `adminLogin`, `adminImpersonateUser`; `/login` OTP flow (`sendOtp`, `verifyOtp`); post-checkout server fns (`completePostCheckout`, `verifyOtpAndLinkProfile`, `simulatePostCheckout`); OTP verification page | Phase 1 (auth half) |
+| **3 — Workspace shell & job runner** | `/user` layout, background jobs, Realtime progress | `/user/$userId` route shell (chat panel + preview panel placeholders); `background_jobs` Cloudflare runner (claim, execute, retry); Supabase Realtime subscription for job progress; `getJobProgress` fallback; `firecrawl_scrape` + `generateSiteVariants` enqueue only | Phase 1 (shell + jobs) |
+| **4 — Agent chat, enrichment & generation** | Full chat UX, journal, Firecrawl chains, variants, preview, publish | `sendAgentMessage` SSE streaming; chat UI (markdown, widgets, mobile, tool-status bubbles); onboarding field collection + `saveOnboardingField`; journal write every 10 msgs to Storage; enrichment job handlers (Firecrawl per platform, `research_status` mirror); `site_generation` handler → 2 variants; inline preview + variant selection + Previous designs; `approveWebsiteVersion` + `publishToLp` → `/lp/$websiteId` + `site-renderer` | Phase 2 + Phase 3 |
+| **5 — Edit flow, leads & admin records** | 6-category edits, LP leads, admin dashboard completeness | Agent-widget edit categories + pencil inline editors; `applyWebsiteEdits` + `applyConfigPatch`; `/lp` lead form + `submitLead`; admin screens (users, websites, conversations, edits, leads, job chains); media upload validation (G1/G10 formats) | Phase 4 |
+
+**Per-bucket exit check (before moving on):**
+1. Migrations apply cleanly in Lovable; types generated.
+2. Admin can kickoff → impersonate → reach `/user/<profiles.id>`; simulate subscription → OTP → login works.
+3. Job chain enqueues and Realtime progress renders in workspace shell.
+4. Admin kickoff → onboarding → enrichment → 2 variants → approve → live `/lp/:id`.
+5. Edit flow works; leads appear in admin; all admin list screens paginate.
+
+---
+
+## Edge cases & failure modes (cross-cutting)
+
+| Scenario | Behavior |
+|---|---|
+| Checkout / payment UI | **Deferred** — LP enquiry flow unchanged; post-checkout flow tested via `simulatePostCheckout` |
+| License not found at login | “Subscribe to get started.” |
+| License found but `auth_user_id` null | “Complete subscription to activate account.” |
+| License already activated, new checkout with different email | Reject at `completePostCheckout`: “License already activated — log in instead.” |
+| OTP expired / invalid | Retry with rate limit; no password fallback |
+| Session expiry | `/login` → license/email → OTP |
+| Scraping finds nothing | `research_status=no_results_found` on both `contractor_profiles` and `websites`; no hallucinated fill |
+| Scraping partial | `research_status=partial`; agent explains gaps |
+| Agent cites missing data | Omit or neutral copy; never invent |
+| Two variants too similar | Regenerate with forced orthogonal layout (persona-first prompt) |
+| Unselected variant | Saved as `discarded` in history; accessible via Previous designs |
+| User switches variant after selection | Via Previous designs → re-approve required for live `/lp` |
+| Primary color skipped | Agent assigns default; stored in `onboarding_state` |
+| User idle mid-chat | Persist state; resume on OTP login |
+| Edit categories changed mid-session | Lock/unlock pencil icons accordingly |
+| After edits | Return to inline preview before approve |
+| Media upload | **Images:** png, jpg, jpeg, webp, hevc. **Video:** mp4, gif. Same for chat, media edit, gallery. Reject others. Mobile playback for mp4/gif. |
+| Lead form submit on `/lp` | → `leads` table scoped by website_id + license_number + profiles.id |
+| Admin hardcoded creds leaked | Rotate via env; never commit `Batman@123` |
+| Migration not applied | All DB features fail — apply each migration in Lovable (per `cursor.md`) |
+| `/lp/:id` on non-live site | 404 unless owner preview token |
+
+---
+
+## Non-goals for v1 (explicit)
+
+- Checkout UI / Stripe payment pages (deferred; **post-checkout server flow + `simulatePostCheckout` stub are in scope**)
+- Pro plan flow (Starter offering only in v1)
+- Custom domains per contractor
+- SMS/Twilio lead delivery (BUSINESS-CASE T3)
+- Multi-thread chat / team seats
+- SEO management promises
+- Chatbot editing on live site post-approve
+- Password-based auth / forgot-password flows
+- Geography outside California
+
+---
+
+## Success metrics
+
+- Time from admin kickoff to live `/lp` URL (target: same day)
+- Onboarding completion rate (% reaching generation)
+- Variant approval rate without edit
+- Edit category usage distribution
+- Enrichment `research_status` distribution (complete / partial / no_results_found)
+- OTP login success rate
+
+---
+
+## Implementation starting point (when approved)
+
+Leverage existing patterns:
+
+- Server functions: [`src/lib/plan-inquiry.functions.ts`](src/lib/plan-inquiry.functions.ts)
+- Forms/dialogs: [`src/components/PlanPurchaseDialog.tsx`](src/components/PlanPurchaseDialog.tsx)
+- Auth middleware: [`src/integrations/supabase/auth-middleware.ts`](src/integrations/supabase/auth-middleware.ts)
+- UI kit: [`src/components/ui/`](src/components/ui/)
+
+First code PR after plan approval: **Phase 0 + Phase 1** (admin kickoff, impersonation, post-checkout flow with payment stub, OTP auth, `/user/<profiles.id>` shell, DB migrations, background job runner). Apply each new migration in Lovable before testing DB-dependent features.

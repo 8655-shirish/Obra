@@ -1,0 +1,208 @@
+{
+  "brand": "True Coat",
+  "variant": "California house issue",
+  "purpose": "Exclusive local generated media for the canonical /templates/painter5 fictional painter template preview.",
+  "rightsStatus": "verification-required-before-publication",
+  "rightsNote": "Generated through the authenticated Higgsfield account for this project; provider usage terms were not independently verified. Keep the route noindex and verify rights before publication.",
+  "truthNote": "All scenes are illustrative generated template media, not completed client projects. Several outputs visibly retain weathering, synthetic marks, or generative deviations documented per asset; never market them as verified work.",
+  "assets": {
+    "after.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "a7904ab4-fb4c-416f-b3a3-b0163bc31bd4",
+      "prompt": "Premium editorial Southern California painting-contractor scene in warm white, sun-faded blue, terracotta, eucalyptus, sandstone, and near-black; realistic architecture/craft; no claims, logos, or real client implication.",
+      "bytes": 1067226,
+      "sha256": "8e23ecdff428b5aeeec73e384699be5d95da0869394e461d07d6a836e0b67697",
+      "observedOutput": "Matched-camera sage/ivory/terracotta paint-only edit preserving the source property and perspective."
+    },
+    "before.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "8f70e98e-1b76-4037-b5b1-7d6689c73ccd",
+      "prompt": "Premium editorial Southern California painting-contractor scene in warm white, sun-faded blue, terracotta, eucalyptus, sandstone, and near-black; realistic architecture/craft; no claims, logos, or real client implication.",
+      "bytes": 968667,
+      "sha256": "ee6df312382fe848c261eb81def70202a2f1919641e32c7e58e698d1c8df284f",
+      "observedOutput": "Fixed-camera bungalow source with tired, patched warm-neutral stucco."
+    },
+    "cabinets.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "e07a2ccf-00cb-47c8-8c3c-9763bc7089c4",
+      "prompt": "Premium editorial Southern California painting-contractor scene in warm white, sun-faded blue, terracotta, eucalyptus, sandstone, and near-black; realistic architecture/craft; no claims, logos, or real client implication.",
+      "bytes": 682510,
+      "sha256": "59b1a3f1ed0dc7dc4e79b1db505d2c47286c5d2e5d7f6638f3f32775418bf989",
+      "observedOutput": "Bright architectural kitchen/cabinet scene with pale eucalyptus cabinetry."
+    },
+    "estimate.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "207dd747-3cdf-4645-a856-896a5ab1cb84",
+      "prompt": "Premium editorial Southern California painting-contractor scene in warm white, sun-faded blue, terracotta, eucalyptus, sandstone, and near-black; realistic architecture/craft; no claims, logos, or real client implication.",
+      "bytes": 559261,
+      "sha256": "185a246d6883bc813f4d7e912b72279815f3e944fe3815ff517ce228e06ceb21",
+      "observedOutput": "Wide dusk facade with warm-white stucco, blue trim, glowing windows, and synthetic address numerals."
+    },
+    "exterior-blue.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "7d2500cd-48bb-4ea2-8d9b-954e4ccb551f",
+      "prompt": "Premium editorial Southern California painting-contractor scene in warm white, sun-faded blue, terracotta, eucalyptus, sandstone, and near-black; realistic architecture/craft; no claims, logos, or real client implication.",
+      "bytes": 989051,
+      "sha256": "6034562a081bfc5f06c586751d28859d083b6cf86d8a9d6144eea84d04ebd142",
+      "observedOutput": "Warm-white bungalow with visibly weathered blue trim; used as an illustrative color study, not completed-project proof."
+    },
+    "exterior-sage.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "37e55f91-6ea1-4960-b705-f1c9603dd2a5",
+      "prompt": "Premium editorial Southern California painting-contractor scene in warm white, sun-faded blue, terracotta, eucalyptus, sandstone, and near-black; realistic architecture/craft; no claims, logos, or real client implication.",
+      "bytes": 1213732,
+      "sha256": "2c08c3f7a253e6dd3424ad398b291c0f98039560c4afca69be0f91fddfcda400",
+      "observedOutput": "Illustrative sage siding and warm stucco exterior; some generated surface mottling is visible."
+    },
+    "facade-ivory.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "7e2f43c4-d4c9-4561-a1b0-9514ce452647",
+      "prompt": "Fixed-camera paint-only exterior recolor; preserve camera, property, architecture, roof, windows, doors, tree, landscaping, perspective, shadows, and crop; apply the named ivory, terracotta, or navy schedule only.",
+      "bytes": 942793,
+      "sha256": "677650a86384ed920829368445b6ad8f86ccec836541efa9681e354a7720bcf6",
+      "observedOutput": "Fixed-camera ivory/blue/terracotta facade colorway; source surface texture remains visible."
+    },
+    "facade-navy.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "115846c4-5fea-40f1-971b-8875b9ca1a4a",
+      "prompt": "Fixed-camera paint-only exterior recolor; preserve camera, property, architecture, roof, windows, doors, tree, landscaping, perspective, shadows, and crop; apply the named ivory, terracotta, or navy schedule only.",
+      "bytes": 1245564,
+      "sha256": "8a1d4bb384fe7df64bea4adc1bf01a7b59c4009959f489d83513f2ef69b66a21",
+      "observedOutput": "Fixed-camera deep navy/ivory/terracotta facade colorway."
+    },
+    "facade-terracotta.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "2a346be8-f8f0-430b-b91a-922522c10d0c",
+      "prompt": "Fixed-camera paint-only exterior recolor; preserve camera, property, architecture, roof, windows, doors, tree, landscaping, perspective, shadows, and crop; apply the named ivory, terracotta, or navy schedule only.",
+      "bytes": 1102125,
+      "sha256": "f4d576ae08106cad93729289380a820d0d4455e24b7e30d60dbea46b5b6aafe0",
+      "observedOutput": "Fixed-camera mineral terracotta/ivory/near-black facade colorway."
+    },
+    "faq.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "9d712221-6c2e-4eaf-ba50-1e4078639008",
+      "prompt": "Premium editorial Southern California painting-contractor scene in warm white, sun-faded blue, terracotta, eucalyptus, sandstone, and near-black; realistic architecture/craft; no claims, logos, or real client implication.",
+      "bytes": 553360,
+      "sha256": "08a14c7929ae0613368da25784877265d8a0cc3a00cb0415924ce2f82abba287",
+      "observedOutput": "Consultation/material table with generated plans and unlabeled samples."
+    },
+    "finish.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "0a27a22f-cb07-4683-8416-3870122b205a",
+      "prompt": "Premium editorial Southern California painting-contractor scene in warm white, sun-faded blue, terracotta, eucalyptus, sandstone, and near-black; realistic architecture/craft; no claims, logos, or real client implication.",
+      "bytes": 931311,
+      "sha256": "c03b03d6c377d8c6bcffc05f46c9ad50ee46481d6f232eef6b5fc824b7d15312",
+      "observedOutput": "Painter applying an exterior warm-white finish at ground level."
+    },
+    "hero.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "4617ad45-08a3-4dc3-9756-d734f04b31a0",
+      "prompt": "Premium editorial Southern California painting-contractor scene in warm white, sun-faded blue, terracotta, eucalyptus, sandstone, and near-black; realistic architecture/craft; no claims, logos, or real client implication.",
+      "bytes": 550433,
+      "sha256": "0b3907c273e1a77f7f7c84c919b5d8350d6598547403b65178771e7ad321df8f",
+      "observedOutput": "Sunlit warm-white Spanish-revival facade with weathered blue shutters, terracotta portal, olive trees, and no people."
+    },
+    "hero.mp4": {
+      "provider": "Higgsfield",
+      "model": "Seedance 2.0 Mini",
+      "jobId": "b2177fab-a3f9-4e5b-a506-253bc9c44794",
+      "prompt": "Locked-off California house; only foliage and sunlight move; preserve architecture and camera; no people, vehicles, text, morphing, or audio.",
+      "bytes": 2506773,
+      "sha256": "e01d2a785f48013e1da6ddb8a0cfb58cdec2ef2c7b93d43e720189742f5f09d0",
+      "observedOutput": "Five-second locked-house motion study with moving foliage/light, generated from hero.jpg; provider parameters specify generate_audio=false."
+    },
+    "inspect.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "ca660dd6-b379-4d02-89ee-a290b6b36fbe",
+      "prompt": "Premium editorial Southern California painting-contractor scene in warm white, sun-faded blue, terracotta, eucalyptus, sandstone, and near-black; realistic architecture/craft; no claims, logos, or real client implication.",
+      "bytes": 791174,
+      "sha256": "0b5b5e33323037a8b640f9017e2f76a7881cc30653fc0aeed3ac5066662b39fc",
+      "observedOutput": "Gloved condition inspection beside a visibly worn coating and blue window."
+    },
+    "interior.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "c896e503-8730-4813-891a-9d5784e0ca48",
+      "prompt": "Premium editorial Southern California painting-contractor scene in warm white, sun-faded blue, terracotta, eucalyptus, sandstone, and near-black; realistic architecture/craft; no claims, logos, or real client implication.",
+      "bytes": 798084,
+      "sha256": "b29bb6f61a6fbaa68211f0f5c9822f27caecc3e23e6915e4192981062c3081b7",
+      "observedOutput": "Architectural living room with white plaster, green built-ins, arched blue openings, and visibly distressed generated finish details."
+    },
+    "notes.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "fbd50088-3ac6-4d4b-b09e-caa46db2fc4c",
+      "prompt": "Premium editorial Southern California painting-contractor scene in warm white, sun-faded blue, terracotta, eucalyptus, sandstone, and near-black; realistic architecture/craft; no claims, logos, or real client implication.",
+      "bytes": 463799,
+      "sha256": "7ae928490d6599edc4da7cd75b12f9c1d2650cf65a6071fe56d672b72c04763d",
+      "observedOutput": "Four large unlabeled ivory, sage, terracotta, and navy samples in daylight."
+    },
+    "planning.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "5768835c-c9e8-46e4-a38a-cf0731c1b38f",
+      "prompt": "Premium editorial Southern California painting-contractor scene in warm white, sun-faded blue, terracotta, eucalyptus, sandstone, and near-black; realistic architecture/craft; no claims, logos, or real client implication.",
+      "bytes": 623104,
+      "sha256": "84060e17adb4089db1ddd42418bcebabd21e19f5ec8d5449410de91487360eae",
+      "observedOutput": "Sunlit material-board table with unlabeled color samples and synthetic abstract plan marks."
+    },
+    "prepare.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "836246e8-4eb6-4b62-ada7-8e53b222e4c2",
+      "prompt": "Premium editorial Southern California painting-contractor scene in warm white, sun-faded blue, terracotta, eucalyptus, sandstone, and near-black; realistic architecture/craft; no claims, logos, or real client implication.",
+      "bytes": 850810,
+      "sha256": "c98e9506b5089125c206ca9c463e26bb8a08b76500f98ef77354f1d5b144bf40",
+      "observedOutput": "Painter masking an arched blue window at ground level."
+    },
+    "protect-clean.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "1a9c2817-bca3-4cee-8ebb-1871b2730289",
+      "prompt": "Premium editorial Southern California painting-contractor scene in warm white, sun-faded blue, terracotta, eucalyptus, sandstone, and near-black; realistic architecture/craft; no claims, logos, or real client implication.",
+      "bytes": 788910,
+      "sha256": "73700e133e27f359f4ee41eaaad55228704cb80815044e71678cdb8ff4d8387d",
+      "observedOutput": "Arched room with sofa, floor, and work area protected using canvas and masking paper."
+    },
+    "repair.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "cbecb503-bfc3-4a27-b162-4989b86ed304",
+      "prompt": "Premium editorial Southern California painting-contractor scene in warm white, sun-faded blue, terracotta, eucalyptus, sandstone, and near-black; realistic architecture/craft; no claims, logos, or real client implication.",
+      "bytes": 1046351,
+      "sha256": "6d647761fa2ce4cc0cbd0844fcd14d53526aaa42c57da323e908c039991b04f1",
+      "observedOutput": "Controlled small stucco repair beside terracotta trim."
+    },
+    "reviews.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "5334281e-47bc-467d-8b61-c69d381a9125",
+      "prompt": "Premium editorial Southern California painting-contractor scene in warm white, sun-faded blue, terracotta, eucalyptus, sandstone, and near-black; realistic architecture/craft; no claims, logos, or real client implication.",
+      "bytes": 772622,
+      "sha256": "7f1879c993b9d7ee72a80f65b635d46df9bb0c1119c5360744e45495277beab0",
+      "observedOutput": "Empty reading room; generated books include synthetic spine markings and represent no review or client."
+    },
+    "trim-clean.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "e3801af6-200e-4b76-8115-2913d489a43b",
+      "prompt": "Premium editorial Southern California painting-contractor scene in warm white, sun-faded blue, terracotta, eucalyptus, sandstone, and near-black; realistic architecture/craft; no claims, logos, or real client implication.",
+      "bytes": 716811,
+      "sha256": "08f76558a5d00dc2e454ebe22b3eacd6667f430f0ae031c57beda6e90e6e9b45",
+      "observedOutput": "Warm-white arched entry with terracotta door and a visibly weathered blue horizontal trim band."
+    }
+  }
+}

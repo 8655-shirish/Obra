@@ -1,0 +1,199 @@
+{
+  "brand": "True Coat",
+  "variant": "Eggshell / Surface study",
+  "purpose": "Exclusive local generated media for the canonical /templates/painter6 fictional painter template preview.",
+  "rightsStatus": "verification-required-before-publication",
+  "rightsNote": "Generated through the authenticated Higgsfield account for this project; provider usage terms were not independently verified. Keep the route noindex and verify rights before publication.",
+  "truthNote": "All scenes are illustrative generated template media, not completed client projects. Role prompts and local technical integrity were verified; generated imagery must not be presented as verified workmanship or testimonials.",
+  "assets": {
+    "hero.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "3429edfe-19b5-4e98-9295-2c854536a832",
+      "prompt": "Quiet luxury residential painting contractor hero photograph, 21:9 landscape. An enormous immaculate warm-white eggshell plaster wall occupies the right two thirds, with one crisp warm-gray painted trim reveal and a small sliver of pale taupe floor at the bottom. Left third is luminous uncluttered warm-white negative space reserved for headline. Soft raking morning light reveals a subtle eggshell sheen and flawless workmanship. Refined architectural editorial photography, calm, minimal, photorealistic, no people, no tools, no furniture, no text, logos, signage, labels, watermarks, brands, letters, numbers, artwork, or decor.",
+      "bytes": 282942,
+      "sha256": "d4a9d16ddc0da6944067bf94a8bda4680c66320c90e44f4954ccd60c3c9f09f1",
+      "observedOutput": "Generated warm-white architectural surface study, assigned as the hero still; final local JPEG dimensions and integrity hash were verified."
+    },
+    "hero-motion.mp4": {
+      "provider": "Higgsfield",
+      "model": "Seedance 2.0 Mini",
+      "jobId": "8c598289-8306-472a-a4fa-444ceb232bd4",
+      "prompt": "Use the supplied quiet luxury painted-wall hero frame as the exact scene. Lock camera, crop, wall geometry, trim, floor, and all objects. Create a single seamless six-second raking-daylight study across the immaculate warm-white eggshell surface; the light shift should be barely perceptible and continuous with no cuts, zoom, pan, people, new objects, text, logos, labels, signs, watermarks, or sound.",
+      "bytes": 2192376,
+      "sha256": "2669d0d01c80d7a74ee97e15c01cc8a7e1256759719d1cd4c1e6094442086eca",
+      "observedOutput": "Generated six-second hero motion study from hero.jpg. Final local MP4 parsed with mp4box-2.4.1: one H.264 High video track, 1470\u00d7630, 6042 ms, no audio, 2,192,376 bytes."
+    },
+    "overview.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "114286c3-9d60-44e7-8aaf-d33e655d8d93",
+      "prompt": "Quiet luxury residential painter material photograph, landscape 3:2. A large immaculate warm-white eggshell wall plane, a blank warm-gray sample board, crisp near-black trim offcut, pale taupe linen and a single clean natural-bristle brush at the edge of frame. Soft raking daylight, sparse and immaculate, architectural editorial style. No people, no hands, no paint cans, no text, logos, labels, signs, numbers, watermarks, branded products, swatch fan, notebook, or clutter.",
+      "bytes": 396024,
+      "sha256": "e06826322d63c7613a1e2d80094f8b17ae29029ba04697b9f7f62350c7170482",
+      "observedOutput": "Generated illustrative overview study, assigned by its logged role prompt; final local JPEG dimensions and integrity hash were verified."
+    },
+    "macro-plaster.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "e0413d4e-56f7-4f67-a326-60f4bf424174",
+      "prompt": "Quiet luxury residential painting craft macro, vertical 3:4. A flawless warm-white eggshell plaster wall meets a razor-clean near-black door trim edge, showing subtle paint grain and controlled raking daylight. Pale taupe plaster, soft gray shadow, muted clay reflection. Editorial architectural photography, immaculate workmanship, no people, no hands, no tools, no furniture, no text, numbers, logos, signs, labels, watermarks, brands, artwork, or decoration.",
+      "bytes": 816663,
+      "sha256": "de2a96c0709bcdd3ffd7ecb6a2e2cc75620168f3835113d71aa2cc53a3cdf18f",
+      "observedOutput": "Generated illustrative macro plaster study, assigned by its logged role prompt; final local JPEG dimensions and integrity hash were verified."
+    },
+    "sheen-panel.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "992efc91-1f59-4251-a0c5-ad1213c0a13d",
+      "prompt": "Quiet luxury paint-finish specimen, landscape 4:3. A single immaculate large warm-white plaster panel with four barely perceptible zones of light response across one seamless color, from matte to eggshell to satin to semi-gloss. No swatches, no samples, no labels, no text, no logos, no people, no tools. Soft diagonal raking daylight, bone paper surround, pale taupe shadow, near-black shadow line. Minimal architectural editorial photograph.",
+      "bytes": 331413,
+      "sha256": "c7bbe846330d15eebff02b3f0436b58e33660b613e2514da7962a9f4cf7e249b",
+      "observedOutput": "Generated illustrative sheen panel study, assigned by its logged role prompt; final local JPEG dimensions and integrity hash were verified."
+    },
+    "interior.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "877544c7-498a-4862-8b68-78238e962f13",
+      "prompt": "Quiet luxury residential interior painting photograph, landscape 4:3. Immaculate warm-white walls and ceiling in a calm minimally furnished room, one pale taupe linen chair and softly gray limestone floor, perfect clean ceiling and baseboard lines, soft daylight across eggshell walls. No people, no paint cans, no tools, no text, logos, labels, signs, watermarks, artwork, numbers, or clutter.",
+      "bytes": 654191,
+      "sha256": "9224f4698ff07d584f5d9fd8721e200dea24040c15ea1885ff8e86ba3150b852",
+      "observedOutput": "Generated illustrative interior study, assigned by its logged role prompt; final local JPEG dimensions and integrity hash were verified."
+    },
+    "trim-detail.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "0e726cfc-a731-4386-8ff4-4ba37dc586eb",
+      "prompt": "Quiet luxury residential paint craftsmanship photograph, vertical 3:4. Extreme close-up of a perfect near-black painted trim edge meeting warm-white eggshell wall, crisp even sheen, quiet muted clay reflection, soft gray daylight. Immaculate professional finish, minimalist architectural macro. No hands, people, tools, text, logos, labels, numbers, signs, watermarks, or products.",
+      "bytes": 451870,
+      "sha256": "dd5baed3c04fdd64d245cb0ebfaa7ef58065981513771391ec32ce774a669582",
+      "observedOutput": "Generated illustrative trim detail study, assigned by its logged role prompt; final local JPEG dimensions and integrity hash were verified."
+    },
+    "exterior.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "b2e97838-eb5f-470a-a806-04936bf9591f",
+      "prompt": "Quiet luxury residential exterior painting photograph, landscape 4:3. A minimal stucco home facade in soft warm white and pale taupe, crisp near-black window trim, gentle cloudy daylight and elegant shadow. Fresh flawless professional coating with restrained architecture, no people, cars, signage, house numbers, logos, readable text, labels, watermarks, landscaping clutter, or unrealistic changes.",
+      "bytes": 824374,
+      "sha256": "34e3cf6c40506d5a1e164a9af50661e05f68d7464932153d3cf4933c1be8cb08",
+      "observedOutput": "Generated illustrative exterior study, assigned by its logged role prompt; final local JPEG dimensions and integrity hash were verified."
+    },
+    "cabinetry.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "0f1061ce-708a-4004-a665-324034c35040",
+      "prompt": "Quiet luxury kitchen cabinet refinishing photograph, landscape 4:3. Immaculate warm white flat-panel cabinet doors, soft gray stone counter and near-black simple pulls, gentle raking light revealing smooth eggshell finish and perfect edges. Minimal contemporary home, no people, food, tools, paint cans, text, logos, labels, signs, watermarks, or clutter.",
+      "bytes": 368098,
+      "sha256": "5bf3683055056d71ddf05054fb5351c0bbc654c07edef394fa1097ca287cc1a9",
+      "observedOutput": "Generated illustrative cabinetry study, assigned by its logged role prompt; final local JPEG dimensions and integrity hash were verified."
+    },
+    "proof-before.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "6a42ea84-cdd3-483e-81ee-5fc9629dd3ec",
+      "prompt": "Quiet luxury residential interior photograph, landscape 4:3. Same fixed-camera minimal living room with pale taupe plaster walls that are gently scuffed and uneven, soft gray floor, simple bone linen sofa, near-black window trim, morning daylight. The room needs only paint and minor surface repair; preserve simple architecture and furnishings. No people, no tools, no paint cans, no text, logos, labels, signs, numbers, watermarks, brands, or clutter.",
+      "bytes": 424658,
+      "sha256": "29cf6e73f69abcd38b5d1f71649adbf182fd4e6ab587319ea11efb1c93974b6e",
+      "observedOutput": "Generated illustrative proof before study, assigned by its logged role prompt; final local JPEG dimensions and integrity hash were verified."
+    },
+    "proof-after.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "1908db98-c49b-469e-8b92-80f2566c2e60",
+      "prompt": "Edit this exact fixed-camera minimal living-room image as a paint-only and minor plaster-repair study. Preserve pixel-aligned camera, lens, crop, room geometry, walls, ceiling, floor, sofa, window trim, daylight direction, shadows, furnishings, and every perspective/dimension. Change only the gently scuffed pale taupe walls to an immaculate warm-white eggshell finish and resolve only minor surface wear. No remodel, no additions, removals, objects, people, text, logos, labels, signs, numbers, watermarks, brands, or visible paint cans/tools.",
+      "bytes": 404680,
+      "sha256": "cb53f6c44d1dda90a47025c6b6d9448be7f29709ed90941a697f12c6bfc8b9fa",
+      "observedOutput": "Image-to-image paint-only companion generated from proof-before.jpg; final local JPEG dimensions and integrity hash were verified. Same-property visual fidelity remains illustrative rather than client proof."
+    },
+    "inspect.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "69a55550-618c-4ec7-97bf-36fac635085d",
+      "prompt": "Quiet luxury painting preparation photograph, vertical 3:4. Close view of a careful gloved hand using a small inspection light at a smooth pale taupe plaster wall and near-black trim reveal, clean safe professional setting, raking light highlighting a tiny surface variation. No readable gauges, screens, text, logos, labels, numbers, watermarks, brands, extra hands, clutter, or unsafe setup.",
+      "bytes": 469735,
+      "sha256": "3d468b979f68ffd8050ff950743e1e97071be1277d6f42424181ca1f915d3d87",
+      "observedOutput": "Generated illustrative inspect study, assigned by its logged role prompt; final local JPEG dimensions and integrity hash were verified."
+    },
+    "protect.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "ed3dcd8a-4674-46d1-8f85-67812549aa12",
+      "prompt": "Quiet luxury painting preparation photograph, vertical 3:4. Immaculate living room floor and one pale linen chair protected with clean heavyweight canvas and precise low-tack paper edge before painting, soft warm-white wall, gentle daylight, calm editorial composition. No people, no text, logos, labels, paint cans, signs, watermarks, brand marks, mess, or clutter.",
+      "bytes": 731935,
+      "sha256": "6d7410ce0db60a144822345162c458a58619d7ba21a33a12c349cf8be4297c5b",
+      "observedOutput": "Generated illustrative protect study, assigned by its logged role prompt; final local JPEG dimensions and integrity hash were verified."
+    },
+    "repair.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "2bb4ea4a-c2f3-49af-8d5b-97fd77b9109b",
+      "prompt": "Quiet luxury painting preparation photograph, vertical 3:4. Close view of a single gloved hand making a small controlled plaster repair flush on a warm-white wall beside a crisp near-black painted trim edge, raking light, pristine professional work surface. No text, logos, labels, numbers, watermarks, brands, duplicate hands, unsafe tools, paint cans, or clutter.",
+      "bytes": 861140,
+      "sha256": "97fcb18dff546702f06898712a0141dcbc0c280f8f6f3b63e672bd1f656b2262",
+      "observedOutput": "Generated illustrative repair study, assigned by its logged role prompt; final local JPEG dimensions and integrity hash were verified."
+    },
+    "prepare.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "010be921-38ed-4628-971f-f1872493c014",
+      "prompt": "Quiet luxury painting preparation photograph, vertical 3:4. Painter hand using clean low-tack masking tape along a flawless near-black window trim edge on a warm-white plaster wall, precise and safe setup, soft gray daylight, minimal architecture. No readable text, logos, labels, numbers, watermarks, brands, extra hands, paint cans, messy spills, or clutter.",
+      "bytes": 747804,
+      "sha256": "d82392ab2063f023a15dc69bf76f38f569ce800abef3813f29186bb69a1827c1",
+      "observedOutput": "Generated illustrative prepare study, assigned by its logged role prompt; final local JPEG dimensions and integrity hash were verified."
+    },
+    "finish.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "7c423641-199a-49d9-8344-f49ecf8ae08e",
+      "prompt": "Quiet luxury residential painting finish photograph, vertical 3:4. A painter\u2019s gloved hand rolls one smooth even eggshell coat across a warm-white plaster wall under soft raking daylight, a perfect wet-to-dry edge and crisp trim nearby, clean safe professional technique. No text, logos, labels, numbers, watermarks, brands, duplicate limbs, messy spills, or clutter.",
+      "bytes": 698900,
+      "sha256": "7a5ca0cbb56e3db4775c16d5a6fb41f2f1d8e2b154f77ddb63d590e7cbb3add4",
+      "observedOutput": "Generated illustrative finish study, assigned by its logged role prompt; final local JPEG dimensions and integrity hash were verified."
+    },
+    "planning.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "99db63c3-20fd-4027-a1e2-f70c84e99221",
+      "prompt": "Quiet luxury paint consultation still life, landscape 4:3. Four completely blank painted rectangular finish panels in warm white, bone, pale taupe and soft gray, on a pale plaster table with one unmarked brush and folded natural linen. Daylight reveals subtle sheen. No fan deck, no notebook, no labels, no readable text, logos, signs, numbers, watermarks, brands, people, hands, or clutter.",
+      "bytes": 510174,
+      "sha256": "b6640100d7d28ead9e48f4c1d7ad6115aafc46f5a42253a0ac1697f17c504478",
+      "observedOutput": "Generated illustrative planning study, assigned by its logged role prompt; final local JPEG dimensions and integrity hash were verified."
+    },
+    "notes.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "515bf895-d157-42d6-8693-7232c9f19544",
+      "prompt": "Quiet luxury residential interior detail photograph, landscape 3:2. Soft raking daylight across a seamless warm-white eggshell wall, pale taupe plaster return, near-black base trim, and a single folded bone linen textile at the edge. Architectural calm and refined paint texture. No people, tools, paint cans, text, logos, labels, signs, numbers, watermarks, brands, or clutter.",
+      "bytes": 394427,
+      "sha256": "93a935a5cd2bfd75e141313af3978f6eab7c67f7ff944aac4ede845e983118e9",
+      "observedOutput": "Generated illustrative notes study, assigned by its logged role prompt; final local JPEG dimensions and integrity hash were verified."
+    },
+    "reviews.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "83e03ef1-f908-4b8c-bc01-bba580133f6e",
+      "prompt": "Quiet luxury finished residential sitting room photograph, landscape 4:3. Immaculate warm-white eggshell walls, quiet pale taupe architecture, soft gray linen seating and thin near-black trim, clean balanced daylight, contemporary craftsmanship editorial. No people, portraits, text, logos, labels, signs, numbers, watermarks, brands, reviews, or clutter.",
+      "bytes": 635160,
+      "sha256": "fc91221200395da4a5a2b76beb56e014c7e75c9728eedfbae19558570cee557f",
+      "observedOutput": "Generated illustrative reviews study, assigned by its logged role prompt; final local JPEG dimensions and integrity hash were verified."
+    },
+    "faq.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "434192e8-c63b-43bd-adaa-d1c4e525bb36",
+      "prompt": "Quiet luxury home consultation photograph, landscape 4:3. A clean pale plaster table beneath an immaculate warm-white wall, one blank sheet of cream paper, one unmarked pencil, folded linen, and soft gray daylight. Minimal professional setting, no people, no readable text, no logos, labels, signs, numbers, watermarks, brands, paint cans, or clutter.",
+      "bytes": 706410,
+      "sha256": "44eaf52f1c1c862d094803abefcf05aad86013ee7c6b36d4c09f5ccdb8450760",
+      "observedOutput": "Generated illustrative faq study, assigned by its logged role prompt; final local JPEG dimensions and integrity hash were verified."
+    },
+    "cta.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "da747858-2070-45b5-b79e-5962bd9ccd88",
+      "prompt": "Quiet luxury residential exterior at gentle dusk, landscape 3:2. Immaculate warm-white painted stucco facade with pale taupe door surround, subtle near-black trim and a warm interior glow. Calm architectural composition with generous blank wall, refined professional finish. No people, cars, signs, address numbers, readable text, logos, labels, watermarks, brands, or landscaping clutter.",
+      "bytes": 611536,
+      "sha256": "336bb4cc66ad731a13bb987db31643d0ababf93a9109a36b1fe3b5754cb2768a",
+      "observedOutput": "Generated illustrative cta study, assigned by its logged role prompt; final local JPEG dimensions and integrity hash were verified."
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "templateId": "tpl_painter17",
+  "directory": "/templates/alpine-enamel/photography",
+  "artDirection": "Practical mountain cabins, painted horizontal timber, crisp daylight and enamel signs. Pine, glacier, cranberry, goldenrod, snow and slate. Condensed working-sign typography, not a resort or a luxury estate.",
+  "presentation": "Cranberry and pine are photographs of different cabin subjects, not a recolour preview. The recovered after study is used independently, not as evidence of a completed customer project or a pixel-matched transformation.",
+  "supportingMediaSearch": {
+    "command": "higgsfield generate list --image --size 100 --json",
+    "originalDate": "2026-09-08",
+    "before": "2026-09-08T17:42:00Z",
+    "listedJobs": 100,
+    "dateMatchedJobs": 21,
+    "alpineJobIds": [
+      "7f1598f1-1b2e-4d73-a040-31717a91cae7",
+      "8ef4c1c1-93c7-4c19-88f1-b5a85adeb7cc",
+      "e954eb9c-9145-4a52-963b-e0eb071de570"
+    ],
+    "result": "Only the known cabin studies matched. Two Pexels material photographs supply timber-care and planning detail; neither is used by another template. No new generation."
+  },
+  "photos": {
+    "hero": {
+      "jobId": "7f1598f1-1b2e-4d73-a040-31717a91cae7",
+      "width": 1600,
+      "height": 900,
+      "alt": "A cranberry-painted timber cabin with white window trim, a dark roof and fir trees against distant mountains."
+    },
+    "pine-cabin": {
+      "jobId": "a02de53a-ca64-44dc-b203-bef55a83c839",
+      "width": 1600,
+      "height": 900,
+      "alt": "A different cabin seen at an angle, with pine-green timber siding, a glacier-blue door and white trim."
+    },
+    "weathered-cabin": {
+      "jobId": "8ef4c1c1-93c7-4c19-88f1-b5a85adeb7cc",
+      "width": 1600,
+      "height": 900,
+      "alt": "A mountain cabin with faded grey-beige timber siding, cream trim and a gravel approach."
+    },
+    "pine-finish": {
+      "jobId": "e954eb9c-9145-4a52-963b-e0eb071de570",
+      "referenceJobId": "8ef4c1c1-93c7-4c19-88f1-b5a85adeb7cc",
+      "width": 1600,
+      "height": 900,
+      "alt": "Pine-green cabin siding and white trim beside a natural timber door and gravel path."
+    },
+    "timber-care": {
+      "source": "https://images.pexels.com/photos/221027/pexels-photo-221027.jpeg?auto=compress&fm=jpg&w=2400",
+      "sourcePage": "https://www.pexels.com/photo/person-holding-paintbrush-221027/",
+      "creator": "Pixabay",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "width": 1600,
+      "height": 900,
+      "alt": "A hand guiding a paintbrush along an outdoor timber board."
+    },
+    "worktable": {
+      "source": "https://images.pexels.com/photos/5583059/pexels-photo-5583059.jpeg?auto=compress&fm=jpg&w=2400",
+      "sourcePage": "https://www.pexels.com/photo/painting-materials-on-wooden-table-5583059/",
+      "creator": "Polina Tankilevitch",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "width": 1600,
+      "height": 900,
+      "alt": "Paintbrushes, rollers and painting materials arranged on a wooden work surface."
+    }
+  },
+  "film": {
+    "jobId": "6293d12e-4c98-4062-a7ed-ea9e20f0a501",
+    "referenceJobId": "7f1598f1-1b2e-4d73-a040-31717a91cae7",
+    "file": "hero-motion.mp4",
+    "poster": "hero",
+    "width": 1280,
+    "height": 720,
+    "durationSeconds": 6,
+    "maxBytes": 5000000
+  },
+  "fonts": [
+    {
+      "file": "barlow-regular-latin.woff2",
+      "source": "https://fonts.gstatic.com/s/barlow/v13/7cHpv4kjgoGqM7E_DMs5.woff2"
+    },
+    {
+      "file": "barlow-semibold-latin.woff2",
+      "source": "https://fonts.gstatic.com/s/barlow/v13/7cHqv4kjgoGqM7E30-8s51os.woff2"
+    },
+    {
+      "file": "barlow-condensed-bold-latin.woff2",
+      "source": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2"
+    }
+  ],
+  "fontLicense": {
+    "name": "SIL Open Font License 1.1",
+    "creator": "The Barlow Project Authors",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlow/OFL.txt"
+  }
+}

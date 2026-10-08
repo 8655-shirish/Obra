@@ -1,0 +1,2 @@
+GRANT SELECT, INSERT, UPDATE, DELETE ON public.saas_checkout_fulfillment_outbox TO service_role;
+GRANT SELECT, INSERT, UPDATE, DELETE ON public.saas_checkout_fulfillment_resolution_audit TO service_role;

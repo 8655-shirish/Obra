@@ -1,0 +1,201 @@
+{
+  "template": "candy-capsule-lab",
+  "route": "/templates/painter8",
+  "brand": "True Coat",
+  "variant": "Candy Capsule Lab",
+  "purpose": "Higgsfield-generated illustrative media for painter8 Candy Capsule Lab template preview.",
+  "rightsStatus": "verification-required-before-publication",
+  "rightsNote": "Generated through authenticated Higgsfield CLI (Seedream 4.5 + Seedance 2.0); keep route noindex until rights verified.",
+  "truthNote": "Illustrative generated template media, not completed client projects.",
+  "assets": {
+    "hero.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "98c99cab-5e33-4a70-8f80-8ff1ee1bffe9",
+      "prompt": "Contemporary suburban California-adjacent residential architecture, photoreal editorial photography, immaculate professional paint craftsmanship, candy-bright glossy finishes, no people, no hands, no text, logos, signage, watermarks, brands, letters, or numbers. Hero living room with glossy bubblegum-pink walls and lavender-painted trim around a large window, soft afternoon daylight, pale floor, minimal neutral furnishing at edges only. Left third calm negative space for headline.",
+      "aspect_ratio": "16:9",
+      "bytes": 1043180,
+      "sha256": "3d61ed721450782711ee768641fa4779de40e7af95639593368586e82e280852"
+    },
+    "macro.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "5af6f37b-1f89-497b-8b26-4a39b624e89e",
+      "prompt": "Contemporary suburban California-adjacent residential architecture, photoreal editorial photography, immaculate professional paint craftsmanship, candy-bright glossy finishes, no people, no hands, no text, logos, signage, watermarks, brands, letters, or numbers. Extreme macro of bubblegum-pink enamel wall paint meeting lavender semi-gloss trim, wet-looking candy finish, crisp edge, raking light.",
+      "aspect_ratio": "3:4",
+      "bytes": 1997540,
+      "sha256": "a6d441e7912e0a89a2c76a72c7fb80686d5cb51dd74a430d5b70f334a2b3a721"
+    },
+    "interior.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "b9552aa0-f787-49c9-9d73-e3c388368ced",
+      "prompt": "Contemporary suburban California-adjacent residential architecture, photoreal editorial photography, immaculate professional paint craftsmanship, candy-bright glossy finishes, no people, no hands, no text, logos, signage, watermarks, brands, letters, or numbers. Living room interior with bubblegum-pink walls, lavender crown molding and baseboards, neutral sofa, large window daylight.",
+      "aspect_ratio": "4:3",
+      "bytes": 1492168,
+      "sha256": "04063a238267fb811f8a357a9b51de609295775e87f3f0820fb9d0b134daef49"
+    },
+    "exterior.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "fb9d62be-991f-49ad-af88-0c07f990d419",
+      "prompt": "Contemporary suburban California-adjacent residential architecture, photoreal editorial photography, immaculate professional paint craftsmanship, candy-bright glossy finishes, no people, no hands, no text, logos, signage, watermarks, brands, letters, or numbers. Suburban home exterior with lemon-yellow siding, lavender window trim, cherry-red front door, subtle aqua shutter accents, sunny day.",
+      "aspect_ratio": "4:3",
+      "bytes": 1772054,
+      "sha256": "97fdac388b0aa258f0d1e15ac5ca552b1f5c6c609a75139c592fb526038eb4e1"
+    },
+    "cabinetry.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "b2c9e884-ca89-4383-a128-4e2bfc74418f",
+      "prompt": "Contemporary suburban California-adjacent residential architecture, photoreal editorial photography, immaculate professional paint craftsmanship, candy-bright glossy finishes, no people, no hands, no text, logos, signage, watermarks, brands, letters, or numbers. Kitchen with glossy aqua flat-panel cabinet doors, bubblegum-pink accent wall, lavender upper trim, dark simple pulls.",
+      "aspect_ratio": "4:3",
+      "bytes": 1303856,
+      "sha256": "bc508026d3d71d27857300df8955f6733adfa4e1418737ad18cfacebf8a4eac2"
+    },
+    "trim.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "3f242252-8f5c-4ec9-81ca-5a0892070f10",
+      "prompt": "Contemporary suburban California-adjacent residential architecture, photoreal editorial photography, immaculate professional paint craftsmanship, candy-bright glossy finishes, no people, no hands, no text, logos, signage, watermarks, brands, letters, or numbers. Vertical close-up of cherry-red gloss door trim against bubblegum-pink wall, razor-clean paint line.",
+      "aspect_ratio": "3:4",
+      "bytes": 1741717,
+      "sha256": "5ee17edd6275c81d0e2c987b3de3be6c0001084d6929b84c001ac4b8000a543a"
+    },
+    "proof-before.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "b9678f92-4987-47ed-ad55-813aa53f0f30",
+      "prompt": "Contemporary suburban California-adjacent residential architecture, photoreal editorial photography, immaculate professional paint craftsmanship, candy-bright glossy finishes, no people, no hands, no text, logos, signage, watermarks, brands, letters, or numbers. Empty living room with tired beige walls and scuffed off-white trim, same window-on-left composition, soft daylight, dated but clean.",
+      "aspect_ratio": "4:3",
+      "bytes": 1411637,
+      "sha256": "57f98bb138378e425ef4d2fb7823b2429c8fa5fe89196ac28465468d01110f4b"
+    },
+    "proof-after.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "16d0fcb6-3668-4bb9-a89a-fb39f42fb52f",
+      "prompt": "Contemporary suburban California-adjacent residential architecture, photoreal editorial photography, immaculate professional paint craftsmanship, candy-bright glossy finishes, no people, no hands, no text, logos, signage, watermarks, brands, letters, or numbers. Use the supplied living room photograph as the exact scene. Lock camera, window position, floor, ceiling, and architecture. Repaint only: walls become glossy bubblegum pink and trim becomes lavender with professional finish. No remodel, no new furniture.",
+      "reference": "proof-before.jpg",
+      "bytes": 2013713,
+      "sha256": "883c8d06ef7ac98463ae05615cad359a958c6add2b58c2389ea14f7d7840f184"
+    },
+    "inspect.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "c925440c-c811-4379-b4fb-4dafbb8b85c5",
+      "prompt": "Contemporary suburban California-adjacent residential architecture, photoreal editorial photography, immaculate professional paint craftsmanship, candy-bright glossy finishes, no people, no hands, no text, logos, signage, watermarks, brands, letters, or numbers. Bubblegum-pink wall and lavender trim in raking light, subtle surface inspection, no person visible.",
+      "aspect_ratio": "4:3",
+      "bytes": 444948,
+      "sha256": "910ec046f175f0cb7bafaaf38e7cf5127fc77e2a2e5b6dff8207f4832073ff13"
+    },
+    "protect.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "ff46d1e7-c517-4dc8-abaf-068703dd8313",
+      "prompt": "Contemporary suburban California-adjacent residential architecture, photoreal editorial photography, immaculate professional paint craftsmanship, candy-bright glossy finishes, no people, no hands, no text, logos, signage, watermarks, brands, letters, or numbers. Room prepared for painting: furniture covered with clean drop cloths, floors protected, lavender trim visible, candy-pink accent wall beyond.",
+      "aspect_ratio": "4:3",
+      "bytes": 389170,
+      "sha256": "0cdc84c76c98cd83bfe3fbde01e66710405d4936297e8ea1bda681e06dcb6697"
+    },
+    "repair.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "15840f29-42a0-4a44-8b47-e50226a12ded",
+      "prompt": "Contemporary suburban California-adjacent residential architecture, photoreal editorial photography, immaculate professional paint craftsmanship, candy-bright glossy finishes, no people, no hands, no text, logos, signage, watermarks, brands, letters, or numbers. Controlled wall repair area beside cherry-red trim tape on a bubblegum-pink wall, patching compound smooth, professional prep.",
+      "aspect_ratio": "4:3",
+      "bytes": 394995,
+      "sha256": "c96da5d4ab829c913ff9ac28797853ecf20c901ccddbf591cd83d9a788c33ac5"
+    },
+    "prepare.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "f6425449-b449-4609-a6f7-912c6ca2cf89",
+      "prompt": "Contemporary suburban California-adjacent residential architecture, photoreal editorial photography, immaculate professional paint craftsmanship, candy-bright glossy finishes, no people, no hands, no text, logos, signage, watermarks, brands, letters, or numbers. Masking prep on aqua accent wall with precise painter's tape lines, clean protection, lavender adjacent trim.",
+      "aspect_ratio": "4:3",
+      "bytes": 500880,
+      "sha256": "d55e6eda5a2967e252894e6dadd3677e128f7cc069d36b1b4aa0bf1aa5ae064d"
+    },
+    "finish.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "282bfef3-58b2-46ac-a64d-853fe41c85b4",
+      "prompt": "Contemporary suburban California-adjacent residential architecture, photoreal editorial photography, immaculate professional paint craftsmanship, candy-bright glossy finishes, no people, no hands, no text, logos, signage, watermarks, brands, letters, or numbers. Roller finishing a glossy bubblegum-pink wall, wet edge visible, professional technique, no branded products.",
+      "aspect_ratio": "4:3",
+      "bytes": 400896,
+      "sha256": "3d69c23ae3928e8065ef79516b4e51fb3acc4d569fc53b10e936f26524672c31"
+    },
+    "planning.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "df2961a0-be24-4d90-99e5-bdb89bcd0316",
+      "prompt": "Contemporary suburban California-adjacent residential architecture, photoreal editorial photography, immaculate professional paint craftsmanship, candy-bright glossy finishes, no people, no hands, no text, logos, signage, watermarks, brands, letters, or numbers. Planning bench with candy-colored paint swatch cards in pink, lavender, aqua, lemon, cherry, clean rollers and brushes without labels.",
+      "aspect_ratio": "4:3",
+      "bytes": 423853,
+      "sha256": "0b205d0c1bd9e7aacf76c6dadfe742360a0cf541e614cca5f70f2148700e1801"
+    },
+    "reviews.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "c9b30740-7127-4528-a17b-337a0ed17e26",
+      "prompt": "Contemporary suburban California-adjacent residential architecture, photoreal editorial photography, immaculate professional paint craftsmanship, candy-bright glossy finishes, no people, no hands, no text, logos, signage, watermarks, brands, letters, or numbers. Finished candy-colored sitting corner with glossy pink walls, lavender trim, pale neutral chair, material study for sample proof.",
+      "aspect_ratio": "4:3",
+      "bytes": 359850,
+      "sha256": "39caf4b4ce9c0b52a90d5620c280eda56fc0b87f32e5e4d649e830cf7182aa52"
+    },
+    "faq.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "83280972-2bcd-41e2-a792-034cc8fc57e6",
+      "prompt": "Contemporary suburban California-adjacent residential architecture, photoreal editorial photography, immaculate professional paint craftsmanship, candy-bright glossy finishes, no people, no hands, no text, logos, signage, watermarks, brands, letters, or numbers. Macro paint edge where aqua wall meets cherry-red trim, glossy candy finish detail.",
+      "aspect_ratio": "4:3",
+      "bytes": 389622,
+      "sha256": "ea6d8695278cb8b44beeb8cec552ca759fb8b5cc0ceb04a9768fc52d79c84543"
+    },
+    "estimate.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "01d5e92c-e145-45ad-a533-8f9c12201f1e",
+      "prompt": "Contemporary suburban California-adjacent residential architecture, photoreal editorial photography, immaculate professional paint craftsmanship, candy-bright glossy finishes, no people, no hands, no text, logos, signage, watermarks, brands, letters, or numbers. Organized painting workbench with rollers, candy-colored swatches, masking supplies, clean daylight.",
+      "aspect_ratio": "16:9",
+      "bytes": 364509,
+      "sha256": "249d21c964603ae74d0a1221b090abdf5500dd8f16601fae5782de5d64a3ac53"
+    },
+    "blog-color.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "906633a3-f5f5-499b-a428-63fdd2d993d6",
+      "prompt": "Contemporary suburban California-adjacent residential architecture, photoreal editorial photography, immaculate professional paint craftsmanship, candy-bright glossy finishes, no people, no hands, no text, logos, signage, watermarks, brands, letters, or numbers. Three candy-colored paint sample boards leaning on a wall, pink lavender aqua, daylight color planning scene.",
+      "aspect_ratio": "16:9",
+      "bytes": 404905,
+      "sha256": "79e7a91ba6cf9dc4e64e7c617ce087a9a5e1a346beb697b868b26ca1e16920a4"
+    },
+    "blog-prep.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "3b9cc72d-4d36-48e8-a9b7-b7f9406f819b",
+      "prompt": "Contemporary suburban California-adjacent residential architecture, photoreal editorial photography, immaculate professional paint craftsmanship, candy-bright glossy finishes, no people, no hands, no text, logos, signage, watermarks, brands, letters, or numbers. Masked wall prep with cherry tape line across lemon-yellow wall section, drop cloth below.",
+      "aspect_ratio": "16:9",
+      "bytes": 386646,
+      "sha256": "6029c913f0bff4916aa43172a6d43b248e41f01125fc33e61b2cbb5c239caef9"
+    },
+    "blog-sheen.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "37576458-34df-4c99-abfd-f16dd420c51b",
+      "prompt": "Contemporary suburban California-adjacent residential architecture, photoreal editorial photography, immaculate professional paint craftsmanship, candy-bright glossy finishes, no people, no hands, no text, logos, signage, watermarks, brands, letters, or numbers. Four adjacent paint finish panels in one bubblegum-pink color showing subtle sheen differences under raking light.",
+      "aspect_ratio": "16:9",
+      "bytes": 328947,
+      "sha256": "edc97dec103b81aae2738fb294a58e1df19bb124e7017c4e7dc34f34d4170f1e"
+    },
+    "hero-motion.mp4": {
+      "provider": "Higgsfield",
+      "model": "Seedance 2.0",
+      "jobId": "cd79dc3b-41fd-4ae0-928f-35491cf440c5",
+      "prompt": "Use the supplied candy-colored living room hero frame as the exact scene. Lock camera, crop, wall geometry, trim, window, floor, and objects. Create a single seamless six-second subtle daylight shift across the glossy bubblegum-pink walls; barely perceptible continuous motion, no cuts, zoom, pan, people, new objects, text, logos, labels, signs, watermarks, or sound.",
+      "reference": "hero.jpg",
+      "bytes": 1693119,
+      "sha256": "c899576578768217be00e844127b2f4d52dfaac28b54cc6023e6b9ce182b5558"
+    }
+  }
+}

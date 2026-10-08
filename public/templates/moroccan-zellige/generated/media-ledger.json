@@ -1,0 +1,537 @@
+{
+  "template": "painter15-moroccan-zellige",
+  "route": "/templates/painter15",
+  "brand": "True Coat",
+  "variant": "Moroccan Zellige",
+  "mediaKind": "photorealistic-generated-photography",
+  "generatedAt": "2026-09-07T21:37:27.335346+00:00",
+  "artDirection": "Riad-inspired residential painting photography shaped by hand-cut zellige, limewash, carved cedar, oxidized brass, saturated architectural paint, and late-afternoon courtyard light.",
+  "rightsStatus": "verification-required-before-publication",
+  "truthNote": "Photorealistic media generated through the authenticated Higgsfield account for this fictional template; not documented client projects or verified customer proof.",
+  "assets": {
+    "hero.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "76a83458-be02-43cd-8da2-8a1b3b4f4b4c",
+      "prompt": "Photorealistic, high-end editorial residential painting photography set in one coherent North African riad-inspired courtyard home: hand-cut zellige mosaic, limewashed plaster, carved cedar doors, oxidized brass, shallow archways, geometric star and diamond tilework, mature citrus and olive greenery, and warm late-afternoon natural light. Architectural paint accents use lapis blue, deep emerald, saffron, dusty rose, ivory, and deep aubergine with believable material wear and lived-in residential scale. Respectful, specific craft detail, never theme-park fantasy. Real photograph, not illustration, cartoon, CGI, 3D render, miniature, or collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Wide, cinematic eye-level hero photograph of a finished riad-inspired courtyard residence. An enormous lapis-and-ivory zellige wall fills the right two-thirds; its hand-cut star tiles form an abstract, centered eight-point insignia without letters. An arched carved cedar door, emerald-painted plaster, saffron threshold, and an adult professional painter standing naturally beside the facade establish a real completed paint project. Preserve calm shadowed aubergine plaster in the left third for readable copy. 35mm lens, no writing.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 368785,
+      "sha256": "ff232f50a2dd58e9d7b45865cf980970713174b02bd54ecd5cb08b5e76736b57",
+      "variants": {
+        "800": {
+          "file": "hero-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 100815,
+          "sha256": "258fcab67f28e6b4002aa0b04b79789c70645c3a28428ae2ffd1443026c89ae2"
+        },
+        "1200": {
+          "file": "hero-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 195569,
+          "sha256": "27ce69234cbdf0d6cd0847f9a176f748343e239e3bd78383bfa6c8d27465612e"
+        }
+      }
+    },
+    "courtyard.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "74571959-7abf-4ddd-ae64-f2e7cf5eccf5",
+      "prompt": "Photorealistic, high-end editorial residential painting photography set in one coherent North African riad-inspired courtyard home: hand-cut zellige mosaic, limewashed plaster, carved cedar doors, oxidized brass, shallow archways, geometric star and diamond tilework, mature citrus and olive greenery, and warm late-afternoon natural light. Architectural paint accents use lapis blue, deep emerald, saffron, dusty rose, ivory, and deep aubergine with believable material wear and lived-in residential scale. Respectful, specific craft detail, never theme-park fantasy. Real photograph, not illustration, cartoon, CGI, 3D render, miniature, or collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Wide editorial photograph looking across an enclosed residential courtyard with a pale ivory limewashed wall, deep aubergine arch, lapis zellige fountain surround, emerald shutters, and dusty rose bench cushions. One quiet shaft of sun makes the glazed tile glow. No people, no text.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 356156,
+      "sha256": "08f14650adeb2965e7730ba5575b72e0d3e155013fe7f0a8da63c28623e40ead",
+      "variants": {
+        "800": {
+          "file": "courtyard-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 94343,
+          "sha256": "9e9cd4d9ae79367b61dcdf913524c7a1d9bdd2c651f4a4ffcced223ae3f383ea"
+        },
+        "1200": {
+          "file": "courtyard-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 186506,
+          "sha256": "f2770e19bec5a9a8f606856a1cc8cfd8cfe8021e2d3b8134b857496400bb4547"
+        }
+      }
+    },
+    "service-interior.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "0b316323-1d2b-4b2e-a11a-8bab99b58cbe",
+      "prompt": "Photorealistic, high-end editorial residential painting photography set in one coherent North African riad-inspired courtyard home: hand-cut zellige mosaic, limewashed plaster, carved cedar doors, oxidized brass, shallow archways, geometric star and diamond tilework, mature citrus and olive greenery, and warm late-afternoon natural light. Architectural paint accents use lapis blue, deep emerald, saffron, dusty rose, ivory, and deep aubergine with believable material wear and lived-in residential scale. Respectful, specific craft detail, never theme-park fantasy. Real photograph, not illustration, cartoon, CGI, 3D render, miniature, or collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Wide indoor residential salon with an ivory plaster ceiling, deep emerald accent wall, lapis tile fireplace surround, and an aubergine arch. One professional painter rolls the wall with clean drop cloths, protected furnishings, credible tools, correct anatomy, and warm daylight.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 335152,
+      "sha256": "8e7aec90776201e3fe4ea6c7ff51f74f61578a4c738fb4e82fbb21a0b8f49326",
+      "variants": {
+        "800": {
+          "file": "service-interior-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 91448,
+          "sha256": "ba584e477dcd005877b78815ddfe816c706e89a331b43989cd0e0fa420cfc129"
+        },
+        "1200": {
+          "file": "service-interior-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 176693,
+          "sha256": "5e96b363b7e31940d2390ed939997fc360e6a050dc2efdbf149728cb1bc38f39"
+        }
+      }
+    },
+    "service-exterior.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "cd0496be-0ef1-4b95-97bd-0f342f8903dc",
+      "prompt": "Photorealistic, high-end editorial residential painting photography set in one coherent North African riad-inspired courtyard home: hand-cut zellige mosaic, limewashed plaster, carved cedar doors, oxidized brass, shallow archways, geometric star and diamond tilework, mature citrus and olive greenery, and warm late-afternoon natural light. Architectural paint accents use lapis blue, deep emerald, saffron, dusty rose, ivory, and deep aubergine with believable material wear and lived-in residential scale. Respectful, specific craft detail, never theme-park fantasy. Real photograph, not illustration, cartoon, CGI, 3D render, miniature, or collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Wide exterior photograph of a modest riad-inspired residence being professionally painted: ivory limewashed facade, emerald shutters, lapis entry door, saffron arch trim, low safe scaffold, protected plants, and one painter cutting a crisp exterior edge. Believable worksite, no text.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 351445,
+      "sha256": "9c17ce05ddccba113d57e841380859033d999b0e924956dd7d023205d7705803",
+      "variants": {
+        "800": {
+          "file": "service-exterior-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 95199,
+          "sha256": "b6f45f5cc7a4896a3df6e5995ce01f184ce98e41b7102a28670a1818142f601e"
+        },
+        "1200": {
+          "file": "service-exterior-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 185195,
+          "sha256": "be7931a019d2a6585a7fe762dbf0944630e77322f4ceac14f9d3abea2b7e8a33"
+        }
+      }
+    },
+    "service-cabinets.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "3b10c55e-7912-4c04-8568-1232a9f0fd30",
+      "prompt": "Photorealistic, high-end editorial residential painting photography set in one coherent North African riad-inspired courtyard home: hand-cut zellige mosaic, limewashed plaster, carved cedar doors, oxidized brass, shallow archways, geometric star and diamond tilework, mature citrus and olive greenery, and warm late-afternoon natural light. Architectural paint accents use lapis blue, deep emerald, saffron, dusty rose, ivory, and deep aubergine with believable material wear and lived-in residential scale. Respectful, specific craft detail, never theme-park fantasy. Real photograph, not illustration, cartoon, CGI, 3D render, miniature, or collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Unquestionably indoor residential kitchen with deep emerald cabinet frames, ivory limewash, lapis zellige backsplash, oxidized brass pulls, and a saffron plaster niche. Counters are professionally protected while one painter refinishes a cabinet frame. Correct anatomy, no exterior view or writing.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 336124,
+      "sha256": "d0d1eba9594abd059e80fb213abb1913706c8c882a0f09b6603a3cfd62d5a0c4",
+      "variants": {
+        "800": {
+          "file": "service-cabinets-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 88300,
+          "sha256": "9f80348e6fe29cc99590d057f14600f3f70db5648d3f41f66aa1809107f9d1c5"
+        },
+        "1200": {
+          "file": "service-cabinets-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 173294,
+          "sha256": "deb96b1aed80f02027340bc4c669771da513aed13d064b42aa14ea61534af1dc"
+        }
+      }
+    },
+    "service-doors.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "cbf668ac-6567-4f6c-a38b-84b0782460d4",
+      "prompt": "Photorealistic, high-end editorial residential painting photography set in one coherent North African riad-inspired courtyard home: hand-cut zellige mosaic, limewashed plaster, carved cedar doors, oxidized brass, shallow archways, geometric star and diamond tilework, mature citrus and olive greenery, and warm late-afternoon natural light. Architectural paint accents use lapis blue, deep emerald, saffron, dusty rose, ivory, and deep aubergine with believable material wear and lived-in residential scale. Respectful, specific craft detail, never theme-park fantasy. Real photograph, not illustration, cartoon, CGI, 3D render, miniature, or collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Indoor documentary photograph with a painter's torso, full forearm, hand, and brush clearly visible as they apply deep aubergine enamel to a carved residential cedar door. Brush bristles touch the door; lapis zellige threshold, ivory trim, clean masking line, warm reflected light, correct anatomy, no face or writing.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 349116,
+      "sha256": "e58dad25d5da225bf51c302178bddab7189f0d8d7d1fb911507ebcaf514cde27",
+      "variants": {
+        "800": {
+          "file": "service-doors-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 95728,
+          "sha256": "27cdc4b56af2212a40312a9de7b32a3b03da3956b4d4ee3a6dc6593243750cc9"
+        },
+        "1200": {
+          "file": "service-doors-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 184246,
+          "sha256": "65765cdf719ba7ae2debde16fe7fc916ec69bc2210187ed05a86bb1114c38298"
+        }
+      }
+    },
+    "zellige-detail.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "e3a4b0ce-aafb-47e9-ab80-37e2fe55bd1f",
+      "prompt": "Photorealistic, high-end editorial residential painting photography set in one coherent North African riad-inspired courtyard home: hand-cut zellige mosaic, limewashed plaster, carved cedar doors, oxidized brass, shallow archways, geometric star and diamond tilework, mature citrus and olive greenery, and warm late-afternoon natural light. Architectural paint accents use lapis blue, deep emerald, saffron, dusty rose, ivory, and deep aubergine with believable material wear and lived-in residential scale. Respectful, specific craft detail, never theme-park fantasy. Real photograph, not illustration, cartoon, CGI, 3D render, miniature, or collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Extreme macro material photograph filling the frame with real hand-cut lapis and ivory zellige stars meeting deep emerald satin wall paint, warm saffron plaster, and a thin oxidized brass edge. Crisp grout lines, glazed reflections and tactile limewash, no room, sky, people, tools, objects, or text.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 288852,
+      "sha256": "ca88699200b4c50a4487e26be27f72c1f479ac06361d9e67badd2c046811a89a",
+      "variants": {
+        "800": {
+          "file": "zellige-detail-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 79639,
+          "sha256": "51338ad0a2e1263693955fc4c9fdd7ece2222ac575cf9d2a9b2c2eeaba5964f2"
+        },
+        "1200": {
+          "file": "zellige-detail-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 151010,
+          "sha256": "45a6448be99235f93fd0f8b3aadf490bd20e7d7a929036d83fa03f65b737b760"
+        }
+      }
+    },
+    "proof-before.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "c1286d5b-1b99-40e0-a556-d56f3203dee6",
+      "prompt": "Photorealistic, high-end editorial residential painting photography set in one coherent North African riad-inspired courtyard home: hand-cut zellige mosaic, limewashed plaster, carved cedar doors, oxidized brass, shallow archways, geometric star and diamond tilework, mature citrus and olive greenery, and warm late-afternoon natural light. Architectural paint accents use lapis blue, deep emerald, saffron, dusty rose, ivory, and deep aubergine with believable material wear and lived-in residential scale. Respectful, specific craft detail, never theme-park fantasy. Real photograph, not illustration, cartoon, CGI, 3D render, miniature, or collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Camera-locked source photograph for a paint-only transformation: straight-on eye-level view of one small riad-inspired facade with a centered carved entry door, two shuttered windows, fixed zellige threshold, planted pots, stucco wall, and stable late-afternoon shadows. Existing paint is faded beige, dull brown door, weathered cream trim, muted shutters. Show every fixed line, no people.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 359138,
+      "sha256": "21b6acdbba76d97f917196e811e204a19863e7e15d1a50e93918008b4419cfae",
+      "variants": {
+        "800": {
+          "file": "proof-before-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 92943,
+          "sha256": "6a8a0b9869cbe59f9dcb73549d2af48acb4fc660ea59cd7c3eb39eb48b4bca56"
+        },
+        "1200": {
+          "file": "proof-before-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 184885,
+          "sha256": "a2bb9fa5523db4f6d75c8cd2bd5bbfcf8724062617bbfd38b428bf3a866a0dfd"
+        }
+      }
+    },
+    "process.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "4ca0531f-5d84-408c-bfb3-047f47464985",
+      "prompt": "Photorealistic, high-end editorial residential painting photography set in one coherent North African riad-inspired courtyard home: hand-cut zellige mosaic, limewashed plaster, carved cedar doors, oxidized brass, shallow archways, geometric star and diamond tilework, mature citrus and olive greenery, and warm late-afternoon natural light. Architectural paint accents use lapis blue, deep emerald, saffron, dusty rose, ivory, and deep aubergine with believable material wear and lived-in residential scale. Respectful, specific craft detail, never theme-park fantasy. Real photograph, not illustration, cartoon, CGI, 3D render, miniature, or collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Wide indoor documentary photograph of two professional painters preparing an interior limewashed plaster arch before coating: one repairs a small imperfection while the other masks ivory trim and protects zellige flooring. Organized unbranded supplies, believable safety and anatomy, no text.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 315869,
+      "sha256": "9882f5a28e3a496cb99f92f657ad6f2967c520a6b57fd7b7761604c106809ff6",
+      "variants": {
+        "800": {
+          "file": "process-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 86373,
+          "sha256": "90ccb0d5a083a854feaece8dac60060ea93be2b4a25b820c079b0658e91b050c"
+        },
+        "1200": {
+          "file": "process-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 165452,
+          "sha256": "c84779b3c844874d49bde2e8215b787be865edc9704aaa4bf84e26b2b616e245"
+        }
+      }
+    },
+    "reviews.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "1193cf74-aa0f-4812-b1b0-68567e94cadd",
+      "prompt": "Photorealistic, high-end editorial residential painting photography set in one coherent North African riad-inspired courtyard home: hand-cut zellige mosaic, limewashed plaster, carved cedar doors, oxidized brass, shallow archways, geometric star and diamond tilework, mature citrus and olive greenery, and warm late-afternoon natural light. Architectural paint accents use lapis blue, deep emerald, saffron, dusty rose, ivory, and deep aubergine with believable material wear and lived-in residential scale. Respectful, specific craft detail, never theme-park fantasy. Real photograph, not illustration, cartoon, CGI, 3D render, miniature, or collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Wide candid completed-project walkthrough in a finished courtyard with a lapis tile wall, emerald shutters, ivory plaster, and aubergine door. One painter and two adult homeowners naturally discuss the finish while holding plain solid-color painted samples with no marks. Believable faces and hands, no posing or writing.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 328159,
+      "sha256": "61e01b09d5836fda7c87ff0e2415c23efb44e5f21c64cb3096516e81097efb77",
+      "variants": {
+        "800": {
+          "file": "reviews-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 95414,
+          "sha256": "13c04be747998357ad2999a7838bcb5267deb636a3587806fcccafd86f9da3ab"
+        },
+        "1200": {
+          "file": "reviews-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 177555,
+          "sha256": "7ed6c788e7e01ea33aa9239d8cb5cc54d8be3f1667b90ad413419b9c9352afd3"
+        }
+      }
+    },
+    "faq.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "541b94dd-60a2-41fd-b88d-acd81ecb286a",
+      "prompt": "Photorealistic, high-end editorial residential painting photography set in one coherent North African riad-inspired courtyard home: hand-cut zellige mosaic, limewashed plaster, carved cedar doors, oxidized brass, shallow archways, geometric star and diamond tilework, mature citrus and olive greenery, and warm late-afternoon natural light. Architectural paint accents use lapis blue, deep emerald, saffron, dusty rose, ivory, and deep aubergine with believable material wear and lived-in residential scale. Respectful, specific craft detail, never theme-park fantasy. Real photograph, not illustration, cartoon, CGI, 3D render, miniature, or collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Photograph entirely inside a literal four-walled residential dining room. Frame the ceiling, interior walls, simple furniture, lapis zellige floor edge, saffron arch, and an ivory painted wall. One painter and one adult homeowner compare unmarked painted samples naturally. No windows, doors, exterior, sky, lawn, paper, or text.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 330492,
+      "sha256": "9b4f37508c6b120ce806ba93824e38a4150f0c4a7a0b357a8fbe7c8e4ec8fed9",
+      "variants": {
+        "800": {
+          "file": "faq-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 91537,
+          "sha256": "99145189da26df9a75bf2731c4da754ae15b21093f3d7e87bad97e8b04b42f55"
+        },
+        "1200": {
+          "file": "faq-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 176652,
+          "sha256": "a7ac76c573c969009b02868fe0576d309ef9b55ad079e6a42b9e2f45ff192b3c"
+        }
+      }
+    },
+    "estimate.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "891f22a1-4e0d-4895-a1aa-62ba82bb75fc",
+      "prompt": "Photorealistic, high-end editorial residential painting photography set in one coherent North African riad-inspired courtyard home: hand-cut zellige mosaic, limewashed plaster, carved cedar doors, oxidized brass, shallow archways, geometric star and diamond tilework, mature citrus and olive greenery, and warm late-afternoon natural light. Architectural paint accents use lapis blue, deep emerald, saffron, dusty rose, ivory, and deep aubergine with believable material wear and lived-in residential scale. Respectful, specific craft detail, never theme-park fantasy. Real photograph, not illustration, cartoon, CGI, 3D render, miniature, or collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Wide exterior project consultation at a riad-inspired courtyard home: a painter and homeowner stand beside an ivory facade with emerald shutters, lapis door, and saffron arch trim, holding unmarked solid-color samples. Preserve generous clear deep-aubergine wall space on the left for an information panel. Believable late-afternoon light, no writing or signs.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 337455,
+      "sha256": "0c92f9b4169e27ea2c23c4bf33fce9c46a5b90e09adb3361ada4a41e7962674f",
+      "variants": {
+        "800": {
+          "file": "estimate-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 93485,
+          "sha256": "4deb638c903940a0ab70c8f6c0e263a7a42150d36689e318ea99f1dba0fa3359"
+        },
+        "1200": {
+          "file": "estimate-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 179932,
+          "sha256": "e5bda707cfb527f66e67eada2c0bf24e755c27be869fc03d069b89404d565d14"
+        }
+      }
+    },
+    "guide-color.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "d349372b-92d6-483a-9554-2953cc416d61",
+      "prompt": "Photorealistic, high-end editorial residential painting photography set in one coherent North African riad-inspired courtyard home: hand-cut zellige mosaic, limewashed plaster, carved cedar doors, oxidized brass, shallow archways, geometric star and diamond tilework, mature citrus and olive greenery, and warm late-afternoon natural light. Architectural paint accents use lapis blue, deep emerald, saffron, dusty rose, ivory, and deep aubergine with believable material wear and lived-in residential scale. Respectful, specific craft detail, never theme-park fantasy. Real photograph, not illustration, cartoon, CGI, 3D render, miniature, or collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Close editorial photograph of six unbranded painted sample tiles in lapis, emerald, saffron, dusty rose, ivory, and aubergine arranged beside handcrafted zellige star fragments on limewashed plaster. No writing.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 295787,
+      "sha256": "1ed68188a2be7518e9872081fcfdc4ce2198f70504628683ea1a33cb0de1585c",
+      "variants": {
+        "800": {
+          "file": "guide-color-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 77280,
+          "sha256": "82816f27be8a16c32bc05099acf4713420d425b3e93e8c6b89afcb03faf81f63"
+        },
+        "1200": {
+          "file": "guide-color-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 147286,
+          "sha256": "b7ceaf943402ea44d2de485e315ef63223faddf63085bbad2917e7e5c8172cd0"
+        }
+      }
+    },
+    "guide-prep.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "6b27f30a-498b-4c03-bfb0-287680faed43",
+      "prompt": "Photorealistic, high-end editorial residential painting photography set in one coherent North African riad-inspired courtyard home: hand-cut zellige mosaic, limewashed plaster, carved cedar doors, oxidized brass, shallow archways, geometric star and diamond tilework, mature citrus and olive greenery, and warm late-afternoon natural light. Architectural paint accents use lapis blue, deep emerald, saffron, dusty rose, ivory, and deep aubergine with believable material wear and lived-in residential scale. Respectful, specific craft detail, never theme-park fantasy. Real photograph, not illustration, cartoon, CGI, 3D render, miniature, or collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Tight indoor documentary close-up of excellent preparation on a limewashed residential interior arch: smooth repair, sanded surface, carefully masked ivory trim, protected lapis tile floor, unbranded primer and tools, one gloved hand at edge. No window, face, exterior, or writing.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 299880,
+      "sha256": "cf092bc245b7609bee5bfbaa7d8477cd11842d154dc93eb366995cf58f08272e",
+      "variants": {
+        "800": {
+          "file": "guide-prep-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 81181,
+          "sha256": "2dfb627979bdbb87d0e6cdb509e349a3b2ff5a1274c21065a969fa049b5ea70b"
+        },
+        "1200": {
+          "file": "guide-prep-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 153254,
+          "sha256": "82f479dc16f683d548ec5321bcf7a645e35ae9220b07cca62adde81c48c9f59b"
+        }
+      }
+    },
+    "guide-sheen.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "2e52bd06-b8d8-4790-a007-372a22c0f0b8",
+      "prompt": "Photorealistic, high-end editorial residential painting photography set in one coherent North African riad-inspired courtyard home: hand-cut zellige mosaic, limewashed plaster, carved cedar doors, oxidized brass, shallow archways, geometric star and diamond tilework, mature citrus and olive greenery, and warm late-afternoon natural light. Architectural paint accents use lapis blue, deep emerald, saffron, dusty rose, ivory, and deep aubergine with believable material wear and lived-in residential scale. Respectful, specific craft detail, never theme-park fantasy. Real photograph, not illustration, cartoon, CGI, 3D render, miniature, or collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Abstract close material photograph of four unmarked deep-emerald painted finish strips with distinctly different reflections, arranged over ivory limewash beside a lapis zellige star and oxidized brass edge. No labels, people, windows, or text.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 326677,
+      "sha256": "8048f6b4d2b586466712e5686d561da4e14967a1b47206d4cb51806dcc7c93b4",
+      "variants": {
+        "800": {
+          "file": "guide-sheen-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 85749,
+          "sha256": "782d94863adfd2189c822db065fc7c7015448ef5d7449c504f3bba096c04c101"
+        },
+        "1200": {
+          "file": "guide-sheen-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 166159,
+          "sha256": "97deaa22e0aaa6653f5e1cd5081066e4b022c878ab4c413d9096a89ca7c9912e"
+        }
+      }
+    },
+    "proof-after.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "b01be6e8-1f61-47c3-8318-a4d015650c5a",
+      "prompt": "Use the supplied riad-inspired residence photograph as the exact immutable scene. Lock camera, lens, crop, perspective, centered carved entry door, shutters, windows, zellige threshold, pots, planting, wall geometry, sun, shadows, and every nonpainted object. Change paint only: faded beige stucco becomes warm ivory limewash, the centered door becomes deep aubergine, shutters become emerald green, window trim becomes lapis blue, and arch trim becomes saffron. Remove visible paint wear only. No remodel, new decoration, moved plants, changed weather, person, text, sign, or altered architecture. Return a photoreal photograph.",
+      "reference": "proof-before.jpg",
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 378185,
+      "sha256": "f77d296a7a355221983bc22974db86e9363b0fc417adecc6845801d85016e9b6",
+      "variants": {
+        "800": {
+          "file": "proof-after-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 94916,
+          "sha256": "2c48dcccbff9cc46eb3dca771824ec0476686a9b09141d86b220e6f2a4721932"
+        },
+        "1200": {
+          "file": "proof-after-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 189494,
+          "sha256": "9f0b435e01ca78818ed46253191918a031620dd3313748a0a5e94e5947653fe0"
+        }
+      }
+    },
+    "hero-motion.mp4": {
+      "provider": "Higgsfield",
+      "model": "Seedance 2.0 Mini",
+      "jobId": "fdf6d590-23fc-4c3d-b3c5-df1f1c9fbd71",
+      "prompt": "Use the supplied photoreal riad-inspired courtyard hero photograph as the exact scene. Lock camera, lens, crop, facade, zellige mosaic wall, carved door, painter identity, clothing, palette, plants, sky, shadows, and every object. Create one seamless six-second late-afternoon moment: a few leaves move in a subtle breeze; light glides gently across the glazed tiles; the painter makes only a tiny natural posture shift. No camera movement, zoom, cut, tile morphing, walking, speaking, new object, changed face or hand, text, logo, sign, watermark, or audio. Maintain photography realism.",
+      "reference": "hero.jpg",
+      "durationSeconds": 6,
+      "bytes": 1167210,
+      "sha256": "5ff6b32c1d6cc5d0bbe5971759aa21ce11c4dcf872abee2d273d6a28a74eac4c"
+    },
+    "planning-wall.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "733723ce-aa95-4480-93f5-b7a2d301e836",
+      "prompt": "Photorealistic, high-end editorial residential painting photography set in one coherent North African riad-inspired courtyard home: hand-cut zellige mosaic, limewashed plaster, carved cedar doors, oxidized brass, shallow archways, geometric star and diamond tilework, mature citrus and olive greenery, and warm late-afternoon natural light. Architectural paint accents use lapis blue, deep emerald, saffron, dusty rose, ivory, and deep aubergine with believable material wear and lived-in residential scale. Respectful, specific craft detail, never theme-park fantasy. Real photograph, not illustration, cartoon, CGI, 3D render, miniature, or collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Wide environmental editorial photograph of an adult professional painter arranging six unmarked paint sample tiles on a low ivory plaster table in an enclosed residential courtyard. A lapis zellige wall, carved cedar door, emerald shutter, saffron arch, and dusty rose textile establish the finished architectural context behind the samples. The painter is working naturally, correct anatomy, no writing or signs.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 334939,
+      "sha256": "29616960c613ef5489c79b533787f4b23bc58fec118a5f55c3969d963d607a38",
+      "variants": {
+        "800": {
+          "file": "planning-wall-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 91653,
+          "sha256": "06676f99eca5346b7fc52340dadea95861a5eee2186a753f60cb90531c4d565c"
+        },
+        "1200": {
+          "file": "planning-wall-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 176067,
+          "sha256": "0f48328a1f304aff31e8f10c54f25713213099824b0e8d482c06c5fe69e6a98c"
+        }
+      }
+    },
+    "notes-wall.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "b2929741-d88f-49c6-937a-be6fb1b74fdf",
+      "prompt": "Photorealistic, high-end editorial residential painting photography set in one coherent North African riad-inspired courtyard home: hand-cut zellige mosaic, limewashed plaster, carved cedar doors, oxidized brass, shallow archways, geometric star and diamond tilework, mature citrus and olive greenery, and warm late-afternoon natural light. Architectural paint accents use lapis blue, deep emerald, saffron, dusty rose, ivory, and deep aubergine with believable material wear and lived-in residential scale. Respectful, specific craft detail, never theme-park fantasy. Real photograph, not illustration, cartoon, CGI, 3D render, miniature, or collage. No text, words, letters, numbers, logos, brands, labels, signs, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Wide quiet editorial photograph of a completed enclosed riad-inspired residential reading room. A tall ivory limewashed wall, deep aubergine painted arch, low lapis zellige fireplace surround, emerald shutter, carved cedar detail, and an empty woven chair create layered calm architecture. Preserve broad uncluttered plaster and shadow across the left half for information panels. No people, writing, or signs.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 286296,
+      "sha256": "f81852e9c9b66ec5d6c191b013d8b85d4bbdc0a62c5f9b52fc5a6dcfc2db855e",
+      "variants": {
+        "800": {
+          "file": "notes-wall-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 77950,
+          "sha256": "eae081d72915195764c338ec79de446d39f7c16e7dc79258c985c964c96f87b1"
+        },
+        "1200": {
+          "file": "notes-wall-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 150043,
+          "sha256": "7ae24f7107be79543e1532198782a6fb0da2b0d82855f45782db288db545bd85"
+        }
+      }
+    }
+  },
+  "pairs": [
+    {
+      "id": "riad-facade",
+      "before": "proof-before.jpg",
+      "after": "proof-after.jpg",
+      "sameProperty": true,
+      "sameCameraRequired": true,
+      "afterGeneratedFromBeforeReference": true
+    }
+  ]
+}

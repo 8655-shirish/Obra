@@ -1,0 +1,190 @@
+{
+  "brand": "True Coat",
+  "variant": "Craftsman’s Colorbook",
+  "purpose": "Exclusive local generated media for the canonical /painter4 image-heavy fictional painter template preview.",
+  "rightsStatus": "verification-required-before-publication",
+  "rightsNote": "Generated through the authenticated Higgsfield account for this project; provider usage terms were not independently verified. Keep the route noindex and verify rights before any production or customer publication.",
+  "truthNote": "All scenes are generated illustrative template media, not completed client projects. Replace them with documented, permissioned project media before production publication.",
+  "assets": {
+    "hero.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "2706d50f-bbdd-4a6e-860f-2f2afe9c5674",
+      "prompt": "Premium tactile editorial photography for a fictional high-end residential painting studio called True Coat, inspired by a professional painter’s physical color-swatch book and a well-used contractor toolbox. Natural north-window daylight, warm bone paper, faded sage, mineral umber, oxblood, dusty cornflower, aged brass and charcoal canvas. Quiet craftsmanship, precise material detail, realistic objects and architecture, sophisticated restrained styling, subtle film grain, no readable words, no letters, no numbers, no logos, no brand marks, no watermark, no rainbow splashes, no glossy CGI, no surreal objects, no unsafe work setup. Wide overhead still life on a scarred oak workbench: a large fan-deck of thick hand-painted color swatches fanned across the frame, a well-used natural-bristle sash brush, folded charcoal canvas tool roll, brass paint-can key, pencil, masking tape, linen rag, and one open project notebook with completely blank pages. A craftsperson’s paint-marked hand gently selects a muted sage swatch at the right edge. Rich tactile depth, generous negative space on the left for editorial copy, no room interior.",
+      "bytes": 746663,
+      "sha256": "f79de0f3f641eb5a8505d29ac7fb26df9f633413569a36a6fa8a8dd4a0477887",
+      "observedOutput": "Generated overhead workbench still life with a fan deck, brush, tool roll, brass objects, masking tape, blank notebook, and paint-marked hand selecting a sage card; tiny synthetic markings appear on generated swatches and are not real product labels."
+    },
+    "services.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "7925549b-f88f-4a11-9696-b8f3150d33d2",
+      "prompt": "Premium tactile editorial photography for a fictional high-end residential painting studio called True Coat, inspired by a professional painter’s physical color-swatch book and a well-used contractor toolbox. Natural north-window daylight, warm bone paper, faded sage, mineral umber, oxblood, dusty cornflower, aged brass and charcoal canvas. Quiet craftsmanship, precise material detail, realistic objects and architecture, sophisticated restrained styling, subtle film grain, no readable words, no letters, no numbers, no logos, no brand marks, no watermark, no rainbow splashes, no glossy CGI, no surreal objects, no unsafe work setup. Wide editorial flat lay of four large physical painted sample boards overlapping like a craftsman’s fan deck: warm plaster, dusty blue, oxblood, and deep umber finishes. Around them sit a sash brush, small roller sleeve, cabinet scraper, exterior moisture meter, and worn canvas tool pouch. Each board has different realistic sheen and edge texture, no labels or text. Designed as an image-led service overview.",
+      "bytes": 517875,
+      "sha256": "1d0ad3dbdc337752e8978e330faa58ef604b0300318c5b028a6bf9d3074bbb32",
+      "observedOutput": "Generated window-side workbench with four oversized painted finish boards, rollers, scraper, meter, and used tool pouch; a tiny synthetic device label is not real branding."
+    },
+    "walls.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "27fb3ff0-ed94-49d6-b362-2fe8224a2a15",
+      "prompt": "Premium tactile editorial photography for a fictional high-end residential painting studio called True Coat, inspired by a professional painter’s physical color-swatch book and a well-used contractor toolbox. Natural north-window daylight, warm bone paper, faded sage, mineral umber, oxblood, dusty cornflower, aged brass and charcoal canvas. Quiet craftsmanship, precise material detail, realistic objects and architecture, sophisticated restrained styling, subtle film grain, no readable words, no letters, no numbers, no logos, no brand marks, no watermark, no rainbow splashes, no glossy CGI, no surreal objects, no unsafe work setup. Finished elegant residential living room in soft natural daylight, mineral-plaster walls painted muted sage, warm ivory ceiling and trim, aged oak floor, linen furniture, perfectly crisp cut lines and subtle realistic surface texture. No workers or tools; calm lived-in room, full architectural context.",
+      "bytes": 535966,
+      "sha256": "ebb3b39bdb09db84e09f5bbeb692d78cebd392b891b9052ddb5e251ec85bc986",
+      "observedOutput": "Generated finished traditional living room with muted sage walls, ivory trim, dark furnishings, oak flooring, and daylight."
+    },
+    "trim.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "622b7dd7-e2a1-4979-99a7-d9a8080ef764",
+      "prompt": "Premium tactile editorial photography for a fictional high-end residential painting studio called True Coat, inspired by a professional painter’s physical color-swatch book and a well-used contractor toolbox. Natural north-window daylight, warm bone paper, faded sage, mineral umber, oxblood, dusty cornflower, aged brass and charcoal canvas. Quiet craftsmanship, precise material detail, realistic objects and architecture, sophisticated restrained styling, subtle film grain, no readable words, no letters, no numbers, no logos, no brand marks, no watermark, no rainbow splashes, no glossy CGI, no surreal objects, no unsafe work setup. Extreme craft detail of a gloved professional hand using an angled natural-bristle sash brush to cut a precise warm-ivory line around a deep umber paneled door frame. Canvas drop cloth and worn metal paint key nearby, realistic wet edge, controlled workmanship, no drips.",
+      "bytes": 647447,
+      "sha256": "865d618c8e60881d1cca3c1d6b0fb1660cadc195be2a4a137a389a4bfdfe7671",
+      "observedOutput": "Generated close craft view of a gloved hand brushing oxblood trim beside a sage wall, canvas cloth, and brass key; the brush ferrule contains synthetic markings."
+    },
+    "exterior.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "fffc7844-092e-4725-952f-e6ac4dc5e40c",
+      "prompt": "Premium tactile editorial photography for a fictional high-end residential painting studio called True Coat, inspired by a professional painter’s physical color-swatch book and a well-used contractor toolbox. Natural north-window daylight, warm bone paper, faded sage, mineral umber, oxblood, dusty cornflower, aged brass and charcoal canvas. Quiet craftsmanship, precise material detail, realistic objects and architecture, sophisticated restrained styling, subtle film grain, no readable words, no letters, no numbers, no logos, no brand marks, no watermark, no rainbow splashes, no glossy CGI, no surreal objects, no unsafe work setup. Completed Craftsman-style residential house exterior in gentle late-afternoon daylight, faded sage lap siding, warm ivory trim, oxblood front door, aged brass porch light, mature restrained landscaping. Entire facade visible, perfectly crisp finish, no workers, ladders, cans, tools, or signs.",
+      "bytes": 934291,
+      "sha256": "a5839f80e461eb01d90880d5ff775f9faf384d8c9a5b5d576f7dec6903d5dc1b",
+      "observedOutput": "Generated finished Craftsman house facade with sage siding, ivory trim, oxblood door/window accents, brass porch light, and landscaping."
+    },
+    "cabinets.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "ece7d9a5-7c3e-4e77-90fb-87d4a61a6edc",
+      "prompt": "Premium tactile editorial photography for a fictional high-end residential painting studio called True Coat, inspired by a professional painter’s physical color-swatch book and a well-used contractor toolbox. Natural north-window daylight, warm bone paper, faded sage, mineral umber, oxblood, dusty cornflower, aged brass and charcoal canvas. Quiet craftsmanship, precise material detail, realistic objects and architecture, sophisticated restrained styling, subtle film grain, no readable words, no letters, no numbers, no logos, no brand marks, no watermark, no rainbow splashes, no glossy CGI, no surreal objects, no unsafe work setup. Completed intimate kitchen with beautifully refinished deep oxblood cabinet doors and frames, warm bone plaster walls, soapstone counter, aged brass hardware, oak floor, soft daylight, precise finish edges and realistic satin sheen. No workers or tools.",
+      "bytes": 522466,
+      "sha256": "07b5de23f938efec290e1b8f61743d68d35699b235d9376c905035eb74aa9e8c",
+      "observedOutput": "Generated finished traditional kitchen with oxblood cabinetry, muted sage doors, warm ivory walls, stone counters, brass hardware, and a blue range."
+    },
+    "proof-before.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "ea595dca-7720-44ac-b20e-a686a839a67b",
+      "prompt": "Premium tactile editorial photography for a fictional high-end residential painting studio called True Coat, inspired by a professional painter’s physical color-swatch book and a well-used contractor toolbox. Natural north-window daylight, warm bone paper, faded sage, mineral umber, oxblood, dusty cornflower, aged brass and charcoal canvas. Quiet craftsmanship, precise material detail, realistic objects and architecture, sophisticated restrained styling, subtle film grain, no readable words, no letters, no numbers, no logos, no brand marks, no watermark, no rainbow splashes, no glossy CGI, no surreal objects, no unsafe work setup. BEFORE photograph for a matched-camera paint-only comparison: fixed straight-on view of a modest elegant living room with plaster walls in tired yellowed beige, visible small patched repairs and scuffs, warm ivory trim needing refresh, oak floor, one linen sofa, one wooden side table, northern daylight. Preserve exact architecture, camera, furniture, crop and light for an after edit. No tools, people, murals, structural damage or remodel.",
+      "bytes": 601188,
+      "sha256": "c66fc3de1080b4b305da0ae463697afefe87076492fd0429e0959f9271aa8aaa",
+      "observedOutput": "Generated matched-pair source room with worn yellowed plaster, scattered repairs, ivory trim, oak floor, sofa, side table, portrait, and a dark board at right."
+    },
+    "proof-after.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "f93ad94a-32a6-4246-872d-c2b55fd1f8be",
+      "prompt": "Create the AFTER frame of this exact generated room after a professional paint-only project. Preserve identical camera position, lens, crop, architecture, ceiling, trim profiles, windows, openings, oak floor, linen sofa, wooden side table, furniture positions, proportions and northern daylight. Repair the small patched/scuffed plaster and repaint the walls a sophisticated muted dusty cornflower blue; refresh all trim in warm ivory. Keep every structural and furnishing detail unchanged. This is paint only, not a remodel. No added or removed furniture, no people, no tools, no text, no logos, no mural, no wallpaper, no structural changes.",
+      "bytes": 591566,
+      "sha256": "26a2e28d836980479d5cadc96b6385057056d2c9b66125e314d861713d2634f9",
+      "observedOutput": "Generated paint-only edit of the same source room with blue walls while preserving the visible architecture, ceiling, trim, windows, doors, floor, furniture, portrait, and dark board; slight generative differences may remain and must be reviewed before production use."
+    },
+    "planning.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "9f1d868a-e0f5-4096-80a4-10fba35daa69",
+      "prompt": "Premium tactile editorial photography for a fictional high-end residential painting studio called True Coat, inspired by a professional painter’s physical color-swatch book and a well-used contractor toolbox. Natural north-window daylight, warm bone paper, faded sage, mineral umber, oxblood, dusty cornflower, aged brass and charcoal canvas. Quiet craftsmanship, precise material detail, realistic objects and architecture, sophisticated restrained styling, subtle film grain, no readable words, no letters, no numbers, no logos, no brand marks, no watermark, no rainbow splashes, no glossy CGI, no surreal objects, no unsafe work setup. Wide editorial workbench scene for project planning: open blank cream notebook, fan deck of muted color chips, three hand-painted sheen samples catching angled daylight, folded canvas drop cloth, tape, pencil, moisture meter, brass key and small brush. Abundant tactile imagery, no readable text or markings.",
+      "bytes": 551906,
+      "sha256": "b8c9e6355a1776835f9a674674929285abe59e7fa2ea07abd5901834a08c76c2",
+      "observedOutput": "Generated workbench with blank books, fan deck, three sheen panels, brush, tape, measurement tool, and brass key under daylight; tiny synthetic markings are not real labels."
+    },
+    "review.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "c08e7865-f0ac-48ea-ac4e-bbcad24aef88",
+      "prompt": "Premium tactile editorial photography for a fictional high-end residential painting studio called True Coat, inspired by a professional painter’s physical color-swatch book and a well-used contractor toolbox. Natural north-window daylight, warm bone paper, faded sage, mineral umber, oxblood, dusty cornflower, aged brass and charcoal canvas. Quiet craftsmanship, precise material detail, realistic objects and architecture, sophisticated restrained styling, subtle film grain, no readable words, no letters, no numbers, no logos, no brand marks, no watermark, no rainbow splashes, no glossy CGI, no surreal objects, no unsafe work setup. Warm documentary portrait of a fictional homeowner’s finished reading room, no person visible: muted cornflower walls, warm ivory built-ins, oxblood reading chair, oak floor, afternoon light, a fan of color swatches and closed blank notebook resting on a small table. Polished but lived-in, no text or logos.",
+      "bytes": 455846,
+      "sha256": "dbcbf6c26da2b9418e00dcecdc708058eb64a51550254b3ca6189fb20f4eed6a",
+      "observedOutput": "Generated completed reading room with blue walls, ivory built-ins, oxblood chair, sample fan, blank notebook, and toolbox; represents no real client or review."
+    },
+    "cta.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "6c2a3931-726b-412e-8c54-b12e7df1f79c",
+      "prompt": "Premium tactile editorial photography for a fictional high-end residential painting studio called True Coat, inspired by a professional painter’s physical color-swatch book and a well-used contractor toolbox. Cinematic wide overhead view into an open genuinely used charcoal-canvas contractor tool roll on a scarred oak bench beside a large fan deck and folded color plan: natural-bristle brushes, roller frame, scrapers, aged brass paint-can key, pencil, masking tape, linen rag and neatly organized canvas pockets. Soft low evening workshop light, warm bone paper, faded sage, mineral umber, oxblood and dusty cornflower accents. Refined, tactile and inviting with a large quiet area for call-to-action copy. No readable words, letters, numbers, logos, brand marks, watermark, rainbow splashes, glossy CGI, people, unsafe setup or surreal objects.",
+      "bytes": 712403,
+      "sha256": "32a0ebab6320a6578de82286a874da20748d06a8892574e29376e44884a33dd6",
+      "observedOutput": "Generated evening toolbox/workbench still life with organized worn tools, canvas, swatches, and warm negative space; synthetic plans and swatches are illustrative only."
+    },
+    "inspect.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "1fb5bbd6-4b84-4b68-8ebc-35bf807b3e7d",
+      "prompt": "Premium tactile editorial photography for a fictional high-end residential painting studio called True Coat, inspired by a professional painter’s physical color-swatch book and a well-used contractor toolbox. Natural north-window daylight, warm bone paper, faded sage, mineral umber, oxblood, dusty cornflower, aged brass and charcoal canvas. Quiet craftsmanship, precise material detail, realistic professional technique, subtle film grain, no readable words, no letters, no numbers, no logos, no brand marks, no watermark, no rainbow splashes, no glossy CGI, no surreal objects, no unsafe work setup. Close documentary view of a gloved professional painter carefully inspecting an ornate interior trim edge under a small warm brass raking light, holding a blank cream notebook and pencil nearby, worn canvas tool roll in the background. No active coating, no paint drips.",
+      "bytes": 624517,
+      "sha256": "b3f94d0d638f8577d6cc1306dfeb4456865c131bd5bc8626a213f38c0100d3fd",
+      "observedOutput": "Generated close inspection scene with a fictional craftsperson, raking light, ornate trim, blank notebook, and tool roll."
+    },
+    "repair.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "efe7c155-0516-4b98-9136-80930c16f680",
+      "prompt": "Premium tactile editorial photography for a fictional high-end residential painting studio called True Coat, inspired by a professional painter’s physical color-swatch book and a well-used contractor toolbox. Natural north-window daylight, warm bone paper, faded sage, mineral umber, oxblood, dusty cornflower, aged brass and charcoal canvas. Quiet craftsmanship, precise material detail, realistic professional technique, subtle film grain, no readable words, no letters, no numbers, no logos, no brand marks, no watermark, no rainbow splashes, no glossy CGI, no surreal objects, no unsafe work setup. Close documentary view of a gloved professional hand using a worn metal filling knife to make a small controlled plaster repair under raking light, aged oak workbench below with canvas rag and sanding sponge, realistic limited patch, no structural damage.",
+      "bytes": 507965,
+      "sha256": "2c3150ad125116173b8a7b4272eef63225aefad869891b12408aff29a307ac9d",
+      "observedOutput": "Generated close controlled plaster-repair scene with a fictional craftsperson, filling knife, light, rag, and sanding sponge."
+    },
+    "prepare.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "2d85c991-0ab4-4063-824c-95ae14d8ee25",
+      "prompt": "Premium tactile editorial photography for a fictional high-end residential painting studio called True Coat, inspired by a professional painter’s physical color-swatch book and a well-used contractor toolbox. Natural north-window daylight, warm bone paper, faded sage, mineral umber, oxblood, dusty cornflower, aged brass and charcoal canvas. Quiet craftsmanship, precise material detail, realistic professional technique, subtle film grain, no readable words, no letters, no numbers, no logos, no brand marks, no watermark, no rainbow splashes, no glossy CGI, no surreal objects, no unsafe work setup. Close documentary view of a gloved professional painter carefully masking intricate warm-ivory architectural trim with narrow bone-colored tape before coating a muted sage wall; worn canvas tool pouch and brass paint key nearby, perfectly controlled prep.",
+      "bytes": 719880,
+      "sha256": "1a3382fa1e54a3dc88793fa20d62b7c3e46c869fd5925a1ae33b2cb9385b9c83",
+      "observedOutput": "Generated close trim-masking scene with a fictional craftsperson, tape, sage wall, tool pouch, and brass key."
+    },
+    "finish.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "0b8e0267-f57c-4f77-91d9-78387241c16e",
+      "prompt": "Premium tactile editorial photography for a fictional high-end residential painting studio called True Coat, inspired by a professional painter’s physical color-swatch book and a well-used contractor toolbox. Natural north-window daylight, warm bone paper, faded sage, mineral umber, oxblood, dusty cornflower, aged brass and charcoal canvas. Quiet craftsmanship, precise material detail, realistic professional technique, subtle film grain, no readable words, no letters, no numbers, no logos, no brand marks, no watermark, no rainbow splashes, no glossy CGI, no surreal objects, no unsafe work setup. Wide documentary view of a professional painter in clean neutral workwear applying a final controlled muted cornflower wall coat with a roller in an elegant protected residential room, warm ivory trim, charcoal canvas drop cloth, precise wet edge, safe floor-level setup, no ladder.",
+      "bytes": 507203,
+      "sha256": "4f2f1634343fc41f0c063084cd3e6abea5932e6d18123fdcb6f440264130de69",
+      "observedOutput": "Generated fictional professional painter applying a final blue wall coat in a protected residential room from a safe floor-level position."
+    },
+    "hero-loop.mp4": {
+      "provider": "Higgsfield",
+      "model": "Seedance 2.5",
+      "jobId": "e862a3fb-138c-4919-8fc7-a75c6142bfe5",
+      "prompt": "A restrained five-second cinematic overhead craft loop based on this exact still life. The painter’s hand slowly slides one muted sage swatch out of the fan deck by two inches while soft north-window light shifts subtly across the worn oak, natural-bristle brush, charcoal canvas tool roll and aged brass key. Camera remains completely locked; all tools stay fixed; movement is gentle and physically realistic; no zoom, pan, morphing, new objects, text, logos, spills or audio.",
+      "bytes": 3070233,
+      "sha256": "2190c2538b806db79e97163c4cc23737fdbba7c2b38ef7046797fc5583c97c09",
+      "observedOutput": "Generated restrained craft motion derived from the hero still. It is muted, plays once for no more than 4.5 seconds in the website, and is replaced by the still image for reduced-motion users."
+    },
+    "protect-v2.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "baa9d18d-daf4-4060-926d-bcf125a250b5",
+      "prompt": "Premium tactile editorial photography for a fictional high-end residential painting studio. Natural north-window daylight, warm bone paper, faded sage, mineral umber, oxblood, dusty cornflower, aged brass and charcoal canvas. Quiet craftsmanship, precise material detail, realistic professional technique, sophisticated restrained styling, subtle film grain. Absolutely no readable words, letters, numbers, logos, brands, monograms, labels, signage or watermark anywhere. No rainbow splashes, glossy CGI, surreal objects, unsafe work setup or duplicated tools. Wide room preparation view: a linen sofa and aged oak floor completely and neatly protected by heavy charcoal canvas drop cloths and warm bone masking paper precisely fitted at every edge. One plain unbranded closed charcoal canvas tool roll and folded linen cloth in foreground; no writing or markings on any object. No wall color test patches, no active painting, no ladders.",
+      "bytes": 525730,
+      "sha256": "f56014007cded490cd4d41e2c6a0d0a9220e2407c961ea915a5fdc6afc40c786",
+      "observedOutput": "Generated protected residential room with canvas and paper floor coverings, a linen sofa, unbranded closed tool roll, folded cloth, and large color test areas; no readable text appears."
+    },
+    "clean-edge.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "70b10158-ee2b-44e3-bb1c-253823184112",
+      "prompt": "Premium tactile editorial photography for a fictional high-end residential painting studio. Natural north-window daylight, warm bone paper, faded sage, mineral umber, oxblood, dusty cornflower, aged brass and charcoal canvas. Quiet craftsmanship, precise material detail, realistic professional technique, sophisticated restrained styling, subtle film grain. Absolutely no readable words, letters, numbers, logos, brands, monograms, labels, signage or watermark anywhere. No rainbow splashes, glossy CGI, surreal objects, unsafe work setup or duplicated tools. Extreme editorial craft close-up: a gloved professional hand slowly removes a narrow strip of plain cream masking tape from a freshly finished oxblood paneled door edge, revealing a perfectly crisp line against warm ivory trim. Natural-bristle sash brush, folded charcoal canvas and an aged brass paint-can key sit softly out of focus. Controlled realistic finish, no drips, no writing on tape or tools.",
+      "bytes": 512972,
+      "sha256": "48cb0a336c78de6733aaf80c5f0b6f66d1c6667ff0eb9fd503d322186d59c6fb",
+      "observedOutput": "Generated close craft view of a gloved hand pulling cream masking tape from an oxblood-and-ivory paneled door edge with brush, canvas, brass key and paint can nearby."
+    },
+    "sheen.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "50b15e43-6f47-4b74-ba9d-bcb63f19e083",
+      "prompt": "Premium tactile editorial photography for a fictional high-end residential painting studio. Natural north-window daylight, warm bone paper, faded sage, mineral umber, oxblood, dusty cornflower, aged brass and charcoal canvas. Quiet craftsmanship, precise material detail, realistic professional technique, sophisticated restrained styling, subtle film grain. Absolutely no readable words, letters, numbers, logos, brands, monograms, labels, signage or watermark anywhere. No rainbow splashes, glossy CGI, surreal objects, unsafe work setup or duplicated tools. Macro daylight study of three large unlabeled hand-painted brush-out boards in the same muted dusty cornflower color, each catching raking window light differently to show flat, eggshell and satin surface reflection. Natural bristle brush, blank bone-paper cards, worn canvas and brass hinge pin nearby. Boards contain no text, marks or symbols.",
+      "bytes": 486576,
+      "sha256": "80263e7c8151cb3f468ed168e9d79dd54d76cb4457e79bae8dcccfda28d54b4e",
+      "observedOutput": "Generated daylight finish study with four unlabeled painted sample boards, including sage, plum, blush, and glossy oxblood surfaces, plus brush, canvas, cards, and brass clip; colors differ from the prompt but the output truthfully illustrates varied reflection."
+    },
+    "faq-v2.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "15092240-53ff-46e4-98ae-5bb2e44f8cc9",
+      "prompt": "Premium tactile editorial photography for a fictional high-end residential painting studio, inspired by a professional painter’s physical color-swatch book and well-used contractor toolbox. Wide overhead consultation worktable in natural north-window daylight: one open completely blank cream field notebook, plain graphite pencil, five thick solid-color hand-painted sample boards with absolutely no white label strips or printing, natural-bristle sash brush, folded charcoal canvas tool roll, plain linen rag, aged brass paint-can key and simple metal scraper. Warm bone paper, faded sage, mineral umber, oxblood and dusty cornflower. Refined organized composition, tactile realism, subtle film grain. Absolutely no electronic devices, gauges, screens, fan decks, printed text, readable words, letters, numbers, logos, brands, monograms, labels, signage, watermark, rainbow, people or unsafe setup.",
+      "bytes": 451742,
+      "sha256": "febba311dccab27f29feb4a6e26ddc62284e3a342981d739c422ed94bb81d266",
+      "observedOutput": "Generated daylight consultation worktable with five solid painted sample boards, brush, blank notebook and pencil, black canvas tool roll, scraper, brass key, linen rag, and open blue paint can; no readable text or labels appear."
+    }
+  }
+}

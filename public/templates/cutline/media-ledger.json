@@ -1,0 +1,203 @@
+{
+  "brand": "True Coat",
+  "purpose": "Exclusive local media for the canonical /templates/painter1 True Coat fictional template preview.",
+  "rightsNote": "Generated through the authenticated Higgsfield account for this project; verify production usage terms before publishing.",
+  "assets": {
+    "journal-color.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobType": "seedream_v4_5",
+      "jobId": "6c97858c-aecf-4dd9-bb91-300c17f535b3",
+      "generatedAt": "2026-09-01T18:58:18.986719Z",
+      "prompt": "Editorial still life in the Luma House world: unlabeled hand-painted color sample boards in chalk, putty, clay, espresso and muted olive beside a natural-bristle brush on travertine, directional sunlight, tactile premium photography. Absolutely no writing, printed labels, glyphs, text, logos, numbers or watermark anywhere.",
+      "aspectRatio": "4:3",
+      "sha256": "7b592b7066c447bc0e453ba895a46c576fe4fc52ccb47b763bd7e737a85f5df5",
+      "bytes": 634961
+    },
+    "journal-finish.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobType": "seedream_v4_5",
+      "jobId": "f92194eb-a9b1-404d-85c2-ef7c04b78a38",
+      "generatedAt": "2026-09-01T19:00:57.083927Z",
+      "prompt": "Abstract editorial macro photograph illustrating three paint sheen levels without any labels: three broad adjacent brush-out swatches in the same warm chalk color applied directly across a curved plaster sample board, grazing sunlight reveals one flat matte area, one soft eggshell area, and one gentle satin reflection through surface response alone. Minimal tactile still life in chalk, putty and espresso tones. Absolutely no cards, no signs, no writing, no typography, no letters, no glyphs, no numbers, no logos, no watermark.",
+      "aspectRatio": "4:3",
+      "sha256": "e78e48eb9694bdb171eac185b1ca395c4fc7f7ea0e37a4ee85e171d0c8a8661a",
+      "bytes": 615496
+    },
+    "project-after.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobType": "seedream_v4_5",
+      "jobId": "4ceb940f-5f08-456d-9580-20f1cb014418",
+      "generatedAt": "2026-09-01T18:58:57.913652Z",
+      "prompt": "Create the AFTER photograph of this exact same living room from the exact same fixed camera. Preserve every structural element, fireplace, centered arch, windows, floor, covered furniture position, perspective, lens, crop and afternoon light. Repair and prepare the damaged walls, then finish all walls in a smooth warm putty mineral paint with crisp chalk-white trim; uncover the same furniture and style it minimally in espresso wood and muted olive linen. It must read as a plausible professional paint transformation only, not a remodel. No people, no new openings, no moved architecture, no text, logos or watermark.",
+      "aspectRatio": "16:9",
+      "sha256": "bd42251e8ba910783899aa9fd9b645ae98f7fb08d3a802332009bac05b83d31b",
+      "bytes": 331358
+    },
+    "project-before.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobType": "seedream_v4_5",
+      "jobId": "3c168a05-88da-4ee4-a5e1-dd743712c879",
+      "generatedAt": "2026-09-01T18:57:32.306545Z",
+      "prompt": "BEFORE image for a truthful same-room transformation pair. Straight-on wide architectural photograph of a Mediterranean-modern living room, fixed camera at eye level, arched doorway centered, fireplace left, two windows right, worn patchy cool-gray walls needing preparation, same oak floor and sparse covered furniture, natural afternoon light, exact geometry and perspective must be easy to preserve in an after edit. No people, text, logos, watermark or surreal architecture.",
+      "aspectRatio": "16:9",
+      "sha256": "461f5f6f785e9bea41ed4583bffbcd30b4e6d27cc4b201415f3297331a7c32ba",
+      "bytes": 409099
+    },
+    "service-interior.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobType": "seedream_v4_5",
+      "jobId": "fb63bf53-cac8-4ab9-a09e-c8c70c0bae06",
+      "generatedAt": "2026-09-01T18:57:32.165536Z",
+      "prompt": "Wide editorial photograph in the Luma House world showing a serene finished living room with walls and ceiling freshly painted warm chalk, espresso wood, muted olive linen, curved architecture, luminous late-afternoon light, no people, image must survive a landscape crop. No text, logos, watermark or surreal geometry.",
+      "aspectRatio": "3:2",
+      "sha256": "9149afed762726fa39b3a5b9992718c376c65a867b6741ebe28d9be9a02f2747",
+      "bytes": 512647
+    },
+    "studio-craft.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobType": "seedream_v4_5",
+      "jobId": "9d64b5b5-28f3-4999-b5a0-29e695361233",
+      "generatedAt": "2026-09-01T18:57:32.210924Z",
+      "prompt": "Editorial vertical photograph in the Luma House world: painter methodically masking elegant curved Mediterranean-modern doorway trim, cream workwear, organized canvas drop cloth and a few professional tools, warm clay plaster and oak, late-afternoon directional sunlight, calm tactile craftsmanship. No text, logo, labels, watermark, distorted anatomy, duplicated tools or unsafe setup.",
+      "aspectRatio": "3:4",
+      "sha256": "092def836821b8bb7574c0aaac151837f5de99155aa698095d0b530895f648be",
+      "bytes": 560177
+    },
+    "studio-detail.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobType": "seedream_v4_5",
+      "jobId": "fd58153a-8962-45da-bc8e-d81995ad1a67",
+      "generatedAt": "2026-09-01T18:57:32.180908Z",
+      "prompt": "Editorial close-up in the exact Luma House visual world: gloved hand using a fine sash brush to cut a perfectly crisp edge between chalk white and warm putty on detailed millwork, natural raking sunlight reveals paint texture, minimal tools, refined documentary macro photography. No text, logo, labels, watermark, malformed hand or messy spills.",
+      "aspectRatio": "3:4",
+      "sha256": "970116f5e829320538f0044c585bc6513a739468dac3138f6ae8d34d5c667687",
+      "bytes": 488158
+    },
+    "cutline-hero.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobType": "seedream_v4_5",
+      "jobId": "6a106aef-1638-4d1d-bf50-b135fd04d54e",
+      "generatedAt": "2026-09-01T19:25:18.956068Z",
+      "prompt": "Documentary editorial photograph for a residential painting specification brand called Cutline. Temperate 1960s urban home in cool north daylight, chalk white, graphite casing, oak floor, cobalt blue masking tape as the single vivid accent. Tight three-quarter view of a gloved professional painter slowly peeling a clean cobalt tape line from graphite-painted door casing to reveal a crisp chalk-white cut edge. Mechanically plausible hand, realistic tape tension, safe tidy work, 50mm straight verticals, cool tactile realism. Leave clean breathing room at upper left. No warm luxury styling, no readable text, no logos, no watermark, no extra fingers, no duplicated tools.",
+      "aspectRatio": "4:3",
+      "sha256": "4a0e4c7ee6634b9dd34bb510bb58d2b24d0b278f179784c8d87e861b03303ed4",
+      "bytes": 467164
+    },
+    "gallery-poster.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobType": "seedream_v4_5",
+      "jobId": "21a3478d-489d-41e0-a873-ce8d9f0d2e68",
+      "generatedAt": "2026-09-01T19:25:19.051656Z",
+      "prompt": "Dedicated gallery poster for the Cutline residential painter template: macro documentary view of a gloved hand peeling one diagonal strip of cobalt blue masking tape from a graphite painted trim edge to reveal a crisp chalk-white cutline, cool north daylight, mineral primer gray background, bold simple composition, quiet lower-left area, realistic 50mm detail. No text, glyphs, labels, logos, watermark, malformed anatomy or duplicated tape.",
+      "aspectRatio": "4:3",
+      "sha256": "5b05f54f8dd77d662de439f2e044a8b7f56f3541a8cc0b780f5c94b76f541204",
+      "bytes": 529193
+    },
+    "prep-protect.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobType": "seedream_v4_5",
+      "jobId": "09e3690b-b3f7-4536-b020-7413812d8f2e",
+      "generatedAt": "2026-09-01T19:25:19.194375Z",
+      "prompt": "Cutline documentary work evidence: same cool-daylight 1960s home, professional painter neatly covering oak floor and one low chair with canvas drop cloth and applying cobalt blue masking tape along a graphite baseboard, safe tidy setup, straight verticals, chalk and mineral gray palette, realistic hands. No text, logo, watermark or warm luxury styling.",
+      "aspectRatio": "3:2",
+      "sha256": "45bb796368a4ce22b5b64299145104072c4150ddd160cd430e9959198aae0b2c",
+      "bytes": 552570
+    },
+    "prep-repair.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobType": "seedream_v4_5",
+      "jobId": "fc8c61df-4349-4123-94ab-0700275f00e3",
+      "generatedAt": "2026-09-01T19:25:18.976592Z",
+      "prompt": "Cutline documentary work evidence: close raking-light inspection and repair of a small plaster wall patch in a 1960s home, gloved hand and sanding block, cobalt blue masking tape marking the work boundary, cool north daylight, chalk, graphite and mineral gray palette, mechanically plausible tools. No text, logo, watermark, extra fingers or warm luxury styling.",
+      "aspectRatio": "3:2",
+      "sha256": "8c924ee9a00a3c8e684f81ad79117d87ac153bab8fcca8cdf06fcd1dcaee0430",
+      "bytes": 376243
+    },
+    "prep-finish.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobType": "seedream_v4_5",
+      "jobId": "b3582290-383f-41b7-b46a-e68d0a62b794",
+      "generatedAt": "2026-09-01T19:25:18.902579Z",
+      "prompt": "Cutline documentary work evidence: professional painter in clean workwear making a controlled roller pass on a chalk-white wall beside graphite trim, a single cobalt blue tape datum, cool north daylight in a modest 1960s home, organized equipment, realistic finish sheen. No text, logo, watermark, unsafe ladder, extra limbs or luxury editorial warmth.",
+      "aspectRatio": "3:2",
+      "sha256": "6214fbcb723924b62837fe2c4ffb567386dce22e6653e87b3867f87349cc75e3",
+      "bytes": 377776
+    },
+    "surface-trim.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobType": "seedream_v4_5",
+      "jobId": "4fcb4e52-fa41-4055-8b24-e8a7d1d46b26",
+      "generatedAt": "2026-09-01T19:25:18.895418Z",
+      "prompt": "Cutline finished-surface evidence: crisp chalk-white door and graphite casing in a renovated 1960s home, cobalt tape just removed and curled at the floor, cool north daylight, straight architectural photography, tactile paint finish, no people. No text, logos, watermark or warped geometry.",
+      "aspectRatio": "3:2",
+      "sha256": "864bc289bd613624a73e0dcb78bae9738b4e5a598a6e8d852470926a76449cbb",
+      "bytes": 369583
+    },
+    "surface-exterior.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobType": "seedream_v4_5",
+      "jobId": "02c514b3-8216-4b19-8dc2-f2a854dfaa32",
+      "generatedAt": "2026-09-01T19:25:18.906924Z",
+      "prompt": "Cutline finished-surface evidence: modest 1960s brick-and-siding urban home exterior in cool overcast daylight, freshly painted chalk siding with graphite trim and one cobalt blue front door detail, honest restrained documentary architecture, no people. No signs, text, logos, watermark or luxury Mediterranean styling.",
+      "aspectRatio": "3:2",
+      "sha256": "307a5dffdebef9d1b8c55b8a0174ba63300c50f1c50fd3af57c911fcc3fa7c64",
+      "bytes": 541542
+    },
+    "surface-cabinet.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobType": "seedream_v4_5",
+      "jobId": "34de90c0-79fb-45d0-96f7-b216d1edb1e8",
+      "generatedAt": "2026-09-01T19:25:19.016654Z",
+      "prompt": "Cutline finished-surface evidence: practical mid-century kitchen with cabinet doors refinished chalk white and graphite island, oak details, cool north window light, a small loose end of cobalt tape on a protected counter, restrained documentary photography, no people. No text, labels, logos, watermark or warped cabinetry.",
+      "aspectRatio": "3:2",
+      "sha256": "a224ccae661b679e4de0e0fa235ad3e0f80878b61aff405bb36bafe984dcbf9d",
+      "bytes": 510417
+    },
+    "cutline-loop.mp4": {
+      "provider": "Higgsfield",
+      "model": "Seedance 2.0 Mini",
+      "jobType": "seedance_2_0_mini",
+      "jobId": "0e8bba01-e2d3-4277-9171-3092fc641541",
+      "generatedAt": "2026-09-01T19:30:11.358068Z",
+      "prompt": "Locked 50mm documentary close-up from this exact start frame. The gloved painter slowly peels the cobalt masking tape a few inches along the graphite casing, pauses to reveal the crisp chalk-white cutline, then gently returns so the final frame closely matches the first. Preserve door, trim, floor, hand anatomy, tape width, cool north light and camera exactly. No camera motion, no cuts, no new objects, no text, no logos, no morphing, no audio.",
+      "duration": 6,
+      "resolution": "720p",
+      "audioGenerated": false,
+      "sha256": "4652c1b0cf2de6f9b542afdf46397ccdad851278385b37f6c6e48a74a82e90e7",
+      "bytes": 3512528,
+      "codec": "avc1",
+      "atoms": [
+        {
+          "type": "ftyp",
+          "offset": 0,
+          "size": 32
+        },
+        {
+          "type": "moov",
+          "offset": 32,
+          "size": 2771
+        },
+        {
+          "type": "mdat",
+          "offset": 2803,
+          "size": 3509725
+        }
+      ]
+    }
+  }
+}

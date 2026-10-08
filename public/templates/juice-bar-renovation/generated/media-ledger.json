@@ -1,0 +1,509 @@
+{
+  "template": "painter14-juice-bar-renovation",
+  "route": "/templates/painter14",
+  "brand": "True Coat",
+  "variant": "Juice Bar Renovation",
+  "mediaKind": "photorealistic-generated-photography",
+  "generatedAt": "2026-09-07T12:30:17.713145+00:00",
+  "artDirection": "1980s-inspired tropical residential painting photography with saturated architectural colors, glossy tile, acrylic, chrome, vinyl, daylight, and practical professional painting.",
+  "rightsStatus": "verification-required-before-publication",
+  "truthNote": "Photorealistic media generated through the authenticated Higgsfield account for this fictional template; not documented client projects or verified customer proof.",
+  "assets": {
+    "hero.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "51e6062c-5c64-4240-b1d7-4666dfaeafb9",
+      "prompt": "Photorealistic, vibrant editorial residential painting photography set in one coherent 1980s-inspired sunbelt neighborhood: saturated but plausible papaya-orange, kiwi-green, dragon-fruit-pink, coconut-white, grape-purple, and electric-teal architectural paint; glossy square tile, translucent acrylic, polished chrome, vinyl seating, wet-paint sheen, daylight, believable residential scale, and professional painting practice. The atmosphere recalls a bold tropical juice bar without depicting a shop, food counter, fruit, smoothies, or beverages. The result is playful, fresh, maximalist, and practical rather than childish. Real photograph, not illustration, cartoon, CGI, 3D render, miniature, or collage. No text, words, letters, numbers, logos, brands, labels, signage, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Wide landscape hero photograph of a finished open-plan residential kitchen and dining room. Electric-teal glossy tile wraps a kitchen island, kiwi-green lacquer cabinets sit beneath coconut-white walls, a papaya-orange arch frames a dragon-fruit-pink doorway, and polished chrome catches daylight. Three huge abstract fruit-like painted wall forms frame the finished room but are clearly architectural paint shapes, not fruit objects. Leave a calm wide coconut-white painted wall across the left third. Eye-level 28mm composition, no people.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 251552,
+      "sha256": "8745538c6e4c10312909ae84d368b0eff8b35747d3949147fed1a266c1d98864",
+      "variants": {
+        "800": {
+          "file": "hero-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 67406,
+          "sha256": "1ca0b07b276e724f71e5fb628f990757a97f93cd3a56d8edfb11205934f63bb0"
+        },
+        "1200": {
+          "file": "hero-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 128568,
+          "sha256": "5c62605c945467bf60106bc3e92b32e0f6d2979e2322cfdb9c4b5db3dcb4e9f4"
+        }
+      }
+    },
+    "point-of-view.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "4a411cee-587f-4f5d-8a64-8c63b997fdc2",
+      "prompt": "Photorealistic, vibrant editorial residential painting photography set in one coherent 1980s-inspired sunbelt neighborhood: saturated but plausible papaya-orange, kiwi-green, dragon-fruit-pink, coconut-white, grape-purple, and electric-teal architectural paint; glossy square tile, translucent acrylic, polished chrome, vinyl seating, wet-paint sheen, daylight, believable residential scale, and professional painting practice. The atmosphere recalls a bold tropical juice bar without depicting a shop, food counter, fruit, smoothies, or beverages. The result is playful, fresh, maximalist, and practical rather than childish. Real photograph, not illustration, cartoon, CGI, 3D render, miniature, or collage. No text, words, letters, numbers, logos, brands, labels, signage, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Tight indoor editorial material photograph filling the frame with an electric-teal square tile surface meeting a glossy kiwi-green cabinet edge and a papaya-orange painted interior arch. A clear acrylic chair edge and polished chrome lamp are softly out of focus. No exterior view, sky, garden, window, door, horizon, people, or food.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 252225,
+      "sha256": "56d4b16c9416e140543980d1729be1dd53c219b0dab944fda2992269129deb4f",
+      "variants": {
+        "800": {
+          "file": "point-of-view-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 63885,
+          "sha256": "00c577abf08e898788deafa055e510b6b1f46ebcfec76d6eb2e1824941970b8b"
+        },
+        "1200": {
+          "file": "point-of-view-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 125248,
+          "sha256": "2f9b891bcf80c3a8d91da0fa4f14ac856767978344bbf16a1c76407114f44afd"
+        }
+      }
+    },
+    "service-interior.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "2c5ff895-efaf-419a-9ca4-1f8c8f7e0135",
+      "prompt": "Photorealistic, vibrant editorial residential painting photography set in one coherent 1980s-inspired sunbelt neighborhood: saturated but plausible papaya-orange, kiwi-green, dragon-fruit-pink, coconut-white, grape-purple, and electric-teal architectural paint; glossy square tile, translucent acrylic, polished chrome, vinyl seating, wet-paint sheen, daylight, believable residential scale, and professional painting practice. The atmosphere recalls a bold tropical juice bar without depicting a shop, food counter, fruit, smoothies, or beverages. The result is playful, fresh, maximalist, and practical rather than childish. Real photograph, not illustration, cartoon, CGI, 3D render, miniature, or collage. No text, words, letters, numbers, logos, brands, labels, signage, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Wide practical residential living room with coconut-white ceilings, grape-purple accent wall, papaya-orange arch, electric-teal tile hearth, and vinyl furniture carefully protected. One professional painter rolls the wall with believable tools, clean drop cloths, correct body and hand anatomy.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 257728,
+      "sha256": "ddf7f57072384320d54d15736df3f2333c783df33c5f0cbd90d2796a621e6ee2",
+      "variants": {
+        "800": {
+          "file": "service-interior-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 70889,
+          "sha256": "c60a7116d1b46da083f8bdc55c46e8fd317b3b3d2aca8c78464aa7073e831a40"
+        },
+        "1200": {
+          "file": "service-interior-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 134565,
+          "sha256": "37258d46810417eecdcc8a3fdd0e5fe35d100efa2cf557401fb1de42dd2a3b6c"
+        }
+      }
+    },
+    "service-exterior.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "a186e612-6910-4630-83b8-6a697ed51f41",
+      "prompt": "Photorealistic, vibrant editorial residential painting photography set in one coherent 1980s-inspired sunbelt neighborhood: saturated but plausible papaya-orange, kiwi-green, dragon-fruit-pink, coconut-white, grape-purple, and electric-teal architectural paint; glossy square tile, translucent acrylic, polished chrome, vinyl seating, wet-paint sheen, daylight, believable residential scale, and professional painting practice. The atmosphere recalls a bold tropical juice bar without depicting a shop, food counter, fruit, smoothies, or beverages. The result is playful, fresh, maximalist, and practical rather than childish. Real photograph, not illustration, cartoon, CGI, 3D render, miniature, or collage. No text, words, letters, numbers, logos, brands, labels, signage, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Wide exterior photograph of a compact 1980s stucco home being professionally painted: warm coconut-white stucco, grape-purple front door, electric-teal shutters, papaya-orange entry surround, kiwi-green planter, low safe scaffold, covered plants, one painter cutting a crisp edge.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 365446,
+      "sha256": "5c9e08ee18b613b1acb3a968c1fa619371c5daab4cf00ca479687f2e79ca0f22",
+      "variants": {
+        "800": {
+          "file": "service-exterior-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 95539,
+          "sha256": "2972f189ab32b9d5bd6f8b190cb1904db3b65df405c648b158d39ce5e0d43b37"
+        },
+        "1200": {
+          "file": "service-exterior-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 189071,
+          "sha256": "53ef1a7de5830ef8f219b71920c641c9ebfa1a06729ab587b0c11cb697ccc693"
+        }
+      }
+    },
+    "service-cabinets.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "950fcd6d-f9f9-4c61-8330-d0b30d0775eb",
+      "prompt": "Photorealistic, vibrant editorial residential painting photography set in one coherent 1980s-inspired sunbelt neighborhood: saturated but plausible papaya-orange, kiwi-green, dragon-fruit-pink, coconut-white, grape-purple, and electric-teal architectural paint; glossy square tile, translucent acrylic, polished chrome, vinyl seating, wet-paint sheen, daylight, believable residential scale, and professional painting practice. The atmosphere recalls a bold tropical juice bar without depicting a shop, food counter, fruit, smoothies, or beverages. The result is playful, fresh, maximalist, and practical rather than childish. Real photograph, not illustration, cartoon, CGI, 3D render, miniature, or collage. No text, words, letters, numbers, logos, brands, labels, signage, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Unquestionably indoor residential kitchen with kiwi-green lacquer cabinet frames, electric-teal tile, papaya-orange pantry niche, polished chrome pulls, and counters professionally protected. One painter refinishes a cabinet frame while labelled hardware trays remain blank and unmarked, correct anatomy, no exterior.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 275334,
+      "sha256": "b30e492f40cd0bd8033fff4533f8484e305ce90e3a480b6a297ae0d188cb66a6",
+      "variants": {
+        "800": {
+          "file": "service-cabinets-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 78511,
+          "sha256": "62ecc3afd1c8bb0c7653bc93cecfe153dc718209510578f05787a08c6a1e1b47"
+        },
+        "1200": {
+          "file": "service-cabinets-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 146612,
+          "sha256": "416dd27aaae9e183e77832920739205119ab8e235de4dda86da3cf71ad1e1cff"
+        }
+      }
+    },
+    "service-doors.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "22f8f650-ae72-40f2-97e1-b79357a439a9",
+      "prompt": "Photorealistic, vibrant editorial residential painting photography set in one coherent 1980s-inspired sunbelt neighborhood: saturated but plausible papaya-orange, kiwi-green, dragon-fruit-pink, coconut-white, grape-purple, and electric-teal architectural paint; glossy square tile, translucent acrylic, polished chrome, vinyl seating, wet-paint sheen, daylight, believable residential scale, and professional painting practice. The atmosphere recalls a bold tropical juice bar without depicting a shop, food counter, fruit, smoothies, or beverages. The result is playful, fresh, maximalist, and practical rather than childish. Real photograph, not illustration, cartoon, CGI, 3D render, miniature, or collage. No text, words, letters, numbers, logos, brands, labels, signage, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Indoor documentary photograph with the professional painter's torso, work shirt, full forearm, hand, and brush clearly occupying the right half of the frame as they apply glossy dragon-fruit-pink enamel to a paneled residential door. The brush bristles visibly touch the door. Electric-teal tile threshold, coconut-white trim, clean masking line, wet-paint reflection, correct anatomy, no face, exterior, sky, or writing.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 260680,
+      "sha256": "ecf5f27a2bb4c0a7c649b8fba8e3d420c471a9321c0ff6d64ba38eb89f10b4d9",
+      "variants": {
+        "800": {
+          "file": "service-doors-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 69953,
+          "sha256": "11d7ecb19223647b3b63cb9d0ba044f20995055b890a7403b088904dbe8f0971"
+        },
+        "1200": {
+          "file": "service-doors-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 134400,
+          "sha256": "6ca5c5c627e966c651d8d9e6bd3296d0ca32309b3a5195a30511bf836369c727"
+        }
+      }
+    },
+    "finish-macro.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "525f584c-11ea-4a60-bd06-6cba9a9b366c",
+      "prompt": "Photorealistic, vibrant editorial residential painting photography set in one coherent 1980s-inspired sunbelt neighborhood: saturated but plausible papaya-orange, kiwi-green, dragon-fruit-pink, coconut-white, grape-purple, and electric-teal architectural paint; glossy square tile, translucent acrylic, polished chrome, vinyl seating, wet-paint sheen, daylight, believable residential scale, and professional painting practice. The atmosphere recalls a bold tropical juice bar without depicting a shop, food counter, fruit, smoothies, or beverages. The result is playful, fresh, maximalist, and practical rather than childish. Real photograph, not illustration, cartoon, CGI, 3D render, miniature, or collage. No text, words, letters, numbers, logos, brands, labels, signage, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Extreme macro material photograph that fills the frame with three adjoining real surfaces only: electric-teal glossy tile, grape-purple satin wall paint, and a narrow polished chrome edge. Clean paint junctions, reflected daylight, tiny wet-paint texture, no room, wall opening, sky, people, tools, or objects.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 273568,
+      "sha256": "c355c7690086f49d43fd7931ab163bb01c4e432909d951f38ade92403b0ae71c",
+      "variants": {
+        "800": {
+          "file": "finish-macro-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 73133,
+          "sha256": "de70a49b0d257f179c60b43a9bffd14e2e7c72d6861ba027ddb38935ffcfc719"
+        },
+        "1200": {
+          "file": "finish-macro-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 141279,
+          "sha256": "6f9d51ffcbfef37f818621ec11d66719953358b13493c01c01df1050fd7b9bd6"
+        }
+      }
+    },
+    "proof-before.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "89e1a521-8c70-4596-9fbe-1a1e73bff6f6",
+      "prompt": "Photorealistic, vibrant editorial residential painting photography set in one coherent 1980s-inspired sunbelt neighborhood: saturated but plausible papaya-orange, kiwi-green, dragon-fruit-pink, coconut-white, grape-purple, and electric-teal architectural paint; glossy square tile, translucent acrylic, polished chrome, vinyl seating, wet-paint sheen, daylight, believable residential scale, and professional painting practice. The atmosphere recalls a bold tropical juice bar without depicting a shop, food counter, fruit, smoothies, or beverages. The result is playful, fresh, maximalist, and practical rather than childish. Real photograph, not illustration, cartoon, CGI, 3D render, miniature, or collage. No text, words, letters, numbers, logos, brands, labels, signage, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Camera-locked source photo for paint-only transformation: straight-on eye-level wide view of a small 1980s single-story stucco home with centered entry, square windows, fixed carport, concrete path, planters and mature landscaping. Existing faded beige stucco, dull brown door, weathered off-white trim, clear late-morning sun, no people. Show all fixed architectural lines.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 328067,
+      "sha256": "ed2069bf04557b879131933e19cc3d6c930a42f786a6a1f2a0e7522f5d7bb11c",
+      "variants": {
+        "800": {
+          "file": "proof-before-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 85369,
+          "sha256": "b72f7c810e209604179884932eba5b49684ce289bc7b91aea27f847e428be082"
+        },
+        "1200": {
+          "file": "proof-before-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 169358,
+          "sha256": "99aa531313239e0acfca69afb1cb13f2d100aaeff53ed6064fabd5a07a2f88d1"
+        }
+      }
+    },
+    "process.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "1d109268-0c98-47ae-a05b-32ab7740617a",
+      "prompt": "Photorealistic, vibrant editorial residential painting photography set in one coherent 1980s-inspired sunbelt neighborhood: saturated but plausible papaya-orange, kiwi-green, dragon-fruit-pink, coconut-white, grape-purple, and electric-teal architectural paint; glossy square tile, translucent acrylic, polished chrome, vinyl seating, wet-paint sheen, daylight, believable residential scale, and professional painting practice. The atmosphere recalls a bold tropical juice bar without depicting a shop, food counter, fruit, smoothies, or beverages. The result is playful, fresh, maximalist, and practical rather than childish. Real photograph, not illustration, cartoon, CGI, 3D render, miniature, or collage. No text, words, letters, numbers, logos, brands, labels, signage, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Wide indoor documentary photograph of two professional painters preparing a bright residential room before coating: one patches a wall while another masks coconut-white trim, floors and chrome furniture are protected, subtle electric-teal test patch, organized unbranded supplies, credible safety and anatomy.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 265805,
+      "sha256": "db18dd84be9c7d0e448cc40c91ff531dd298c91be1733f69d5650286acc92303",
+      "variants": {
+        "800": {
+          "file": "process-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 73818,
+          "sha256": "37d6c6aee2d0c33e4d3a736b32e6cca2df4b27e549ee84b2388fdc24ff36e1ed"
+        },
+        "1200": {
+          "file": "process-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 139519,
+          "sha256": "90ee8d85de7fc7dcc9508478e287739cc2ae3813a47818cf920586090ae3b705"
+        }
+      }
+    },
+    "planning.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "8c81fc6f-e120-4d03-8d15-0d900c712016",
+      "prompt": "Photorealistic, vibrant editorial residential painting photography set in one coherent 1980s-inspired sunbelt neighborhood: saturated but plausible papaya-orange, kiwi-green, dragon-fruit-pink, coconut-white, grape-purple, and electric-teal architectural paint; glossy square tile, translucent acrylic, polished chrome, vinyl seating, wet-paint sheen, daylight, believable residential scale, and professional painting practice. The atmosphere recalls a bold tropical juice bar without depicting a shop, food counter, fruit, smoothies, or beverages. The result is playful, fresh, maximalist, and practical rather than childish. Real photograph, not illustration, cartoon, CGI, 3D render, miniature, or collage. No text, words, letters, numbers, logos, brands, labels, signage, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Strict overhead flat-lay photograph, camera perpendicular to a glossy white tile tabletop filling the entire frame. Plain painted swatches in papaya orange, kiwi green, dragon-fruit pink, coconut white, grape purple, and electric teal sit with clean brushes, roller, masking tape, clear acrylic chips, and chrome hardware. No room, wall, window, sky, paper, handwriting, symbols, or marks.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 256061,
+      "sha256": "8ccce304ff3b2b5ef19286a9828668eb9e31df039816e8358fa2065b850681ce",
+      "variants": {
+        "800": {
+          "file": "planning-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 65865,
+          "sha256": "d7d5d7bbd81778f4f7704a7169e9b84eee38bd7496294f84da2b3c8f619f812f"
+        },
+        "1200": {
+          "file": "planning-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 127124,
+          "sha256": "c5c7d601f24b22f50320365bdfa4c65447dba7de517ead242039f928b8daeb8c"
+        }
+      }
+    },
+    "reviews.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "ac8b6a70-3bd3-48db-b8a7-d895adc75b6b",
+      "prompt": "Photorealistic, vibrant editorial residential painting photography set in one coherent 1980s-inspired sunbelt neighborhood: saturated but plausible papaya-orange, kiwi-green, dragon-fruit-pink, coconut-white, grape-purple, and electric-teal architectural paint; glossy square tile, translucent acrylic, polished chrome, vinyl seating, wet-paint sheen, daylight, believable residential scale, and professional painting practice. The atmosphere recalls a bold tropical juice bar without depicting a shop, food counter, fruit, smoothies, or beverages. The result is playful, fresh, maximalist, and practical rather than childish. Real photograph, not illustration, cartoon, CGI, 3D render, miniature, or collage. No text, words, letters, numbers, logos, brands, labels, signage, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Wide candid final residential walkthrough in a completed colorful kitchen with kiwi cabinets, electric-teal tile, a papaya arch, and a grape-purple door. One painter and two adult homeowners look at the finish naturally, holding two plain solid-color painted samples with no markings. Believable faces and hands, no posing, paper, writing, numbers, letters, or text.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 308400,
+      "sha256": "e572cfe41b7258aef9f9e1f58dc1641b189386e01f0fbdbcd8ac8389ad8da654",
+      "variants": {
+        "800": {
+          "file": "reviews-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 85113,
+          "sha256": "81823a79e6fb45e7cd93b02027892fda86ca914e90bea983c3baac3980eed01b"
+        },
+        "1200": {
+          "file": "reviews-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 161947,
+          "sha256": "04f2a3aa8437164a11221f8a2fff5093804e1b294b39503957ace1d717c5433b"
+        }
+      }
+    },
+    "faq.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "b2b1a433-c5f8-464d-9c31-11cdebe4abb0",
+      "prompt": "Photorealistic, vibrant editorial residential painting photography set in one coherent 1980s-inspired sunbelt neighborhood: saturated but plausible papaya-orange, kiwi-green, dragon-fruit-pink, coconut-white, grape-purple, and electric-teal architectural paint; glossy square tile, translucent acrylic, polished chrome, vinyl seating, wet-paint sheen, daylight, believable residential scale, and professional painting practice. The atmosphere recalls a bold tropical juice bar without depicting a shop, food counter, fruit, smoothies, or beverages. The result is playful, fresh, maximalist, and practical rather than childish. Real photograph, not illustration, cartoon, CGI, 3D render, miniature, or collage. No text, words, letters, numbers, logos, brands, labels, signage, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Photograph taken entirely inside a literal four-walled enclosed residential dining room. Frame only the ceiling, solid interior walls, vinyl chairs, electric-teal tile floor, papaya interior arch, and coconut-white painted wall. No windows, doors, exterior openings, patio, exterior light, sky, lawn, garden, or porch. One painter and one adult homeowner compare plain blank painted samples against the wall. Natural conversation, correct hands, no paper, writing, symbols, or text.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 263639,
+      "sha256": "2c018bcaba38ff65f6818436c85dc70a944f1c438dd324b0b7dfc8a12fe3f4d8",
+      "variants": {
+        "800": {
+          "file": "faq-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 73746,
+          "sha256": "9261e8a0018e54291271957efc2dd5051e42fdada9ae86c35b528a5c76a9fb3b"
+        },
+        "1200": {
+          "file": "faq-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 138549,
+          "sha256": "f7d89934578060754623b06b75b04c463f96a39bc6d439eb144bb1b092052f40"
+        }
+      }
+    },
+    "estimate.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "d1a2a7ec-f654-41a4-902c-44db3817a557",
+      "prompt": "Photorealistic, vibrant editorial residential painting photography set in one coherent 1980s-inspired sunbelt neighborhood: saturated but plausible papaya-orange, kiwi-green, dragon-fruit-pink, coconut-white, grape-purple, and electric-teal architectural paint; glossy square tile, translucent acrylic, polished chrome, vinyl seating, wet-paint sheen, daylight, believable residential scale, and professional painting practice. The atmosphere recalls a bold tropical juice bar without depicting a shop, food counter, fruit, smoothies, or beverages. The result is playful, fresh, maximalist, and practical rather than childish. Real photograph, not illustration, cartoon, CGI, 3D render, miniature, or collage. No text, words, letters, numbers, logos, brands, labels, signage, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Wide exterior project consultation at a compact colorful 1980s home: painter and homeowner stand beside a coconut-white stucco facade with an electric-teal door surround and papaya-orange planter wall. They hold plain solid-color painted samples without marks. Preserve generous quiet paving and wall space on the left, believable afternoon light, no paper, writing, letters, numbers, signs, labels, or text.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 336858,
+      "sha256": "5de7d67c02c0b9d7908cb639891db8895e481bf9437e680ed014c646f1bc8703",
+      "variants": {
+        "800": {
+          "file": "estimate-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 88591,
+          "sha256": "f21d90f0d0662eea82632080457e91ee05bbeb36aeb556d9c3b3378b81c545f6"
+        },
+        "1200": {
+          "file": "estimate-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 173409,
+          "sha256": "31dd6cc1e4550991debfbae4eb958a1143cf2e2cb8cdec571129eefb690b3fd1"
+        }
+      }
+    },
+    "guide-color.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "2e750e41-cac9-449e-a337-51323a1c3146",
+      "prompt": "Photorealistic, vibrant editorial residential painting photography set in one coherent 1980s-inspired sunbelt neighborhood: saturated but plausible papaya-orange, kiwi-green, dragon-fruit-pink, coconut-white, grape-purple, and electric-teal architectural paint; glossy square tile, translucent acrylic, polished chrome, vinyl seating, wet-paint sheen, daylight, believable residential scale, and professional painting practice. The atmosphere recalls a bold tropical juice bar without depicting a shop, food counter, fruit, smoothies, or beverages. The result is playful, fresh, maximalist, and practical rather than childish. Real photograph, not illustration, cartoon, CGI, 3D render, miniature, or collage. No text, words, letters, numbers, logos, brands, labels, signage, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Wide close editorial photograph of six unbranded painted sample boards in papaya, kiwi, dragon-fruit pink, coconut white, grape purple, and electric teal arranged against glossy white tile and polished chrome. Show clean undertones and reflections, no writing.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 229698,
+      "sha256": "09498943b3b56d66674bcbdbbc39b9af61a8078dab897ea07891a8cfa4077ac2",
+      "variants": {
+        "800": {
+          "file": "guide-color-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 65022,
+          "sha256": "d76fd6bbb7e8796d73144a8186eaa7fcc85d2bd7120057e8638c376b88c3a160"
+        },
+        "1200": {
+          "file": "guide-color-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 118997,
+          "sha256": "2d32ffcf0b93bc8fe225ae4e8990e146d543dabbec87c7d50c977dbb38f988fa"
+        }
+      }
+    },
+    "guide-prep.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "7c60e30f-1fa0-4165-b880-8a5efedbc3b4",
+      "prompt": "Photorealistic, vibrant editorial residential painting photography set in one coherent 1980s-inspired sunbelt neighborhood: saturated but plausible papaya-orange, kiwi-green, dragon-fruit-pink, coconut-white, grape-purple, and electric-teal architectural paint; glossy square tile, translucent acrylic, polished chrome, vinyl seating, wet-paint sheen, daylight, believable residential scale, and professional painting practice. The atmosphere recalls a bold tropical juice bar without depicting a shop, food counter, fruit, smoothies, or beverages. The result is playful, fresh, maximalist, and practical rather than childish. Real photograph, not illustration, cartoon, CGI, 3D render, miniature, or collage. No text, words, letters, numbers, logos, brands, labels, signage, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Tight indoor documentary close-up of excellent preparation on a solid residential interior wall: smooth patch, sanded surface, carefully masked coconut-white baseboard, protected electric-teal tile floor, unbranded primer and tools, one gloved hand at edge. No window, door, exterior opening, sky, garden, face, or writing.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 238388,
+      "sha256": "c09554265067250e4bbe3e72e33db43233deb1ae8b12ab212a77727a3f3c702a",
+      "variants": {
+        "800": {
+          "file": "guide-prep-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 67473,
+          "sha256": "7d9cea409a1b5899338ebb736f4b2f398051f58a99ae5be90d45ed68c6cc507d"
+        },
+        "1200": {
+          "file": "guide-prep-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 123727,
+          "sha256": "ca6e89b6df4fe79c85069d3f29f5a55c7aa11321ef9ea544e7d5f018b2830b8f"
+        }
+      }
+    },
+    "guide-sheen.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "329bf27a-fe29-49bb-9214-292efd840c7d",
+      "prompt": "Photorealistic, vibrant editorial residential painting photography set in one coherent 1980s-inspired sunbelt neighborhood: saturated but plausible papaya-orange, kiwi-green, dragon-fruit-pink, coconut-white, grape-purple, and electric-teal architectural paint; glossy square tile, translucent acrylic, polished chrome, vinyl seating, wet-paint sheen, daylight, believable residential scale, and professional painting practice. The atmosphere recalls a bold tropical juice bar without depicting a shop, food counter, fruit, smoothies, or beverages. The result is playful, fresh, maximalist, and practical rather than childish. Real photograph, not illustration, cartoon, CGI, 3D render, miniature, or collage. No text, words, letters, numbers, logos, brands, labels, signage, watermarks, distorted architecture, impossible tools, duplicate people, extra fingers, or warped faces. Abstract close material photograph of four unmarked electric-teal painted finish strips with visibly different reflections, arranged on glossy coconut-white tile beside a thin chrome edge and papaya painted detail. No cards, boards, labels, lettering, symbols, numbers, people, windows, sky, or exterior.",
+      "reference": null,
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 210338,
+      "sha256": "d520f3490bb44f20faa5923776e309b528c03716f4166eeaf5748c0045a29932",
+      "variants": {
+        "800": {
+          "file": "guide-sheen-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 60887,
+          "sha256": "4cdf0ded7eef3e7edfef321516423f5023be41d1110ca8dce019aa6d068aa98b"
+        },
+        "1200": {
+          "file": "guide-sheen-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 109311,
+          "sha256": "8a94cae9db30d59f8b093b43976ff45bfdbd120f35b7d00fd40cf434604f2a0f"
+        }
+      }
+    },
+    "proof-after.jpg": {
+      "provider": "Higgsfield",
+      "model": "Seedream 4.5",
+      "jobId": "e2efe850-666e-41ef-a2cd-8afa9a3399b3",
+      "prompt": "Use the supplied 1980s single-story stucco residence photograph as the exact immutable scene. Lock camera, lens, crop, perspective, centered entry, square windows, carport, concrete path, roofline, planters, landscaping, sun, shadows, and every nonpainted object. Change paint only: faded stucco becomes coconut white, the centered front door becomes grape purple, window trim and carport edge become electric teal, entry surround becomes papaya orange, and planter wall becomes kiwi green. Remove visible paint wear only. No remodel, new decoration, moved plant, changed weather, person, text, sign, or altered architecture. Return a photoreal photograph.",
+      "reference": "proof-before.jpg",
+      "aspectRatio": "16:9",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 285936,
+      "sha256": "e65cd95ea42b249a5181daedb5bdbb78f9272e2347c80b5b3392669ebfc55fad",
+      "variants": {
+        "800": {
+          "file": "proof-after-800.jpg",
+          "width": 800,
+          "height": 500,
+          "bytes": 73222,
+          "sha256": "0abfc2c88702b73256417ebc0d13388b9dd996d399fa6e4a30deb1008e92f450"
+        },
+        "1200": {
+          "file": "proof-after-1200.jpg",
+          "width": 1200,
+          "height": 750,
+          "bytes": 145142,
+          "sha256": "c3c954e8b2508b6d79c5552bc3b8bac2dd5fae91f4197c4ee1ae37922b1c0c86"
+        }
+      }
+    },
+    "hero-motion.mp4": {
+      "provider": "Higgsfield",
+      "model": "Seedance 2.0 Mini",
+      "jobId": "ba8362d9-7e7f-4658-bc78-eada3cfe39c5",
+      "prompt": "Use the supplied photoreal colorful residential kitchen photograph as the exact scene. Lock camera, lens, crop, cabinet geometry, tile grid, painted arch, abstract painted wall forms, chrome, furniture, paint colors, sunlight, and every object. Create one seamless six-second interior moment: a soft daylight reflection travels subtly over tile and chrome, a distant leaf shadow moves gently across the white wall, and the finish retains its wet-gloss character. No camera move, zoom, cut, morphing, new object, person, text, logo, sign, watermark, food, beverage, or audio. Maintain photographic realism throughout.",
+      "reference": "hero.jpg",
+      "durationSeconds": 6,
+      "bytes": 1043055,
+      "sha256": "66f85791fde0aa5ba64dc6226af4183f81fd6110739b928679d50ef155ff19f6"
+    }
+  },
+  "pairs": [
+    {
+      "id": "facade",
+      "before": "proof-before.jpg",
+      "after": "proof-after.jpg",
+      "sameProperty": true,
+      "sameCameraRequired": true,
+      "afterGeneratedFromBeforeReference": true
+    }
+  ]
+}
